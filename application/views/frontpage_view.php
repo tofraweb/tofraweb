@@ -16,7 +16,9 @@
 					<li class="text-center" data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="Unlimited Options and Layouts">
 
 					<!-- main image -->
-					<img src="<?php echo base_url();?>assets/images/slider-fullscreen-slide-1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+					<!-- <img src="<?php echo base_url();?>assets/images/slider-fullscreen-slide-1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg"> -->
+					<img src="<?php echo base_url();?>assets/slider/pexels-photo-251225.jpeg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+
 
 					<!-- Transparent Background -->
 					<div class="tp-caption dark-translucent-bg"
@@ -44,7 +46,7 @@
 						data-transform_in="x:[50%];o:0;s:600;e:Power4.easeInOut;"
 						data-transform_out="x:[-50%];o:0;s:200;e:Power2.easeInOut;"
 						data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Inspiration
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">תויתריצי
 					</div>
 
 					<!-- LAYER NR. 2 -->
@@ -61,7 +63,7 @@
 						data-transform_in="x:[-50%];o:0;s:600;e:Power4.easeInOut;"
 						data-transform_out="x:[-50%];o:0;s:200;e:Power2.easeInOut;"
 						data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Innovation
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">הארשה
 					</div>
 
 					<!-- LAYER NR. 3 -->
@@ -78,7 +80,7 @@
 						data-transform_in="x:[50%];o:0;s:600;e:Power4.easeInOut;"
 						data-transform_out="x:0;y:[-50%];o:0;s:200;e:Power2.easeInOut;"
 						data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Success
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">תויוצקמ
 					</div>
 
 					<!-- LAYER NR. 4 -->
@@ -90,7 +92,7 @@
 						data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
 						data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
 						data-mask_in="x:0px;y:[-100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="logo-font">The <span class="text-default">Project</span></span> <br> Powerful Bootstrap Template
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="logo-font">Tofra<span class="text-default">Web</span></span> <br> פיתוח אתרי אינטרנט איכותיים
 					</div>
 
 
@@ -287,11 +289,12 @@
 		<div class="col-md-8 col-md-offset-2">
 			<h2 class="text-center title">על <span style="color:#38c0e6"><strong>עצמי</strong></span></h2>
 			<div class="separator"></div>
-			<p class="large text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas facere vero ex tempora saepe perspiciatis ducimus sequi animi.</p>
+			<p class="large text-center">שמי טומי פרנק, מתכנת PHP ומפתח אתרי אינטרנט</p>
 		</div>
 		<div class="row">
-			<div class="col-md-6">
-				<h3 class="title">The Project is <span class="text-rotator" data-rotator-animation-effect="fadeIn">Multipurpose, Powerful, Multiconcept</span> Bootstrap Template</h3>
+			<div class="col-md-4">
+				<!-- <h3 class="title">The Project is <span class="text-rotator" data-rotator-animation-effect="fadeIn">Multipurpose, Powerful, Multiconcept</span> Bootstrap Template</h3> -->
+				<h3 class="title">The Project is Bootstrap Template</h3>
 				<p>Lorem ipsum dolor sit amet, lotrem <span class="text-default">some colored text</span>. Nulla explicabo <strong>attention to this</strong> blanditiis, ex cupiditate ipsam debitis rem.</p>
 				<ul class="list-icons">
 					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check-1"></i> Extremly Simple to Use</li>
@@ -301,16 +304,23 @@
 				</ul>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et eius aut nisi dolore ut. Sapiente velit quidem, unde fugit. Neque illum, debitis ut, porro natus.</p>
 			</div>
-			<div class="col-md-6">
-				<div class="overlay-container overlay-visible">
-					<img src="<?php echo base_url();?>assets/images/section-image-5.jpg" alt="">
+			<div class="col-md-4">
+				<div>
+					<img src="<?php echo base_url();?>assets/img/profile-square.png" alt="">
 					<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
-					<div class="overlay-bottom hidden-xs">
-						<div class="text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt nobis sunt, quae alias impedit ea molestias recusandae.
-						</div>
-					</div>
 				</div>
+			</div>
+			<div class="col-md-4">
+				<h3 class="title">במה <span class="text-rotator" data-rotator-animation-effect="fadeIn">עסקתי, אני עוסק, אני טוב</span></h3>
+				<p>מזה 7 שנים אני עובד בתחום הפיטוח האינטרנטי, ניהלתי פרוייקטים שונים כולל פיתוח מערכת ERP מורכבת של חברת תיירות.</p>
+				<p>לאורך הזמן רכשתי נסיון בתחומים מגווונים נוספים, בינייהם פיתוח אתרים מערכות CMS ועוד.</p>
+				<ul class="list-icons">
+					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check-1"></i> Extremly Simple to Use</li>
+					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="icon-check-1"></i> Customize it in no time</li>
+					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="icon-check-1"></i> Unlimited options and variations</li>
+					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="icon-check-1"></i> We are here to support you</li>
+				</ul>
+				<p>לאורך הזמן רכשתי נסיון בתחומים מגווונים נוספים, בינייהם פיתוח אתרים מערכות CMS ועוד.</p>
 			</div>
 		</div>
 	</div>
@@ -324,15 +334,15 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h2 class="text-center">Why <strong>Choose</strong> Us?</h2>
+				<h2 class="text-center">למה <span style="color:#38c0e6"><strong>אני</strong></span>?</h2>
 				<div class="separator"></div>
 				<p class="large text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas facere vero ex tempora saepe perspiciatis ducimus sequi animi.</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-12">
 				<div class="row">
-					<div class="col-md-6 ">
+					<div class="col-md-3 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 							<span class="icon default-bg small"><i class="fa fa-heart-o"></i></span>
 							<div class="body">
@@ -341,7 +351,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 ">
+					<div class="col-md-3 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
 							<span class="icon default-bg small"><i class="fa fa-connectdevelop"></i></span>
 							<div class="body">
@@ -350,7 +360,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 ">
+					<div class="col-md-3 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
 							<span class="icon default-bg small"><i class="icon-snow"></i></span>
 							<div class="body">
@@ -359,7 +369,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 ">
+					<div class="col-md-3 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="250">
 							<span class="icon default-bg small"><i class="icon-check"></i></span>
 							<div class="body">
@@ -368,12 +378,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="//player.vimeo.com/video/29198414?byline=0&amp;portrait=0"></iframe>
-					<p><a href="http://vimeo.com/29198414">Introducing Vimeo Music Store</a> from <a href="http://vimeo.com/staff">Vimeo Staff</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 				</div>
 			</div>
 		</div>
@@ -541,779 +545,89 @@
 </section>
 <!-- section end -->
 
-<!-- section start -->
+<!-- Portfolio section -->
 <!-- ================ -->
-<section id="portfolio" class="section pv-30 light-gray-bg">
+<section id="portfolio" class="pv-30 light-gray-bg padding-bottom-clear">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-offset-2 text-center">
-				<h2 class="title"><span class="text-muted">תיק</span> <span style="color:#38c0e6"><strong>עבודות</strong></span></h2>
+			<div class="col-md-8 col-md-offset-2">
+				<h2 class="text-center">תיק <span style="color:#38c0e6"><strong>עבודות</strong></span></h2>
 				<div class="separator"></div>
+				<p class="large text-center">Atque ducimus velit, earum quidem, iusto dolorem. Ex ipsam totam quas blanditiis, pariatur maxime ipsa iste, doloremque neque doloribus, error. Corrupti, tenetur.</p>
+				<br>
 			</div>
 		</div>
 	</div>
-	<!-- isotope filters start -->
-	<div class="filters text-center">
-		<ul class="nav nav-pills">
-			<li class="active"><a href="#" data-filter="*">הכל</a></li>
-			<li><a href="#" data-filter=".web-design">עיצוב וובי</a></li>
-			<li><a href="#" data-filter=".app-development">פיתוח אפליקציות</a></li>
-			<li><a href="#" data-filter=".site-building">בניית אתרים</a></li>
-		</ul>
-	</div>
-	<!-- isotope filters end -->
-	<div class="isotope-container row grid-space-0 mb-20">
-		<div class="col-sm-6 col-md-3 isotope-item web-design">
-			<div id="carousel-portfolio" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<ol class="carousel-indicators bottom margin-clear">
-					<li data-target="#carousel-portfolio" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-portfolio" data-slide-to="1"></li>
-					<li data-target="#carousel-portfolio" data-slide-to="2"></li>
-				</ol>
-
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-					<div class="item active">
-						<div class="image-box text-center">
-							<div class="overlay-container">
-								<img src="<?php echo base_url();?>assets/images/portfolio-1.jpg" alt="">
-								<div class="overlay-top">
-									<div class="text">
-										<h3><a href="#project-1" data-toggle="modal">שם פרוייקט</a></h3>
-										<p class="small">עיצוב וובי</p>
-									</div>
-								</div>
-								<div class="overlay-bottom">
-									<div class="links">
-										<a href="#project-1" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">ראה עוד <i class="pl-10 fa fa-arrow-right"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="image-box text-center">
-							<div class="overlay-container">
-								<img src="<?php echo base_url();?>assets/images/portfolio-1-2.jpg" alt="">
-								<div class="overlay-top">
-									<div class="text">
-										<h3><a href="#project-1" data-toggle="modal">Project Title</a></h3>
-										<p class="small">Web Design</p>
-									</div>
-								</div>
-								<div class="overlay-bottom">
-									<div class="links">
-										<a href="#project-1" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<div class="image-box text-center">
-							<div class="overlay-container">
-								<img src="<?php echo base_url();?>assets/images/portfolio-1-3.jpg" alt="">
-								<div class="overlay-top">
-									<div class="text">
-										<h3><a href="#project-1" data-toggle="modal">Project Title</a></h3>
-										<p class="small">Web Design</p>
-									</div>
-								</div>
-								<div class="overlay-bottom">
-									<div class="links">
-										<a href="#project-1" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-							<h4 class="modal-title" id="project-1-label"> הקהילה המשיחית יפו תל אביב </h4>
-						</div>
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-md-6">
-									<h3>תיאור הפרוייקט</h3>
-									<div class="separator-2"></div>
-									<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
-									<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
-								</div>
-								<div class="col-md-6">
-									<div class="owl-carousel content-slider-with-controls">
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-2.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-3.jpg" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 col-xs-6">
-									<h3>פרטים נוספים</h3>
-									<ul class="list">
-										<li><strong class="vertical-divider">לקוח: </strong> עמותת קהילת האחים</li>
-										<li><strong class="vertical-divider">תאריך: </strong> 07/2017</li>
-										<li><strong class="vertical-divider">תכנולוגיה: </strong> וורדפרס</li>
-										<li><strong class="vertical-divider">כתובת האתר: </strong> <a href="http://www.baj.co.il/" target="_blank">www.baj.co.il</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6 col-xs-12">
-									<form role="form">
-										<div class="form-group has-feedback">
-											<input type="email" class="form-control" id="project-1-email" placeholder="Email">
-											<i class="fa fa-envelope-o form-control-feedback"></i>
-										</div>
-										<a href="#" class="btn btn-default margin-top-clear">Subscribe</a>
-									</form>
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal end -->
-		</div>
-		<div class="col-sm-6 col-md-3 isotope-item app-development">
-			<div class="image-box text-center">
+	<div class="space-bottom">
+		<div class="owl-carousel carousel">
+			<?php
+			$serial = 0;
+			foreach ($portfolio as $item) { ?>
+			<div class="image-box shadow text-center" style="margin:10px">
 				<div class="overlay-container">
-					<img src="<?php echo base_url();?>assets/images/portfolio-2.jpg" alt="">
+					<img style="max-height:235px" src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $item->image_main; ?>" alt="">
 					<div class="overlay-top">
 						<div class="text">
-							<h3><a href="#project-2" data-toggle="modal">Project Title</a></h3>
-							<p class="small">App Development</p>
+							<h3><a href="#num-<?php  echo $serial; ?>" data-toggle="modal"><?php  echo $item->name_he; ?></a></h3>
+							<p class="small">וורדפרס</p>
 						</div>
 					</div>
 					<div class="overlay-bottom">
 						<div class="links">
-							<a href="#project-2" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
+							<a href="#num-<?php  echo $serial; ?>" data-toggle="modal" class="btn btn-gray-transparent btn-animated">ראה עוד <i class="pl-10 fa fa-arrow-left"></i></a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-							<h4 class="modal-title" id="project-2-label">Project Title</h4>
-						</div>
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-md-6">
-									<h3>Project Description</h3>
-									<div class="separator-2"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-									<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-								</div>
-								<div class="col-md-6">
-									<div class="owl-carousel content-slider-with-controls">
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-2.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-3.jpg" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 col-xs-6">
-									<h3>Project Info</h3>
-									<ul class="list">
-										<li><strong class="vertical-divider">Client </strong> John Doe</li>
-										<li><strong class="vertical-divider">Date </strong> OCT 2014</li>
-										<li><strong class="vertical-divider">In </strong> Web Design</li>
-										<li><strong class="vertical-divider">Place </strong> Europe</li>
-										<li><strong class="vertical-divider">URL </strong> <a href="#">www.theproject.com</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6 col-xs-12">
-									<h3>More info</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-									<form role="form">
-										<div class="form-group has-feedback">
-											<input type="email" class="form-control" id="project-2-email" placeholder="Email">
-											<i class="fa fa-envelope-o form-control-feedback"></i>
-										</div>
-										<a href="#" class="btn btn-default margin-top-clear">Subscribe</a>
-									</form>
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal end -->
-		</div>
-		<div class="col-sm-6 col-md-3 isotope-item app-development">
-			<div class="image-box text-center">
-				<div class="overlay-container">
-					<img src="<?php echo base_url();?>assets/images/portfolio-3.jpg" alt="">
-					<div class="overlay-top">
-						<div class="text">
-							<h3><a href="#project-3" data-toggle="modal">Project Title</a></h3>
-							<p class="small">App Development</p>
-						</div>
-					</div>
-					<div class="overlay-bottom">
-						<div class="links">
-							<a href="#project-3" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-							<h4 class="modal-title" id="project-3-label">Project Title</h4>
-						</div>
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-md-6">
-									<h3>Project Description</h3>
-									<div class="separator-2"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-									<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-								</div>
-								<div class="col-md-6">
-									<div class="owl-carousel content-slider-with-controls">
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-2.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-3.jpg" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 col-xs-6">
-									<h3>Project Info</h3>
-									<ul class="list">
-										<li><strong class="vertical-divider">Client </strong> John Doe</li>
-										<li><strong class="vertical-divider">Date </strong> OCT 2014</li>
-										<li><strong class="vertical-divider">In </strong> Web Design</li>
-										<li><strong class="vertical-divider">Place </strong> Europe</li>
-										<li><strong class="vertical-divider">URL </strong> <a href="#">www.theproject.com</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6 col-xs-12">
-									<h3>More info</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-									<form role="form">
-										<div class="form-group has-feedback">
-											<input type="email" class="form-control" id="project-3-email" placeholder="Email">
-											<i class="fa fa-envelope-o form-control-feedback"></i>
-										</div>
-										<a href="#" class="btn btn-default margin-top-clear">Subscribe</a>
-									</form>
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal end -->
-		</div>
-		<div class="col-sm-6 col-md-3 isotope-item web-design">
-			<div class="image-box text-center">
-				<div class="overlay-container">
-					<img src="<?php echo base_url();?>assets/images/portfolio-4.jpg" alt="">
-					<div class="overlay-top">
-						<div class="text">
-							<h3><a href="#project-4" data-toggle="modal">Project Title</a></h3>
-							<p class="small">Web Design</p>
-						</div>
-					</div>
-					<div class="overlay-bottom">
-						<div class="links">
-							<a href="#project-4" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="project-4" tabindex="-1" role="dialog" aria-labelledby="project-4-label" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-							<h4 class="modal-title" id="project-4-label">Project Title</h4>
-						</div>
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-md-6">
-									<h3>Project Description</h3>
-									<div class="separator-2"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-									<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-								</div>
-								<div class="col-md-6">
-									<div class="owl-carousel content-slider-with-controls">
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-2.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-3.jpg" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 col-xs-6">
-									<h3>Project Info</h3>
-									<ul class="list">
-										<li><strong class="vertical-divider">Client </strong> John Doe</li>
-										<li><strong class="vertical-divider">Date </strong> OCT 2014</li>
-										<li><strong class="vertical-divider">In </strong> Web Design</li>
-										<li><strong class="vertical-divider">Place </strong> Europe</li>
-										<li><strong class="vertical-divider">URL </strong> <a href="#">www.theproject.com</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6 col-xs-12">
-									<h3>More info</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-									<form role="form">
-										<div class="form-group has-feedback">
-											<input type="email" class="form-control" id="project-4-email" placeholder="Email">
-											<i class="fa fa-envelope-o form-control-feedback"></i>
-										</div>
-										<a href="#" class="btn btn-default margin-top-clear">Subscribe</a>
-									</form>
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal end -->
-		</div>
-		<div class="col-sm-6 col-md-3 isotope-item site-building">
-			<div class="image-box text-center">
-				<div class="overlay-container">
-					<img src="<?php echo base_url();?>assets/images/portfolio-5.jpg" alt="">
-					<div class="overlay-top">
-						<div class="text">
-							<h3><a href="#project-5" data-toggle="modal">Project Title</a></h3>
-							<p class="small">Site Building</p>
-						</div>
-					</div>
-					<div class="overlay-bottom">
-						<div class="links">
-							<a href="#project-5" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-							<h4 class="modal-title" id="project-5-label">Project Title</h4>
-						</div>
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-md-6">
-									<h3>Project Description</h3>
-									<div class="separator-2"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-									<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-								</div>
-								<div class="col-md-6">
-									<div class="owl-carousel content-slider-with-controls">
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-2.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-3.jpg" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 col-xs-6">
-									<h3>Project Info</h3>
-									<ul class="list">
-										<li><strong class="vertical-divider">Client </strong> John Doe</li>
-										<li><strong class="vertical-divider">Date </strong> OCT 2014</li>
-										<li><strong class="vertical-divider">In </strong> Web Design</li>
-										<li><strong class="vertical-divider">Place </strong> Europe</li>
-										<li><strong class="vertical-divider">URL </strong> <a href="#">www.theproject.com</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6 col-xs-12">
-									<h3>More info</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-									<form role="form">
-										<div class="form-group has-feedback">
-											<input type="email" class="form-control" id="project-5-email" placeholder="Email">
-											<i class="fa fa-envelope-o form-control-feedback"></i>
-										</div>
-										<a href="#" class="btn btn-default margin-top-clear">Subscribe</a>
-									</form>
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal end -->
-		</div>
-		<div class="col-sm-6 col-md-3 isotope-item app-development">
-			<div class="image-box text-center">
-				<div class="overlay-container">
-					<img src="<?php echo base_url();?>assets/images/portfolio-6.jpg" alt="">
-					<div class="overlay-top">
-						<div class="text">
-							<h3><a href="#project-6" data-toggle="modal">Project Title</a></h3>
-							<p class="small">App Development</p>
-						</div>
-					</div>
-					<div class="overlay-bottom">
-						<div class="links">
-							<a href="#project-6" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-							<h4 class="modal-title" id="project-6-label">Project Title</h4>
-						</div>
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-md-6">
-									<h3>Project Description</h3>
-									<div class="separator-2"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-									<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-								</div>
-								<div class="col-md-6">
-									<div class="owl-carousel content-slider-with-controls">
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-2.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-3.jpg" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 col-xs-6">
-									<h3>Project Info</h3>
-									<ul class="list">
-										<li><strong class="vertical-divider">Client </strong> John Doe</li>
-										<li><strong class="vertical-divider">Date </strong> OCT 2014</li>
-										<li><strong class="vertical-divider">In </strong> Web Design</li>
-										<li><strong class="vertical-divider">Place </strong> Europe</li>
-										<li><strong class="vertical-divider">URL </strong> <a href="#">www.theproject.com</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6 col-xs-12">
-									<h3>More info</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-									<form role="form">
-										<div class="form-group has-feedback">
-											<input type="email" class="form-control" id="project-6-email" placeholder="Email">
-											<i class="fa fa-envelope-o form-control-feedback"></i>
-										</div>
-										<a href="#" class="btn btn-default margin-top-clear">Subscribe</a>
-									</form>
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal end -->
-		</div>
-		<div class="col-sm-6 col-md-3 isotope-item site-building">
-			<div class="image-box text-center">
-				<div class="overlay-container">
-					<img src="<?php echo base_url();?>assets/images/portfolio-7.jpg" alt="">
-					<div class="overlay-top">
-						<div class="text">
-							<h3><a href="#project-7" data-toggle="modal">Project Title</a></h3>
-							<p class="small">Site Building</p>
-						</div>
-					</div>
-					<div class="overlay-bottom">
-						<div class="links">
-							<a href="#project-7" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="project-7" tabindex="-1" role="dialog" aria-labelledby="project-7-label" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-							<h4 class="modal-title" id="project-7-label">Project Title</h4>
-						</div>
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-md-6">
-									<h3>Project Description</h3>
-									<div class="separator-2"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-									<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-								</div>
-								<div class="col-md-6">
-									<div class="owl-carousel content-slider-with-controls">
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-2.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-3.jpg" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 col-xs-6">
-									<h3>Project Info</h3>
-									<ul class="list">
-										<li><strong class="vertical-divider">Client </strong> John Doe</li>
-										<li><strong class="vertical-divider">Date </strong> OCT 2014</li>
-										<li><strong class="vertical-divider">In </strong> Web Design</li>
-										<li><strong class="vertical-divider">Place </strong> Europe</li>
-										<li><strong class="vertical-divider">URL </strong> <a href="#">www.theproject.com</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6 col-xs-12">
-									<h3>More info</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-									<form role="form">
-										<div class="form-group has-feedback">
-											<input type="email" class="form-control" id="project-7-email" placeholder="Email">
-											<i class="fa fa-envelope-o form-control-feedback"></i>
-										</div>
-										<a href="#" class="btn btn-default margin-top-clear">Subscribe</a>
-									</form>
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal end -->
-		</div>
-		<div class="col-sm-6 col-md-3 isotope-item app-development">
-			<div class="image-box text-center">
-				<div class="overlay-container">
-					<img src="<?php echo base_url();?>assets/images/portfolio-8.jpg" alt="">
-					<div class="overlay-top">
-						<div class="text">
-							<h3><a href="#project-8" data-toggle="modal">Project Title</a></h3>
-							<p class="small">App Development</p>
-						</div>
-					</div>
-					<div class="overlay-bottom">
-						<div class="links">
-							<a href="#project-8" data-toggle="modal" class="btn btn-gray-transparent btn-animated btn-sm">View Details <i class="pl-10 fa fa-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal -->
-			<div class="modal fade" id="project-8" tabindex="-1" role="dialog" aria-labelledby="project-8-label" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-							<h4 class="modal-title" id="project-8-label">Project Title</h4>
-						</div>
-						<div class="modal-body">
-							<div class="row">
-								<div class="col-md-6">
-									<h3>Project Description</h3>
-									<div class="separator-2"></div>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
-									<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-								</div>
-								<div class="col-md-6">
-									<div class="owl-carousel content-slider-with-controls">
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-2.jpg" alt="">
-										</div>
-										<div class="overlay-container">
-											<img src="<?php echo base_url();?>assets/images/portfolio-1-3.jpg" alt="">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 col-xs-6">
-									<h3>Project Info</h3>
-									<ul class="list">
-										<li><strong class="vertical-divider">Client </strong> John Doe</li>
-										<li><strong class="vertical-divider">Date </strong> OCT 2014</li>
-										<li><strong class="vertical-divider">In </strong> Web Design</li>
-										<li><strong class="vertical-divider">Place </strong> Europe</li>
-										<li><strong class="vertical-divider">URL </strong> <a href="#">www.theproject.com</a></li>
-									</ul>
-								</div>
-								<div class="col-md-6 col-xs-12">
-									<h3>More info</h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-									<form role="form">
-										<div class="form-group has-feedback">
-											<input type="email" class="form-control" id="project-8-email" placeholder="Email">
-											<i class="fa fa-envelope-o form-control-feedback"></i>
-										</div>
-										<a href="#" class="btn btn-default margin-top-clear">Subscribe</a>
-									</form>
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Modal end -->
-		</div>
-	</div>
-	<div class="owl-carousel content-slider space-top">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="testimonial text-center">
-						<div class="testimonial-image">
-							<img src="<?php echo base_url();?>assets/images/testimonial-1.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
-						</div>
-						<h3>Just Perfect!</h3>
-						<div class="separator"></div>
-						<div class="testimonial-body">
-							<blockquote>
-								<p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
-							</blockquote>
-							<div class="testimonial-info-1">- Jane Doe</div>
-							<div class="testimonial-info-2">By Company</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="testimonial text-center">
-						<div class="testimonial-image">
-							<img src="<?php echo base_url();?>assets/images/testimonial-2.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
-						</div>
-						<h3>Amazing!</h3>
-						<div class="separator"></div>
-						<div class="testimonial-body">
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate deleniti ratione in. Expedita nemo, quisquam, fuga adipisci omnis ad mollitia libero culpa nostrum est quia eos esse vel!</p>
-							</blockquote>
-							<div class="testimonial-info-1">- Jane Doe</div>
-							<div class="testimonial-info-2">By Company</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="clients-container">
-			<div class="clients">
-				<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
-					<a href="#"><img src="<?php echo base_url();?>assets/images/client-1.png" alt=""></a>
-				</div>
-				<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-					<a href="#"><img src="<?php echo base_url();?>assets/images/client-2.png" alt=""></a>
-				</div>
-				<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
-					<a href="#"><img src="<?php echo base_url();?>assets/images/client-3.png" alt=""></a>
-				</div>
-				<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="400">
-					<a href="#"><img src="<?php echo base_url();?>assets/images/client-4.png" alt=""></a>
-				</div>
-				<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="500">
-					<a href="#"><img src="<?php echo base_url();?>assets/images/client-5.png" alt=""></a>
-				</div>
-				<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="600">
-					<a href="#"><img src="<?php echo base_url();?>assets/images/client-6.png" alt=""></a>
-				</div>
-				<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="700">
-					<a href="#"><img src="<?php echo base_url();?>assets/images/client-7.png" alt=""></a>
-				</div>
-				<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="800">
-					<a href="#"><img src="<?php echo base_url();?>assets/images/client-8.png" alt=""></a>
-				</div>
-			</div>
+			<?php $serial++; } ?>
 		</div>
 	</div>
 </section>
-<!-- section end -->
+<!-- Portfolio section end -->
+
+<!-- Project Modal  -->
+<?php for($cnt = 0; $cnt < count($portfolio); $cnt++) { ?>
+<div class="modal fade" id="num-<?php  echo $cnt; ?>" tabindex="-1" role="dialog" aria-labelledby="project-<?php  echo $cnt; ?>-label" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" style="margin-right:40px" id="project-<?php  echo $cnt; ?>-label"><?php  echo $portfolio[$cnt]->name_he; ?></h4>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-6">
+						<div style="padding:0px 30px 0 30px; margin-top:-30px">
+							<h3>מידע על הפרויקט</h3>
+							<div class="separator-2"></div>
+							<ul class="list">
+								<li><strong class="vertical-divider">לקוח -  </strong> <?php  echo $portfolio[$cnt]->name_he; ?></li>
+								<li><strong class="vertical-divider">תאריך -  </strong> <?php  echo $portfolio[$cnt]->project_ended; ?></li>
+								<li><strong class="vertical-divider">טכנולוגיות -  </strong> Web Design</li>
+								<li><strong class="vertical-divider">לינק לאתר -  </strong> <a href="<?php  echo $portfolio[$cnt]->project_url; ?>" target="_blank"><?php  echo $portfolio[$cnt]->link_title; ?></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="owl-carousel content-slider-with-controls">
+							<div class="overlay-container">
+								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_main; ?>" alt="">
+							</div>
+							<div class="overlay-container">
+								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_1; ?>" alt="">
+							</div>
+							<div class="overlay-container">
+								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_2; ?>" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">סגור</button>
+			</div>
+		</div>
+	</div>
+</div>
+<?php } ?>
+<!-- Project Modal end -->

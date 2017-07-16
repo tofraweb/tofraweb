@@ -34,7 +34,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="footer-content">
-            <div class="logo-footer" style="text-align:center"><img id="logo-footer" src="<?php echo base_url();?>assets/logo/tofraweb-logo-small.png" alt="TofraWeb"></div>
+            <div class="logo-footer" style="text-align:center"><img id="logo-footer" src="<?php echo base_url();?>assets/logo/tofraweb-logo-tiny.png" alt="TofraWeb"></div>
             <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
             <ul class="list-inline mb-20">
               <li><i class="text-default fa fa-map-marker pr-5"></i> יצחק הלוי 9, חולון</li>

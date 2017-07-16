@@ -146,7 +146,7 @@
 
 									<!-- logo -->
 									<div id="logo" class="logo">
-										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-logo-small.png" alt="TofraWeb"></a>
+										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-logo-tiny.png" alt="TofraWeb"></a>
 									</div>
 
 								</div>
