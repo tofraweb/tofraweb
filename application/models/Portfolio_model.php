@@ -8,7 +8,7 @@ class Portfolio_model extends CI_Model{
 	}
 
 	public function getPortfolio(){
-		$portfolio = $this->db->query('SELECT * FROM portfolio');
+		$portfolio = $this->db->query('SELECT * FROM portfolio ORDER BY sort_order');
 		return $portfolio->result();
     }
 	//

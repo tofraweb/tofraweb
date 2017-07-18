@@ -17,7 +17,7 @@
 
 					<!-- main image -->
 					<!-- <img src="<?php echo base_url();?>assets/images/slider-fullscreen-slide-1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg"> -->
-					<img src="<?php echo base_url();?>assets/slider/pexels-photo-251225.jpeg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+					<img src="<?php echo base_url();?>assets/slider/slider-mockups-3.png" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
 
 					<!-- Transparent Background -->
@@ -92,7 +92,7 @@
 						data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
 						data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
 						data-mask_in="x:0px;y:[-100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="logo-font">Tofra<span class="text-default">Web</span></span> <br> פיתוח אתרי אינטרנט איכותיים
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Tofra<span class="text-default">Web</span> <br> פיתוח אתרי אינטרנט איכותיים
 					</div>
 
 
@@ -176,7 +176,7 @@
 					<li data-transition="random" data-slotamount="7" data-masterspeed="default" data-title="Premium HTML5 Bootstrap Theme">
 
 					<!-- main image -->
-					<img src="<?php echo base_url();?>assets/images/slider-fullscreen-slide-2.jpg" alt="slidebg2" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+					<img src="<?php echo base_url();?>assets/slider/slider-teva-wide.jpg" alt="slidebg2" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
 					<!-- Transparent Background -->
 					<div class="tp-caption dark-translucent-bg"
@@ -268,6 +268,105 @@
 					</div>
 					</li>
 					<!-- slide 2 end -->
+
+					<!-- slide 3 start -->
+					<!-- ================ -->
+					<li data-transition="random" data-slotamount="7" data-masterspeed="default" data-title="Premium HTML5 Bootstrap Theme">
+
+					<!-- main image -->
+					<img src="<?php echo base_url();?>assets/slider/slider-coding.jpg" alt="slidebg2" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+
+					<!-- Transparent Background -->
+					<div class="tp-caption dark-translucent-bg"
+						data-x="center"
+						data-y="center"
+						data-start="0"
+						data-transform_idle="o:1;"
+						data-transform_in="o:0;s:600;e:Power2.easeInOut;"
+						data-transform_out="o:0;s:600;"
+						data-width="5000"
+						data-height="5000">
+					</div>
+
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption large_white"
+						data-x="left"
+						data-y="110"
+						data-start="1000"
+						data-transform_idle="o:1;"
+						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
+						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="logo-font">The Project</span> <br> Premium HTML5 Bootstrap Theme
+					</div>
+
+					<!-- LAYER NR. 2 -->
+					<div class="tp-caption medium_white"
+						data-x="left"
+						data-y="240"
+						data-speed="500"
+						data-start="1200"
+						data-transform_idle="o:1;"
+						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
+						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="fa fa-laptop"></i></span> 100% Responsive
+					</div>
+
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption medium_white"
+						data-x="left"
+						data-y="300"
+						data-speed="500"
+						data-start="1400"
+						data-transform_idle="o:1;"
+						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
+						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="icon-check"></i></span> Bootstrap Based
+					</div>
+
+					<!-- LAYER NR. 4 -->
+					<div class="tp-caption medium_white"
+						data-x="left"
+						data-y="360"
+						data-speed="500"
+						data-start="1600"
+						data-transform_idle="o:1;"
+						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
+						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="icon-gift"></i></span> Packed Full of Features
+					</div>
+
+					<!-- LAYER NR. 5 -->
+					<div class="tp-caption medium_white"
+						data-x="left"
+						data-y="420"
+						data-speed="500"
+						data-start="1800"
+						data-transform_idle="o:1;"
+						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
+						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="icon-hourglass"></i></span> Very Easy to Customize
+					</div>
+
+					<!-- LAYER NR. 6 -->
+					<div class="tp-caption small_white"
+						data-x="left"
+						data-y="490"
+						data-speed="500"
+						data-start="2000"
+						data-transform_idle="o:1;"
+						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
+						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="#" class="btn btn-default btn-lg btn-animated">Purchase <i class="fa fa-cart-arrow-down"></i></a>
+					</div>
+					</li>
+					<!-- slide 3 end -->
+
 				</ul>
 				<div class="tp-bannertimer"></div>
 			</div>
@@ -295,18 +394,18 @@
 			<div class="col-md-4">
 				<!-- <h3 class="title">The Project is <span class="text-rotator" data-rotator-animation-effect="fadeIn">Multipurpose, Powerful, Multiconcept</span> Bootstrap Template</h3> -->
 				<h3 class="title">The Project is Bootstrap Template</h3>
-				<p>Lorem ipsum dolor sit amet, lotrem <span class="text-default">some colored text</span>. Nulla explicabo <strong>attention to this</strong> blanditiis, ex cupiditate ipsam debitis rem.</p>
+				<p>אני נהינה לפתח, לעצב ולבנות אתרי אינטרנט איכותיים ועוד יותר נהנה מלקוחות מרוצים.</p>
 				<ul class="list-icons">
 					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check-1"></i> Extremly Simple to Use</li>
 					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="icon-check-1"></i> Customize it in no time</li>
 					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="icon-check-1"></i> Unlimited options and variations</li>
 					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="icon-check-1"></i> We are here to support you</li>
 				</ul>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <strong>Some bold text</strong>, unde voluptatum quidem explicabo et eius aut nisi dolore ut. Sapiente velit quidem, unde fugit. Neque illum, debitis ut, porro natus.</p>
+				<p>מתן שרות ברמה גבוה הוא עקרון שמנחה אותי לאורך השנים, למעשה הוא אחד הסיבות שבחרתי להיות עצמאי, שהרי בחברות גדולות השרותיות מהר מאוד נדחקת הצידה אם הצלחת החברה.</p>
 			</div>
 			<div class="col-md-4">
 				<div>
-					<img src="<?php echo base_url();?>assets/img/profile-square.png" alt="">
+					<img src="<?php echo base_url();?>assets/profile/profile-photo-square.png" alt="">
 					<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
 				</div>
 			</div>
@@ -328,13 +427,136 @@
 </section>
 <!-- section end -->
 
+<!-- Portfolio section -->
+<!-- ================ -->
+<section id="portfolio" class="pv-30 light-gray-bg padding-bottom-clear">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h2 class="text-center">תיק <span style="color:#38c0e6"><strong>עבודות</strong></span></h2>
+				<div class="separator"></div>
+				<p class="large text-center">להלן חלק מן הפרוייקטים שעשיתי לאחרונה, מומלץ להכנס לאתר של הלקוח כדי להתרשם</p>
+				<br>
+			</div>
+		</div>
+	</div>
+	<div class="space-bottom"  style="margin-bottom:30px">
+		<div class="owl-carousel carousel">
+			<?php
+			$serial = 0;
+			foreach ($portfolio as $item) { ?>
+			<div class="image-box shadow text-center" style="margin:20px">
+				<div class="overlay-container">
+					<img style="max-height:650px;" src="<?php echo base_url();?>assets/frontpage/<?php  echo $item->image_main; ?>" alt="">
+					<div class="overlay-top">
+						<div class="text">
+							<h3><a href="#num-<?php  echo $serial; ?>" data-toggle="modal"><?php  echo $item->name_he; ?></a></h3>
+							<p class="small">וורדפרס</p>
+						</div>
+					</div>
+					<div class="overlay-bottom">
+						<div class="links">
+							<a href="#num-<?php  echo $serial; ?>" data-toggle="modal" class="btn btn-gray-transparent btn-animated">ראה עוד <i class="pl-10 fa fa-arrow-left"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<?php $serial++; } ?>
+		</div>
+	</div>
+</section>
+<!-- Portfolio section end -->
+
+<!-- Project Modal  -->
+<!-- <?php for($cnt = 0; $cnt < count($portfolio); $cnt++) { ?>
+<div class="modal fade" id="num-<?php  echo $cnt; ?>" tabindex="-1" role="dialog" aria-labelledby="project-<?php  echo $cnt; ?>-label" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" style="margin-right:40px" id="project-<?php  echo $cnt; ?>-label"><?php  echo $portfolio[$cnt]->name_he; ?></h4>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-6">
+						<div style="padding:0px 30px 0 30px; margin-top:-30px">
+							<h3>מידע על הפרויקט</h3>
+							<div class="separator-2"></div>
+							<ul class="list">
+								<li><strong class="vertical-divider">לקוח -  </strong> <?php  echo $portfolio[$cnt]->name_he; ?></li>
+								<li><strong class="vertical-divider">תאריך -  </strong> <?php  echo $portfolio[$cnt]->project_ended; ?></li>
+								<li><strong class="vertical-divider">טכנולוגיות -  </strong> Web Design</li>
+								<li><strong class="vertical-divider">לינק לאתר -  </strong> <a href="<?php  echo $portfolio[$cnt]->project_url; ?>" target="_blank"><?php  echo $portfolio[$cnt]->link_title; ?></a></li>
+							</ul>
+						</div>
+						<div class="overlay-container">
+							<img src="<?php echo base_url();?>assets/img/mockup/beinharim-mockup.png" alt="">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="owl-carousel content-slider-with-controls">
+							<div class="overlay-container">
+								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_main; ?>" alt="">
+							</div>
+							<div class="overlay-container">
+								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_1; ?>" alt="">
+							</div>
+							<div class="overlay-container">
+								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_2; ?>" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">סגור</button>
+			</div>
+		</div>
+	</div>
+</div>
+<?php } ?> -->
+<!-- Project Modal end -->
+
+<!-- Project Modal  -->
+<?php for($cnt = 0; $cnt < count($portfolio); $cnt++) { ?>
+<div class="modal fade" id="num-<?php  echo $cnt; ?>" tabindex="-1" role="dialog" aria-labelledby="project-<?php  echo $cnt; ?>-label" aria-hidden="true">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title" style="margin-right:40px" id="project-<?php  echo $cnt; ?>-label"><?php  echo $portfolio[$cnt]->name_he; ?></h4>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="overlay-container">
+							<img src="<?php echo base_url();?>assets/mockup/<?php  echo $portfolio[$cnt]->mockup; ?>" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer" style="text-align:center">
+				<div>
+					לקוח - <strong><?php  echo $portfolio[$cnt]->name_he; ?></strong> |
+					תאריך - <strong><?php  echo $portfolio[$cnt]->project_ended; ?></strong> |
+					תחום - <strong><?php  echo $portfolio[$cnt]->field; ?></strong> |
+					אתר - <strong><a href="<?php  echo $portfolio[$cnt]->project_url; ?>" target="_blank"><?php  echo $portfolio[$cnt]->link_title; ?></a></strong>
+				</div>
+				<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">סגור</button>
+			</div>
+		</div>
+	</div>
+</div>
+<?php } ?>
+<!-- Project Modal end -->
+
 <!-- section start -->
 <!-- ================ -->
 <section id="why" class="dark-translucent-bg pv-30 background-img-1" style="background-position:50% 30%;">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h2 class="text-center">למה <span style="color:#38c0e6"><strong>אני</strong></span>?</h2>
+				<h2 class="text-center">למה <span style="color:#38c0e6"><strong>לבחור בי</strong></span></h2>
 				<div class="separator"></div>
 				<p class="large text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas facere vero ex tempora saepe perspiciatis ducimus sequi animi.</p>
 			</div>
@@ -384,6 +606,7 @@
 	</div>
 </section>
 <!-- section end -->
+
 
 <!-- section start -->
 <!-- ================ -->
@@ -448,6 +671,27 @@
 </section>
 <!-- section end -->
 
+<!-- My tools section -->
+<div class="container">
+	<div class="clients-container">
+		<div class="clients">
+			<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
+				<a href="#"><img src="<?php echo base_url();?>assets/images/client-1.png" alt=""></a>
+			</div>
+			<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
+				<a href="#"><img src="<?php echo base_url();?>assets/images/client-2.png" alt=""></a>
+			</div>
+			<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
+				<a href="#"><img src="<?php echo base_url();?>assets/images/client-3.png" alt=""></a>
+			</div>
+			<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="400">
+				<a href="#"><img src="<?php echo base_url();?>assets/images/client-4.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- My tools section end -->
+
 <!-- section start -->
 <!-- ================ -->
 <section class="section dark-bg clearfix">
@@ -457,8 +701,8 @@
 				<div class="call-to-action text-center">
 					<div class="row">
 						<div class="col-sm-8">
-							<h1 class="title">Don't Miss Out Our Offers</h1>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quasi explicabo consequatur consectetur, a atque voluptate officiis eligendi nostrum.</p>
+							<h1 class="title">ארגז הכלים שלי</h1>
+							<p>שפות תכנות וטכנולוגיות בהם אני משתמש</p>
 						</div>
 						<div class="col-sm-4">
 							<br>
@@ -545,89 +789,50 @@
 </section>
 <!-- section end -->
 
-<!-- Portfolio section -->
-<!-- ================ -->
-<section id="portfolio" class="pv-30 light-gray-bg padding-bottom-clear">
+<!-- Testimonial Section -->
+<section id="testimonial">
+	<h2 class="text-center">הלקוחות <span style="color:#38c0e6"><strong>מדברים</strong></span></h2>
+</section>
+<div class="owl-carousel content-slider space-top">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h2 class="text-center">תיק <span style="color:#38c0e6"><strong>עבודות</strong></span></h2>
-				<div class="separator"></div>
-				<p class="large text-center">Atque ducimus velit, earum quidem, iusto dolorem. Ex ipsam totam quas blanditiis, pariatur maxime ipsa iste, doloremque neque doloribus, error. Corrupti, tenetur.</p>
-				<br>
-			</div>
-		</div>
-	</div>
-	<div class="space-bottom">
-		<div class="owl-carousel carousel">
-			<?php
-			$serial = 0;
-			foreach ($portfolio as $item) { ?>
-			<div class="image-box shadow text-center" style="margin:10px">
-				<div class="overlay-container">
-					<img style="max-height:235px" src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $item->image_main; ?>" alt="">
-					<div class="overlay-top">
-						<div class="text">
-							<h3><a href="#num-<?php  echo $serial; ?>" data-toggle="modal"><?php  echo $item->name_he; ?></a></h3>
-							<p class="small">וורדפרס</p>
-						</div>
+				<div class="testimonial text-center">
+					<div class="testimonial-image">
+						<img src="<?php echo base_url();?>assets/profile/profile-square.png" alt="Jane Doe" title="Jane Doe" class="img-circle">
 					</div>
-					<div class="overlay-bottom">
-						<div class="links">
-							<a href="#num-<?php  echo $serial; ?>" data-toggle="modal" class="btn btn-gray-transparent btn-animated">ראה עוד <i class="pl-10 fa fa-arrow-left"></i></a>
-						</div>
+					<h3>יותר ממרוצה</h3>
+					<div class="separator"></div>
+					<div class="testimonial-body">
+						<blockquote>
+							<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
+						</blockquote>
+						<div class="testimonial-info-1">ישראל ישראלי</div>
+						<div class="testimonial-info-2">עמותת עמיתים</div>
 					</div>
 				</div>
 			</div>
-			<?php $serial++; } ?>
 		</div>
 	</div>
-</section>
-<!-- Portfolio section end -->
-
-<!-- Project Modal  -->
-<?php for($cnt = 0; $cnt < count($portfolio); $cnt++) { ?>
-<div class="modal fade" id="num-<?php  echo $cnt; ?>" tabindex="-1" role="dialog" aria-labelledby="project-<?php  echo $cnt; ?>-label" aria-hidden="true">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title" style="margin-right:40px" id="project-<?php  echo $cnt; ?>-label"><?php  echo $portfolio[$cnt]->name_he; ?></h4>
-			</div>
-			<div class="modal-body">
-				<div class="row">
-					<div class="col-md-6">
-						<div style="padding:0px 30px 0 30px; margin-top:-30px">
-							<h3>מידע על הפרויקט</h3>
-							<div class="separator-2"></div>
-							<ul class="list">
-								<li><strong class="vertical-divider">לקוח -  </strong> <?php  echo $portfolio[$cnt]->name_he; ?></li>
-								<li><strong class="vertical-divider">תאריך -  </strong> <?php  echo $portfolio[$cnt]->project_ended; ?></li>
-								<li><strong class="vertical-divider">טכנולוגיות -  </strong> Web Design</li>
-								<li><strong class="vertical-divider">לינק לאתר -  </strong> <a href="<?php  echo $portfolio[$cnt]->project_url; ?>" target="_blank"><?php  echo $portfolio[$cnt]->link_title; ?></a></li>
-							</ul>
-						</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="testimonial text-center">
+					<div class="testimonial-image">
+						<img src="<?php echo base_url();?>assets/profile/profile-square-2.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
 					</div>
-					<div class="col-md-6">
-						<div class="owl-carousel content-slider-with-controls">
-							<div class="overlay-container">
-								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_main; ?>" alt="">
-							</div>
-							<div class="overlay-container">
-								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_1; ?>" alt="">
-							</div>
-							<div class="overlay-container">
-								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_2; ?>" alt="">
-							</div>
-						</div>
+					<h3>חוויה לעבוד איתו</h3>
+					<div class="separator"></div>
+					<div class="testimonial-body">
+						<blockquote>
+							<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
+						</blockquote>
+						<div class="testimonial-info-1">משה כהן</div>
+						<div class="testimonial-info-2">גוגל</div>
 					</div>
 				</div>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">סגור</button>
 			</div>
 		</div>
 	</div>
 </div>
-<?php } ?>
-<!-- Project Modal end -->
+<!-- Testimonial Section end -->

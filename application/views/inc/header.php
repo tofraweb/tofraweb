@@ -7,7 +7,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>The Project | Home One Page</title>
+		<title>Tofraweb - פיתוח ובניית אתרי אינטרנט</title>
 		<meta name="description" content="The Project a Bootstrap-based, Responsive HTML5 Template">
 		<meta name="author" content="htmlcoder.me">
 
@@ -120,10 +120,11 @@
 												<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 													<ul class="nav navbar-nav navbar-right">
 														<li><a href="#footer">צור קשר</a></li>
-														<li><a href="#portfolio">תיק עבודות</a></li>
+														<li><a href="#testimonial">חוות דעת</a></li>
 														<li><a href="#process">תהליך עבודה</a></li>
 														<li><a href="#services">תחומי שרות</a></li>
 														<li><a href="#why">למה אני</a></li>
+														<li><a href="#portfolio">תיק עבודות</a></li>
 														<li><a href="#about">על עצמי</a></li>
                             <li class="active"><a href="<?php echo base_url();?>">בית</a></li>
 													</ul>
@@ -146,7 +147,7 @@
 
 									<!-- logo -->
 									<div id="logo" class="logo">
-										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-logo-tiny.png" alt="TofraWeb"></a>
+										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-tiny.png" alt="TofraWeb"></a>
 									</div>
 
 								</div>

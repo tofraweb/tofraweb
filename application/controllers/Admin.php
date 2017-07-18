@@ -60,10 +60,12 @@ class Admin extends CI_Controller {
 			$crud->set_table('portfolio');
 			$crud->set_subject('Portfolio');
 			$crud->required_fields('customer_id');
+			$crud->columns('name_he','image_main','mockup', 'link_title','customer_id');
 			$crud->set_relation('customer_id','customers','name_he');
 			$crud->set_field_upload('image_main','assets/img/portfolio');
 			$crud->set_field_upload('image_1','assets/img/portfolio');
 			$crud->set_field_upload('image_2','assets/img/portfolio');
+			$crud->set_field_upload('mockup','assets/mockup');
 
 			$crud->callback_after_upload(array($this,'resize_img_after_upload'));
 

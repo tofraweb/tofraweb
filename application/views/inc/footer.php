@@ -34,7 +34,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="footer-content">
-            <div class="logo-footer" style="text-align:center"><img id="logo-footer" src="<?php echo base_url();?>assets/logo/tofraweb-logo-tiny.png" alt="TofraWeb"></div>
+            <div class="logo-footer" style="text-align:center"><img id="logo-footer" src="<?php echo base_url();?>assets/logo/tofraweb-small.png" alt="TofraWeb"></div>
             <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
             <ul class="list-inline mb-20">
               <li><i class="text-default fa fa-map-marker pr-5"></i> יצחק הלוי 9, חולון</li>
@@ -62,7 +62,7 @@
             <div class="alert alert-danger hidden" id="MessageNotSent2">
               הופס, משהו השתבש, אנא לרפרש את הדף ולנסות שוב!
             </div>
-            <form role="form" id="footer-form" class="margin-clear">
+            <!-- <form action="<?php echo base_url();?>email/send_mail" role="form" id="footer-form" class="margin-clear">
               <div class="form-group has-feedback mb-10">
                 <label class="sr-only" for="name2">שם</label>
                 <input type="text" class="form-control" id="name2" placeholder="שם מלא" name="name2">
@@ -79,7 +79,31 @@
                 <i class="fa fa-pencil form-control-feedback"></i>
               </div>
               <input type="submit" value="שלח" class="margin-clear submit-button btn btn-default">
+            </form> -->
+
+
+            <?php echo $error;?>
+            <?php echo form_open_multipart('email/send_mail');?>
+              <div class="form-group has-feedback mb-10">
+                <label class="sr-only" for="name">שם</label>
+                <input type="text" class="form-control" id="name" placeholder="שם מלא" name="name">
+                <i class="fa fa-user form-control-feedback"></i>
+              </div>
+              <div class="form-group has-feedback mb-10">
+                <label class="sr-only" for="email">כתובת אימייל</label>
+                <input type="email" class="form-control" id="email" placeholder="כתובת אימייל" name="email">
+                <i class="fa fa-envelope form-control-feedback"></i>
+              </div>
+              <div class="form-group has-feedback mb-10">
+                <label class="sr-only" for="message">הודעה</label>
+                <textarea class="form-control" rows="4" id="message" placeholder="הודעה" name="message"></textarea>
+                <i class="fa fa-pencil form-control-feedback"></i>
+              </div>
+              <input type="submit" value="שלח"  class="margin-clear submit-button btn btn-default" />
+
             </form>
+
+
           </div>
         </div>
       </div>
@@ -95,7 +119,7 @@
     <div class="subfooter-inner">
       <div class="row">
         <div class="col-md-12">
-          <p class="text-center">Copyright © 2017 Developed by <a target="_blank" href="http://www.tofraweb.com">TofraWeb</a>. All Rights Reserved</p>
+          <p class="text-center">Copyright © 2017 Developed by <a target="_blank" href="http://www.tofraweb.com">Tofra Web Development</a>. All Rights Reserved</p>
         </div>
       </div>
     </div>
