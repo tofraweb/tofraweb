@@ -1,383 +1,3 @@
-<!-- banner start -->
-<!-- ================ -->
-<div id="banner" class="banner clearfix">
-
-	<!-- slideshow start -->
-	<!-- ================ -->
-	<div class="slideshow">
-
-		<!-- slider revolution start -->
-		<!-- ================ -->
-		<div class="slider-revolution-5-container">
-			<div id="slider-banner-fullscreen" class="slider-banner-fullscreen rev_slider" data-version="5.0">
-				<ul class="slides">
-					<!-- slide 1 start -->
-					<!-- ================ -->
-					<li class="text-center" data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="Unlimited Options and Layouts">
-
-					<!-- main image -->
-					<!-- <img src="<?php echo base_url();?>assets/images/slider-fullscreen-slide-1.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg"> -->
-					<img src="<?php echo base_url();?>assets/slider/slider-mockups-3.png" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
-
-
-					<!-- Transparent Background -->
-					<div class="tp-caption dark-translucent-bg"
-						data-x="center"
-						data-y="center"
-						data-start="0"
-						data-transform_idle="o:1;"
-						data-transform_in="o:0;s:600;e:Power2.easeInOut;"
-						data-transform_out="o:0;s:600;"
-						data-width="5000"
-						data-height="5000">
-					</div>
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption xlarge_white"
-						data-x="center"
-						data-y="110"
-						data-start="1000"
-						data-end="2500"
-						data-splitin="chars"
-						data-splitout="chars"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						data-transform_idle="o:1;"
-						data-transform_in="x:[50%];o:0;s:600;e:Power4.easeInOut;"
-						data-transform_out="x:[-50%];o:0;s:200;e:Power2.easeInOut;"
-						data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">תויתריצי
-					</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption xlarge_white"
-						data-x="center"
-						data-y="110"
-						data-start="3100"
-						data-end="4600"
-						data-splitin="chars"
-						data-splitout="chars"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						data-transform_idle="o:1;"
-						data-transform_in="x:[-50%];o:0;s:600;e:Power4.easeInOut;"
-						data-transform_out="x:[-50%];o:0;s:200;e:Power2.easeInOut;"
-						data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">הארשה
-					</div>
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption xlarge_white"
-						data-x="center"
-						data-y="110"
-						data-start="5200"
-						data-end="6700"
-						data-splitin="chars"
-						data-splitout="chars"
-						data-elementdelay="0.1"
-						data-endelementdelay="0.1"
-						data-transform_idle="o:1;"
-						data-transform_in="x:[50%];o:0;s:600;e:Power4.easeInOut;"
-						data-transform_out="x:0;y:[-50%];o:0;s:200;e:Power2.easeInOut;"
-						data-mask_in="x:0;y:0;s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">תויוצקמ
-					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption large_white"
-						data-x="center"
-						data-y="110"
-						data-start="7000"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
-						data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[-100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Tofra<span class="text-default">Web</span> <br> פיתוח אתרי אינטרנט איכותיים
-					</div>
-
-
-					<!-- LAYER NR. 5 -->
-					<div class="tp-caption"
-						data-x="center"
-						data-y="250"
-						data-hoffset="-232"
-						data-start="1000"
-						data-end="6200"
-						data-transform_idle="o:1;"
-						data-transform_in="x:[50%];y:0;o:0;s:700;e:Power4.easeInOut;"
-						data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span class="icon large circle"><i class="circle icon-lightbulb"></i></span>
-					</div>
-
-					<!-- LAYER NR. 6 -->
-					<div class="tp-caption"
-						data-x="center"
-						data-y="250"
-						data-start="3100"
-						data-end="6200"
-						data-transform_idle="o:1;"
-						data-transform_in="x:[-50%];y:0;o:0;s:700;e:Power4.easeInOut;"
-						data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span class="icon large circle"><i class="circle icon-arrows-ccw"></i></span>
-					</div>
-
-					<!-- LAYER NR. 7 -->
-					<div class="tp-caption"
-						data-x="center"
-						data-y="250"
-						data-hoffset="232"
-						data-start="5200"
-						data-end="6200"
-						data-transform_idle="o:1;"
-						data-transform_in="x:[50%];y:0;o:0;s:700;e:Power4.easeInOut;"
-						data-transform_out="x:0;y:0;o:0;s:700;e:Power2.easeInOut;"><span class="icon large circle"><i class="circle icon-chart-line"></i></span>
-					</div>
-
-					<!-- LAYER NR. 8 -->
-					<div class="tp-caption tp-resizeme large_white"
-						data-x="center"
-						data-y="210"
-						data-start="6400"
-						data-end="10000"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
-						data-transform_out="y:0;s:1000;e:Power2.easeInOut;"><div class="separator light"></div>
-					</div>
-
-					<!-- LAYER NR. 9 -->
-					<div class="tp-caption medium_white"
-						data-x="center"
-						data-y="260"
-						data-start="6800"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[-50%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
-						data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[-50%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br> tenetur fugiat dolorum sapiente eligendi...
-					</div>
-
-					<!-- LAYER NR. 10 -->
-					<div class="tp-caption"
-						data-x="center"
-						data-y="bottom"
-						data-voffset="100"
-						data-start="1250"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:2000;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
-							<a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a>
-					</div>
-
-					</li>
-					<!-- slide 1 end -->
-
-					<!-- slide 2 start -->
-					<!-- ================ -->
-					<li data-transition="random" data-slotamount="7" data-masterspeed="default" data-title="Premium HTML5 Bootstrap Theme">
-
-					<!-- main image -->
-					<img src="<?php echo base_url();?>assets/slider/slider-teva-wide.jpg" alt="slidebg2" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
-
-					<!-- Transparent Background -->
-					<div class="tp-caption dark-translucent-bg"
-						data-x="center"
-						data-y="center"
-						data-start="0"
-						data-transform_idle="o:1;"
-						data-transform_in="o:0;s:600;e:Power2.easeInOut;"
-						data-transform_out="o:0;s:600;"
-						data-width="5000"
-						data-height="5000">
-					</div>
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption large_white"
-						data-x="left"
-						data-y="110"
-						data-start="1000"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="logo-font">The Project</span> <br> Premium HTML5 Bootstrap Theme
-					</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption medium_white"
-						data-x="left"
-						data-y="240"
-						data-speed="500"
-						data-start="1200"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="fa fa-laptop"></i></span> 100% Responsive
-					</div>
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption medium_white"
-						data-x="left"
-						data-y="300"
-						data-speed="500"
-						data-start="1400"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="icon-check"></i></span> Bootstrap Based
-					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption medium_white"
-						data-x="left"
-						data-y="360"
-						data-speed="500"
-						data-start="1600"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="icon-gift"></i></span> Packed Full of Features
-					</div>
-
-					<!-- LAYER NR. 5 -->
-					<div class="tp-caption medium_white"
-						data-x="left"
-						data-y="420"
-						data-speed="500"
-						data-start="1800"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="icon-hourglass"></i></span> Very Easy to Customize
-					</div>
-
-					<!-- LAYER NR. 6 -->
-					<div class="tp-caption small_white"
-						data-x="left"
-						data-y="490"
-						data-speed="500"
-						data-start="2000"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="#" class="btn btn-default btn-lg btn-animated">Purchase <i class="fa fa-cart-arrow-down"></i></a>
-					</div>
-					</li>
-					<!-- slide 2 end -->
-
-					<!-- slide 3 start -->
-					<!-- ================ -->
-					<li data-transition="random" data-slotamount="7" data-masterspeed="default" data-title="Premium HTML5 Bootstrap Theme">
-
-					<!-- main image -->
-					<img src="<?php echo base_url();?>assets/slider/slider-coding.jpg" alt="slidebg2" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
-
-					<!-- Transparent Background -->
-					<div class="tp-caption dark-translucent-bg"
-						data-x="center"
-						data-y="center"
-						data-start="0"
-						data-transform_idle="o:1;"
-						data-transform_in="o:0;s:600;e:Power2.easeInOut;"
-						data-transform_out="o:0;s:600;"
-						data-width="5000"
-						data-height="5000">
-					</div>
-
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption large_white"
-						data-x="left"
-						data-y="110"
-						data-start="1000"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="logo-font">The Project</span> <br> Premium HTML5 Bootstrap Theme
-					</div>
-
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption medium_white"
-						data-x="left"
-						data-y="240"
-						data-speed="500"
-						data-start="1200"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="fa fa-laptop"></i></span> 100% Responsive
-					</div>
-
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption medium_white"
-						data-x="left"
-						data-y="300"
-						data-speed="500"
-						data-start="1400"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="icon-check"></i></span> Bootstrap Based
-					</div>
-
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption medium_white"
-						data-x="left"
-						data-y="360"
-						data-speed="500"
-						data-start="1600"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="icon-gift"></i></span> Packed Full of Features
-					</div>
-
-					<!-- LAYER NR. 5 -->
-					<div class="tp-caption medium_white"
-						data-x="left"
-						data-y="420"
-						data-speed="500"
-						data-start="1800"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><span class="icon default-bg circle small hidden-xs"><i class="icon-hourglass"></i></span> Very Easy to Customize
-					</div>
-
-					<!-- LAYER NR. 6 -->
-					<div class="tp-caption small_white"
-						data-x="left"
-						data-y="490"
-						data-speed="500"
-						data-start="2000"
-						data-transform_idle="o:1;"
-						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:900;e:Power4.easeInOut;"
-						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
-						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="#" class="btn btn-default btn-lg btn-animated">Purchase <i class="fa fa-cart-arrow-down"></i></a>
-					</div>
-					</li>
-					<!-- slide 3 end -->
-
-				</ul>
-				<div class="tp-bannertimer"></div>
-			</div>
-		</div>
-		<!-- slider revolution end -->
-
-	</div>
-	<!-- slideshow end -->
-
-</div>
-<!-- banner end -->
 
 <div id="page-start"></div>
 
@@ -441,7 +61,7 @@
 		</div>
 	</div>
 	<div class="space-bottom"  style="margin-bottom:30px">
-		<div class="owl-carousel carousel">
+		<div class="owl-carousel carousel-autoplay">
 			<?php
 			$serial = 0;
 			foreach ($portfolio as $item) { ?>
@@ -466,56 +86,6 @@
 	</div>
 </section>
 <!-- Portfolio section end -->
-
-<!-- Project Modal  -->
-<!-- <?php for($cnt = 0; $cnt < count($portfolio); $cnt++) { ?>
-<div class="modal fade" id="num-<?php  echo $cnt; ?>" tabindex="-1" role="dialog" aria-labelledby="project-<?php  echo $cnt; ?>-label" aria-hidden="true">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title" style="margin-right:40px" id="project-<?php  echo $cnt; ?>-label"><?php  echo $portfolio[$cnt]->name_he; ?></h4>
-			</div>
-			<div class="modal-body">
-				<div class="row">
-					<div class="col-md-6">
-						<div style="padding:0px 30px 0 30px; margin-top:-30px">
-							<h3>מידע על הפרויקט</h3>
-							<div class="separator-2"></div>
-							<ul class="list">
-								<li><strong class="vertical-divider">לקוח -  </strong> <?php  echo $portfolio[$cnt]->name_he; ?></li>
-								<li><strong class="vertical-divider">תאריך -  </strong> <?php  echo $portfolio[$cnt]->project_ended; ?></li>
-								<li><strong class="vertical-divider">טכנולוגיות -  </strong> Web Design</li>
-								<li><strong class="vertical-divider">לינק לאתר -  </strong> <a href="<?php  echo $portfolio[$cnt]->project_url; ?>" target="_blank"><?php  echo $portfolio[$cnt]->link_title; ?></a></li>
-							</ul>
-						</div>
-						<div class="overlay-container">
-							<img src="<?php echo base_url();?>assets/img/mockup/beinharim-mockup.png" alt="">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="owl-carousel content-slider-with-controls">
-							<div class="overlay-container">
-								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_main; ?>" alt="">
-							</div>
-							<div class="overlay-container">
-								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_1; ?>" alt="">
-							</div>
-							<div class="overlay-container">
-								<img src="<?php echo base_url();?>assets/img/portfolio/<?php  echo $portfolio[$cnt]->image_2; ?>" alt="">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">סגור</button>
-			</div>
-		</div>
-	</div>
-</div>
-<?php } ?> -->
-<!-- Project Modal end -->
 
 <!-- Project Modal  -->
 <?php for($cnt = 0; $cnt < count($portfolio); $cnt++) { ?>
@@ -550,7 +120,7 @@
 <?php } ?>
 <!-- Project Modal end -->
 
-<!-- section start -->
+<!-- Why Me Section Start -->
 <!-- ================ -->
 <section id="why" class="dark-translucent-bg pv-30 background-img-1" style="background-position:50% 30%;">
 	<div class="container">
@@ -605,10 +175,62 @@
 		</div>
 	</div>
 </section>
-<!-- section end -->
+<!-- Why Me Section end -->
 
+<!-- Testimonial Section -->
+<section id="testimonial">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<h2 class="text-center">הלקוחות <span style="color:#38c0e6"><strong>מדברים</strong></span></h2>
+			<div class="separator"></div>
+		</div>
+	</div>
+</section>
+<div class="owl-carousel content-slider space-top">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="testimonial text-center">
+					<div class="testimonial-image">
+						<img src="<?php echo base_url();?>assets/profile/profile-square.png" alt="Jane Doe" title="Jane Doe" class="img-circle">
+					</div>
+					<h3>יותר ממרוצה</h3>
+					<div class="separator"></div>
+					<div class="testimonial-body">
+						<blockquote>
+							<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
+						</blockquote>
+						<div class="testimonial-info-1">ישראל ישראלי</div>
+						<div class="testimonial-info-2">עמותת עמיתים</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="testimonial text-center">
+					<div class="testimonial-image">
+						<img src="<?php echo base_url();?>assets/profile/profile-square-2.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
+					</div>
+					<h3>חוויה לעבוד איתו</h3>
+					<div class="separator"></div>
+					<div class="testimonial-body">
+						<blockquote>
+							<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
+						</blockquote>
+						<div class="testimonial-info-1">משה כהן</div>
+						<div class="testimonial-info-2">גוגל</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Testimonial Section end -->
 
-<!-- section start -->
+<!-- Services Section start -->
 <!-- ================ -->
 <section id="services" class="light-gray-bg pv-30 clearfix">
 	<div class="container">
@@ -669,54 +291,10 @@
 		</div>
 	</div>
 </section>
-<!-- section end -->
+<!-- Services Section end -->
 
-<!-- My tools section -->
-<div class="container">
-	<div class="clients-container">
-		<div class="clients">
-			<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">
-				<a href="#"><img src="<?php echo base_url();?>assets/images/client-1.png" alt=""></a>
-			</div>
-			<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">
-				<a href="#"><img src="<?php echo base_url();?>assets/images/client-2.png" alt=""></a>
-			</div>
-			<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="300">
-				<a href="#"><img src="<?php echo base_url();?>assets/images/client-3.png" alt=""></a>
-			</div>
-			<div class="client-image object-non-visible" data-animation-effect="fadeIn" data-effect-delay="400">
-				<a href="#"><img src="<?php echo base_url();?>assets/images/client-4.png" alt=""></a>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- My tools section end -->
 
-<!-- section start -->
-<!-- ================ -->
-<section class="section dark-bg clearfix">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="call-to-action text-center">
-					<div class="row">
-						<div class="col-sm-8">
-							<h1 class="title">ארגז הכלים שלי</h1>
-							<p>שפות תכנות וטכנולוגיות בהם אני משתמש</p>
-						</div>
-						<div class="col-sm-4">
-							<br>
-							<p><a href="#" class="btn btn-lg btn-gray-transparent btn-animated">Learn More<i class="fa fa-arrow-right pl-20"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- section end -->
-
-<!-- section -->
+<!-- Process Section -->
 <!-- ================ -->
 <section id="process" class="pv-30">
 	<div class="container">
@@ -724,115 +302,116 @@
 			<div class="col-md-8 col-md-offset-2">
 				<h2 class="text-center">תהליך <span style="color:#38c0e6"><strong>עבודה</strong></span></h2>
 				<div class="separator"></div>
-				<p class="large text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas facere vero ex tempora saepe perspiciatis ducimus sequi animi.</p>
+				<p class="large text-center">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 ">
+			<div class="col-md-4 "  style="float:right">
 				<div class="pv-20 ph-20 feature-box-2 light-gray-bg boxed shadow object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-					<span class="icon without-bg"><i class="fa fa-diamond"></i></span>
+					<span class="icon without-bg"><i class="fa fa">1</i></span>
 					<div class="body">
-						<h4 class="title">Clean Code &amp; Design</h4>
-						<p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem dolor consectetur.</p>
+						<h4 class="title">מתן יעוץ ללא תשלום</h4>
+						<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. </p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 ">
+			<div class="col-md-4 " style="float:right">
 				<div class="pv-20 ph-20 feature-box-2 light-gray-bg boxed shadow object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
-					<span class="icon without-bg"><i class="fa fa-connectdevelop"></i></span>
+					<span class="icon without-bg"><i class="fa fa">2</i></i></span>
 					<div class="body">
 						<h4 class="title">Extremely Flexible</h4>
-						<p>Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.</p>
+						<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. </p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 ">
+			<div class="col-md-4 " style="float:right">
 				<div class="pv-20 ph-20 feature-box-2 light-gray-bg boxed shadow object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200">
-					<span class="icon without-bg"><i class="icon-snow"></i></span>
+					<span class="icon without-bg"><i class="fa fa">3</i></span>
 					<div class="body">
-						<h4 class="title">Latest Technologies</h4>
-						<p>Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.</p>
+						<h4 class="title">מתן יעוץ ללא תשלום</h4>
+						<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. </p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 ">
+			<div class="col-md-4 " style="float:right">
 				<div class="pv-20 ph-20 feature-box-2 light-gray-bg boxed shadow object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="250">
-					<span class="icon without-bg"><i class="icon-megaphone"></i></span>
+					<span class="icon without-bg"><i class="fa fa">4</i></span>
 					<div class="body">
 						<h4 class="title">Easy to Use</h4>
-						<p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem dolor consectetur.</p>
+						<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. </p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 ">
+			<div class="col-md-4 " style="float:right">
 				<div class="pv-20 ph-20 feature-box-2 light-gray-bg boxed shadow object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="300">
-					<span class="icon without-bg"><i class="fa fa-arrows"></i></span>
+					<span class="icon without-bg"><i class="fa fa">5</i></span>
 					<div class="body">
 						<h4 class="title">Responsive Design</h4>
-						<p>Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.</p>
+						<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. </p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 ">
+			<div class="col-md-4 " style="float:right">
 				<div class="pv-20 ph-20 feature-box-2 light-gray-bg boxed shadow object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="350">
-					<span class="icon without-bg"><i class="icon-star-empty"></i></span>
+					<span class="icon without-bg"><i class="fa fa">6</i></span>
 					<div class="body">
 						<h4 class="title">Deticated Support</h4>
-						<p>Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.</p>
+						<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. </p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- section end -->
+<!-- Process Section end -->
 
-<!-- Testimonial Section -->
-<section id="testimonial">
-	<h2 class="text-center">הלקוחות <span style="color:#38c0e6"><strong>מדברים</strong></span></h2>
-</section>
-<div class="owl-carousel content-slider space-top">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="testimonial text-center">
-					<div class="testimonial-image">
-						<img src="<?php echo base_url();?>assets/profile/profile-square.png" alt="Jane Doe" title="Jane Doe" class="img-circle">
-					</div>
-					<h3>יותר ממרוצה</h3>
-					<div class="separator"></div>
-					<div class="testimonial-body">
-						<blockquote>
-							<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
-						</blockquote>
-						<div class="testimonial-info-1">ישראל ישראלי</div>
-						<div class="testimonial-info-2">עמותת עמיתים</div>
-					</div>
-				</div>
-			</div>
-		</div>
+
+<div class="row"   style="margin-top:-30px">
+	<div class="col-md-8 col-md-offset-2">
+		<h2 class="text-center">ארגז <span style="color:#38c0e6"><strong>הכלים שלי</strong></span></h2>
+		<div class="separator"></div>
+		<p class="large text-center">שפות תכנות וטכנולוגיות בהם אני משתמש</p>
 	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<div class="testimonial text-center">
-					<div class="testimonial-image">
-						<img src="<?php echo base_url();?>assets/profile/profile-square-2.jpg" alt="Jane Doe" title="Jane Doe" class="img-circle">
-					</div>
-					<h3>חוויה לעבוד איתו</h3>
-					<div class="separator"></div>
-					<div class="testimonial-body">
-						<blockquote>
-							<p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
-						</blockquote>
-						<div class="testimonial-info-1">משה כהן</div>
-						<div class="testimonial-info-2">גוגל</div>
-					</div>
-				</div>
-			</div>
+</div>
+
+<!-- My tools section -->
+<div class="container">
+	<div class="owl-carousel clients" style="margin-bottom:50px">
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/php.png" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/codeigniter.jpg" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/javascript.png" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/mysql.png" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/wordpress.png" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/jquery.gif" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/bootstrap.png" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/Ajax.png" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/css3.jpg" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/html5.png" alt=""></a>
+		</div>
+		<div class="client">
+			<a href="#"><img src="<?php echo base_url();?>assets/tools/DirectAdmin.png" alt=""></a>
 		</div>
 	</div>
 </div>
-<!-- Testimonial Section end -->
+<!-- My tools section end -->

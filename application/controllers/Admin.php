@@ -16,7 +16,7 @@ class Admin extends CI_Controller {
 		if($this->session->userdata('logged_in')){
 			$this->_example_output((object)array('output' => '' , 'js_files' => array() , 'css_files' => array()));
 		} else {
-			$this->load->view('login_view');
+			$this->load->view('/admin/login_view');
 		}
 
 	}

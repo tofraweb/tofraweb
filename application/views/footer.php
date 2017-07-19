@@ -6,12 +6,12 @@
       <div class="col-md-12">
         <div class="call-to-action text-center">
           <div class="row">
-            <div class="col-sm-8">
-              <h2>Powerful Bootstrap Template</h2>
-              <h2>Waste no more time</h2>
-            </div>
+            <!-- <div class="col-sm-8"> -->
+            <h2 class="text-center">צור <span style="color:#38c0e6"><strong>קשר</strong></span></h2>
+            <h2>אשמח לשמוע על הפרויקט שלך</h2>
+            <!-- </div> -->
             <div class="col-sm-4">
-              <p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">Purchase<i class="fa fa-cart-arrow-down pl-20"></i></a></p>
+              <p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">053-5203818<i class="fa fa-phone pl-20"></i></a></p>
             </div>
           </div>
         </div>
@@ -37,9 +37,9 @@
             <div class="logo-footer" style="text-align:center"><img id="logo-footer" src="<?php echo base_url();?>assets/logo/tofraweb-small.png" alt="TofraWeb"></div>
             <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
             <ul class="list-inline mb-20">
-              <li><i class="text-default fa fa-map-marker pr-5"></i> יצחק הלוי 9, חולון</li>
-              <li><i class="text-default fa fa-phone pl-10 pr-5"></i> 053-5203818</li>
-              <li><a href="mailto:tofraweb@gmail.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i> tofraweb@gmail.com</a></li>
+              <!-- <li><i class="text-default fa fa-map-marker pr-5"></i> יצחק הלוי 9, חולון</li> -->
+              <li style="font-size:18px"><i class="text-default fa fa-phone pl-10 pr-5"></i> 053-5203818</li>
+              <li style="font-size:18px"><a href="mailto:tofraweb@gmail.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i> tofraweb@gmail.com</a></li>
             </ul>
             <div class="separator-2"></div>
             <ul class="social-links circle margin-clear animated-effect-1" style="text-align:center">
@@ -55,7 +55,6 @@
         </div>
         <div class="col-md-6">
           <div class="footer-content">
-            <h2 class="title">צור קשר</h2>
             <div class="alert alert-success hidden" id="MessageSent2">
               ההודעה נשלחה, אצור אתכם קשר בהקדם.
             </div>

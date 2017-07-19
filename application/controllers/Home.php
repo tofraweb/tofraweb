@@ -11,9 +11,10 @@ class Home extends CI_Controller {
   public function index()
   {
     	$data['portfolio'] = $this->portfolio_model->getPortfolio();
-      $this->load->view('inc/header');
+      $this->load->view('header');
+      $this->load->view('slider');
       $this->load->view('frontpage_view', $data);
-      $this->load->view('inc/footer');
+      $this->load->view('footer');
   }
 
 }

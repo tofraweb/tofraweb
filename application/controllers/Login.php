@@ -11,8 +11,8 @@ class Login extends CI_Controller {
   function index()
   {
       $data['section'] = null;
-      $this->load->view('login_view');
-      $this->load->view('inc/footer');
+      $this->load->view('admin/login_view');
+    //  $this->load->view('footer');
   }
 
 
@@ -31,7 +31,7 @@ class Login extends CI_Controller {
           );
           $this->session->set_flashdata($val_errors);
           $data['section'] = null;
-          $this->load->view('login_view');
+          $this->load->view('admin/login_view');
       }
       else
       {

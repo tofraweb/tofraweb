@@ -12,9 +12,9 @@ class Email extends CI_Controller {
 
   public function index()
   {
-      $this->load->view('inc/header');
+      $this->load->view('header');
       $this->load->view('frontpage_view', $data);
-      $this->load->view('inc/footer');
+      $this->load->view('footer');
   }
 
   public function send_mail() {
@@ -43,24 +43,24 @@ class Email extends CI_Controller {
       if ( ! $this->email->send())
       {
         $data['message'] ="Email not sent \n".$this->email->print_debugger();
-        $this->load->view('inc/header');
+        $this->load->view('header');
         $this->load->view('message',$data);
-        $this->load->view('inc/footer');
+        $this->load->view('footer');
 
       }
          // successfull message
         $data['message'] ="Email was successfully sent to $email";
 
-        $this->load->view('inc/header');
+        $this->load->view('header');
         $this->load->view('message',$data);
-        $this->load->view('inc/footer');
+        $this->load->view('footer');
     } else {
 
       $data['message'] ="Email address ($email) is not correct. Please <a href=".base_url().">try again</a>";
 
-      $this->load->view('inc/header');
+      $this->load->view('header');
       $this->load->view('message',$data);
-      $this->load->view('inc/footer');
+      $this->load->view('footer');
     }
 
   }
