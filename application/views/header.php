@@ -132,11 +132,11 @@
 												<!-- Collect the nav links, forms, and other content for toggling -->
 												<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
 													<ul class="nav navbar-nav navbar-right">
-														<li><a href="#footer">צור קשר</a></li>
-														<li><a href="#why">למה אני</a></li>
+														<li><a href="#footer">צרו קשר</a></li>
 														<li><a href="#process">תהליך עבודה</a></li>
 														<li><a href="#services">תחומי שרות</a></li>
-														<li><a href="#testimonial">חוות דעת</a></li>
+														<!-- <li><a href="#testimonial">חוות דעת</a></li> -->
+														<li><a href="#why">למה אני</a></li>
 														<li><a href="#portfolio">תיק עבודות</a></li>
 														<li><a href="#about">על עצמי</a></li>
                             <li class="active"><a href="<?php echo base_url();?>">בית</a></li>

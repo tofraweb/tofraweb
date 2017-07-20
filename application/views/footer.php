@@ -7,7 +7,7 @@
         <div class="call-to-action text-center">
           <div class="row">
             <!-- <div class="col-sm-8"> -->
-            <h2 class="text-center">צור <span style="color:#38c0e6"><strong>קשר</strong></span></h2>
+            <h2 class="text-center">צרו <span style="color:#38c0e6"><strong>קשר</strong></span></h2>
             <h2>אשמח לשמוע על הפרויקט שלך</h2>
             <!-- </div> -->
             <div class="col-sm-4">
