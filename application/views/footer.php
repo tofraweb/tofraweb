@@ -43,13 +43,13 @@
             </ul>
             <div class="separator-2"></div>
             <ul class="social-links circle margin-clear animated-effect-1" style="text-align:center">
-              <li class="facebook"><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-              <li class="twitter"><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+              <li class="facebook"><a target="_blank" href="http://www.facebook.com/tofraweb/"><i class="fa fa-facebook"></i></a></li>
+              <li class="twitter"><a target="_blank" href="http://www.twitter.com/tofraweb/"><i class="fa fa-twitter"></i></a></li>
               <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
               <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
               <li class="youtube"><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
-              <li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
-              <li class="instagram"><a target="_blank" href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+              <li class="pinterest"><a target="_blank" href="http://www.pinterest.com/tofraweb/"><i class="fa fa-pinterest"></i></a></li>
+              <li class="instagram"><a target="_blank" href="http://www.instagram.com/tofraweb/"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </div>
         </div>

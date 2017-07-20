@@ -1,51 +1,42 @@
 
 <div id="page-start"></div>
 
-<!-- section -->
-<!-- ================ -->
+<!--About Section -->
 <section id="about"  class="main-container">
 	<div class="container">
-		<div class="col-md-8 col-md-offset-2">
-			<h2 class="text-center title">על <span style="color:#38c0e6"><strong>עצמי</strong></span></h2>
-			<div class="separator"></div>
-			<p class="large text-center">שמי טומי פרנק, מתכנת PHP ומפתח אתרי אינטרנט</p>
-		</div>
-		<div class="row">
-			<div class="col-md-4">
-				<!-- <h3 class="title">The Project is <span class="text-rotator" data-rotator-animation-effect="fadeIn">Multipurpose, Powerful, Multiconcept</span> Bootstrap Template</h3> -->
-				<h3 class="title">The Project is Bootstrap Template</h3>
-				<p>אני נהינה לפתח, לעצב ולבנות אתרי אינטרנט איכותיים ועוד יותר נהנה מלקוחות מרוצים.</p>
-				<ul class="list-icons">
-					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check-1"></i> Extremly Simple to Use</li>
-					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="icon-check-1"></i> Customize it in no time</li>
-					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="icon-check-1"></i> Unlimited options and variations</li>
-					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="icon-check-1"></i> We are here to support you</li>
-				</ul>
-				<p>מתן שרות ברמה גבוה הוא עקרון שמנחה אותי לאורך השנים, למעשה הוא אחד הסיבות שבחרתי להיות עצמאי, שהרי בחברות גדולות השרותיות מהר מאוד נדחקת הצידה אם הצלחת החברה.</p>
+		<div class="image-box style-3 mb-20 shadow bordered light-gray-bg">
+			<div class="col-md-8 col-md-offset-2" style="margin-top:30px">
+				<h2 class="text-center title">על <span style="color:#38c0e6"><strong>עצמי</strong></span></h2>
+				<div class="separator"></div>
 			</div>
-			<div class="col-md-4">
-				<div>
-					<img src="<?php echo base_url();?>assets/profile/profile-photo-square.png" alt="">
-					<a href="#" class="overlay-link"><i class="fa fa-link"></i></a>
+			<div class="row grid-space-0">
+				<div class="col-md-5" style="margin-top:30px; margin-right:-15px">
+					<div class="overlay-container">
+						<img style="display: -webkit-inline-box" src="assets/profile/profile-square.png" alt="">
+						<div class="overlay-to-top">
+							<p class="small margin-clear"><em>Some info <br> Lorem ipsum dolor sit</em></p>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-4">
-				<h3 class="title">במה <span class="text-rotator" data-rotator-animation-effect="fadeIn">עסקתי, אני עוסק, אני טוב</span></h3>
-				<p>מזה 7 שנים אני עובד בתחום הפיטוח האינטרנטי, ניהלתי פרוייקטים שונים כולל פיתוח מערכת ERP מורכבת של חברת תיירות.</p>
-				<p>לאורך הזמן רכשתי נסיון בתחומים מגווונים נוספים, בינייהם פיתוח אתרים מערכות CMS ועוד.</p>
-				<ul class="list-icons">
-					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100"><i class="icon-check-1"></i> Extremly Simple to Use</li>
-					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="150"><i class="icon-check-1"></i> Customize it in no time</li>
-					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200"><i class="icon-check-1"></i> Unlimited options and variations</li>
-					<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="250"><i class="icon-check-1"></i> We are here to support you</li>
-				</ul>
-				<p>לאורך הזמן רכשתי נסיון בתחומים מגווונים נוספים, בינייהם פיתוח אתרים מערכות CMS ועוד.</p>
+				<div class="col-md-7">
+					<div class="body"g style="padding:30px 50px 50px 0">
+						<div class="pv-10 visible-lg"></div>
+						<h3>שמי טומי פרנק, מתכנת PHP ומפתח אתרי אינטרנט</h3>
+						<p class="small mb-10"><i class="icon-calendar"></i> Feb, 2015 <i class="pl-10 icon-tag-1"></i> Web Design</p>
+						<div class="separator-2"></div>
+						<p class="margin-clear">מזה 7 שנים אני עובד בתחום הפיטוח האינטרנטי, ניהלתי פרוייקטים שונים כולל פיתוח מערכת ERP מורכבת של חברת תיירות.
+						לאורך הזמן רכשתי נסיון בתחומים מגווונים נוספים, בינייהם פיתוח אתרים מערכות CMS ועוד.</p>
+						<p class="margin-clear">מתן שרות ברמה גבוה הוא עקרון שמנחה אותי לאורך השנים, למעשה הוא אחד הסיבות שבחרתי להיות עצמאי, שהרי בחברות גדולות השרותיות מהר מאוד נדחקת הצידה אם הצלחת החברה.</p>
+						<p class="margin-clear">אני נהינה לפתח, לעצב ולבנות אתרי אינטרנט איכותיים ועוד יותר נהנה מלקוחות מרוצים.</p>
+						<br>
+						<a href="#" class="btn btn-default btn-sm btn-hvr hvr-shutter-out-horizontal margin-clear">מה אומרים עלי הלקוחות<i class="fa fa-arrow-left pl-10"></i></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-	<br>
 </section>
-<!-- section end -->
+<!--About Section end -->
 
 <!-- Portfolio section -->
 <!-- ================ -->
@@ -54,8 +45,7 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<h2 class="text-center">תיק <span style="color:#38c0e6"><strong>עבודות</strong></span></h2>
-				<div class="separator"></div>
-				<p class="large text-center">להלן חלק מן הפרוייקטים שעשיתי לאחרונה, מומלץ להכנס לאתר של הלקוח כדי להתרשם</p>
+				<div class="separator" style="margin-bottom:40px"></div>
 				<br>
 			</div>
 		</div>
@@ -122,13 +112,12 @@
 
 <!-- Why Me Section Start -->
 <!-- ================ -->
-<section id="why" class="dark-translucent-bg pv-30 background-img-1" style="background-position:50% 30%;">
+<section id="why" class="section parallax background-img-1 default-translucent-bg">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<h2 class="text-center">למה <span style="color:#38c0e6"><strong>לבחור בי</strong></span></h2>
-				<div class="separator"></div>
-				<p class="large text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas facere vero ex tempora saepe perspiciatis ducimus sequi animi.</p>
+				<div class="separator" style="margin-bottom:40px"></div>
 			</div>
 		</div>
 		<div class="row">
@@ -230,68 +219,95 @@
 </div>
 <!-- Testimonial Section end -->
 
+
 <!-- Services Section start -->
 <!-- ================ -->
-<section id="services" class="light-gray-bg pv-30 clearfix">
+<section id="services" class="light-gray-bg pv-30 padding-bottom-clear clearfix">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<h2 class="text-center">תחומי <span style="color:#38c0e6"><strong>שרות</strong></span></h2>
-				<div class="separator"></div>
-				<p class="large text-center">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
+				<div class="separator" style="margin-bottom:40px"></div>
 			</div>
-			<div class="col-sm-4">
-				<div class="image-box style-2 mb-20">
-					<div class="overlay-container overlay-visible">
-						<img src="<?php echo base_url();?>assets/images/service-1.jpg" alt="">
-						<a href="<?php echo base_url();?>assets/images/service-1.jpg" class="overlay-link popup-img"><i class="fa fa-plus"></i></a>
-						<div class="overlay-bottom hidden-xs">
-							<div class="text">
-								<p class="lead margin-clear text-left">Service One</p>
-							</div>
-						</div>
-					</div>
-					<div class="body padding-horizontal-clear">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ipsam nihil, adipisci rem minus? Voluptatem distinctio laborum porro aspernatur.</p>
-					</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 ">
+				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+					<span class="icon default-bg circle"><i class="fa fa-diamond"></i></span>
+					<h3>Clean Code &amp; Design</h3>
+					<div class="separator clearfix"></div>
+					<p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem ipsum dolor sit amet, consectetur.</p>
+					<a href="page-services.html">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
 				</div>
 			</div>
-			<div class="col-sm-4">
-				<div class="image-box style-2 mb-20">
-					<div class="overlay-container overlay-visible">
-						<img src="<?php echo base_url();?>assets/images/service-2.jpg" alt="">
-						<a href="<?php echo base_url();?>assets/images/service-2.jpg" class="overlay-link popup-img"><i class="fa fa-plus"></i></a>
-						<div class="overlay-bottom hidden-xs">
-							<div class="text">
-								<p class="lead margin-clear text-left">Service One</p>
-							</div>
-						</div>
-					</div>
-					<div class="body padding-horizontal-clear">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ipsam nihil, adipisci rem minus? Voluptatem distinctio laborum porro aspernatur.</p>
-					</div>
+			<div class="col-md-4 ">
+				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+					<span class="icon default-bg circle"><i class="fa fa-diamond"></i></span>
+					<h3>Clean Code &amp; Design</h3>
+					<div class="separator clearfix"></div>
+					<p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem ipsum dolor sit amet, consectetur.</p>
+					<a href="page-services.html">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
 				</div>
 			</div>
-			<div class="col-sm-4">
-				<div class="image-box style-2 mb-20">
-					<div class="overlay-container overlay-visible">
-						<img src="<?php echo base_url();?>assets/images/service-3.jpg" alt="">
-						<a href="<?php echo base_url();?>assets/images/service-3.jpg" class="overlay-link popup-img"><i class="fa fa-plus"></i></a>
-						<div class="overlay-bottom hidden-xs">
-							<div class="text">
-								<p class="lead margin-clear text-left">Service One</p>
-							</div>
-						</div>
-					</div>
-					<div class="body padding-horizontal-clear">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque ipsam nihil, adipisci rem minus? Voluptatem distinctio laborum porro aspernatur.</p>
-					</div>
+			<div class="col-md-4 ">
+				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+					<span class="icon default-bg circle"><i class="fa fa-diamond"></i></span>
+					<h3>Clean Code &amp; Design</h3>
+					<div class="separator clearfix"></div>
+					<p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem ipsum dolor sit amet, consectetur.</p>
+					<a href="page-services.html">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
 				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-4 ">
+				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+					<span class="icon default-bg circle"><i class="fa fa-diamond"></i></span>
+					<h3>Clean Code &amp; Design</h3>
+					<div class="separator clearfix"></div>
+					<p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem ipsum dolor sit amet, consectetur.</p>
+					<a href="page-services.html">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
+				</div>
+			</div>
+			<div class="col-md-4 ">
+				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+					<span class="icon default-bg circle"><i class="fa fa-diamond"></i></span>
+					<h3>Clean Code &amp; Design</h3>
+					<div class="separator clearfix"></div>
+					<p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem ipsum dolor sit amet, consectetur.</p>
+					<a href="page-services.html">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
+				</div>
+			</div>
+			<div class="col-md-4 ">
+				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+					<span class="icon default-bg circle"><i class="fa fa-diamond"></i></span>
+					<h3>Clean Code &amp; Design</h3>
+					<div class="separator clearfix"></div>
+					<p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem ipsum dolor sit amet, consectetur.</p>
+					<a href="page-services.html">Read More<i class="pl-5 fa fa-angle-double-right"></i></a>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+</section>
+<!-- Services Section end -->
+
+<!-- section start -->
+<!-- ================ -->
+<section class="video-background pv-40 default-translucent-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h2 class="text-center object-non-visible" data-animation-effect="zoomIn" data-effect-delay="100">רוצים אתר חדשני ומרענן עבור העסק?</h2>
+				<div class="separator object-non-visible" data-animation-effect="zoomIn" data-effect-delay="100"></div>
+				<p class="text-center"><a href="#footer" class="btn btn-lg btn-dark object-non-visible" data-animation-effect="zoomIn" data-effect-delay="500">צרו איתי קשר</a></p>
 			</div>
 		</div>
 	</div>
 </section>
-<!-- Services Section end -->
+<!-- section end -->
 
 
 <!-- Process Section -->
@@ -301,8 +317,7 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
 				<h2 class="text-center">תהליך <span style="color:#38c0e6"><strong>עבודה</strong></span></h2>
-				<div class="separator"></div>
-				<p class="large text-center">לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
+				<div class="separator" style="margin-bottom:40px"></div>
 			</div>
 		</div>
 		<div class="row">
