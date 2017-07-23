@@ -42,25 +42,25 @@ class Email extends CI_Controller {
       // try send mail ant if not able print debug
       if ( ! $this->email->send())
       {
-        $data['message'] ="Email not sent \n".$this->email->print_debugger();
+        $data['mail_message'] ="Email not sent \n".$this->email->print_debugger();
         $this->load->view('header');
-        $this->load->view('message',$data);
-        $this->load->view('footer');
+        $this->load->view('frontpage_view');
+        $this->load->view('footer', $data);
 
       }
          // successfull message
-        $data['message'] ="Email was successfully sent to $email";
+        $data['mail_message'] ="Email was successfully sent to $email";
 
         $this->load->view('header');
-        $this->load->view('message',$data);
-        $this->load->view('footer');
+        $this->load->view('frontpage_view');
+        $this->load->view('footer', $data);
     } else {
 
-      $data['message'] ="Email address ($email) is not correct. Please <a href=".base_url().">try again</a>";
+      $data['mail_message'] ="Email address ($email) is not correct. Please <a href=".base_url().">try again</a>";
 
       $this->load->view('header');
-      $this->load->view('message',$data);
-      $this->load->view('footer');
+      $this->load->view('frontpage_view');
+      $this->load->view('footer', $data);
     }
 
   }

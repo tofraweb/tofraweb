@@ -16,7 +16,7 @@
 					<li class="text-center" data-transition="random" data-slotamount="default" data-masterspeed="default" data-title="עבור שקף">
 
 					<!-- main image -->
-					<img src="<?php echo base_url();?>assets/slider/slider-mockups-3.png" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
+					<img src="<?php echo base_url();?>assets/slider/slider-mockups-3.jpg" alt="slidebg1" data-bgposition="center center" data-bgrepeat="no-repeat" data-bgfit="cover" class="rev-slidebg">
 
 
 					<!-- Transparent Background -->
@@ -91,7 +91,7 @@
 						data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
 						data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
 						data-mask_in="x:0px;y:[-100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><strong style="font-size:70px">Tofra <span class="text-default" style="color:#34b9df">Web Development</span></strong> <br> פיתוח אתרי אינטרנט איכותיים
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><strong style="font-size:70px">Tofra <span class="text-default" style="color:#34b9df; text-shadow: 1px 1px #fff;">Web Development</span></strong> <br> פיתוח אתרי אינטרנט איכותיים
 					</div>
 
 
@@ -186,7 +186,7 @@
 						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
 						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
 						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><strong style="font-size:70px">אתרי אינטרנט<span class="text-default" style="color:#34b9df"> חדשניים</span></strong> <br> מותאמים לכל סוגי מכשירי המובייל
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><strong style="font-size:70px">אתרי אינטרנט<span class="text-default" style="color:#34b9df;text-shadow: 1px 1px #fff;"> חדשניים</span></strong> <br> מותאמים לכל סוגי מכשירי המובייל
 					</div>
 
 					<!-- LAYER NR. 2 -->
@@ -287,7 +287,7 @@
 						data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
 						data-transform_out="y:0;s:1000;e:Power2.easeInOut;"
 						data-mask_in="x:0px;y:[-100%];s:inherit;e:inherit;"
-						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><strong style="font-size:70px">לקוחות מרוצים <span class="text-default" style="color:#34b9df">באחריות</span></strong>
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><strong style="font-size:70px">לקוחות מרוצים <span class="text-default" style="color:#34b9df;text-shadow: 1px 1px #fff;">באחריות</span></strong>
 						<br>לא מרוצים? קבלו החזר כספי מלא
 					</div>
 

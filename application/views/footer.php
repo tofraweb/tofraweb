@@ -33,9 +33,9 @@
     <div class="footer-inner">
       <div class="row">
         <div class="col-md-6">
-          <div class="footer-content">
-            <div class="logo-footer" style="text-align:center"><img id="logo-footer" src="<?php echo base_url();?>assets/logo/tofraweb-small.png" alt="TofraWeb"></div>
-            <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p>
+          <div class="footer-content" style="text-align:center">
+            <div class="logo-footer"><img style="max-height:80px;display:-webkit-inline-box;margin-bottom:20px" src="<?php echo base_url();?>assets/logo/tofraweb-small.png" alt="TofraWeb"></div>
+            <!-- <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p> -->
             <ul class="list-inline mb-20">
               <!-- <li><i class="text-default fa fa-map-marker pr-5"></i> יצחק הלוי 9, חולון</li> -->
               <li style="font-size:18px"><i class="text-default fa fa-phone pl-10 pr-5"></i> 053-5203818</li>
@@ -45,9 +45,9 @@
             <ul class="social-links circle margin-clear animated-effect-1" style="text-align:center">
               <li class="facebook"><a target="_blank" href="http://www.facebook.com/tofraweb/"><i class="fa fa-facebook"></i></a></li>
               <li class="twitter"><a target="_blank" href="http://www.twitter.com/tofraweb/"><i class="fa fa-twitter"></i></a></li>
-              <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-              <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-              <li class="youtube"><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+              <!-- <li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li> -->
+              <!-- <li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li> -->
+              <!-- <li class="youtube"><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li> -->
               <li class="pinterest"><a target="_blank" href="http://www.pinterest.com/tofraweb/"><i class="fa fa-pinterest"></i></a></li>
               <li class="instagram"><a target="_blank" href="http://www.instagram.com/tofraweb/"><i class="fa fa-instagram"></i></a></li>
             </ul>
@@ -56,10 +56,10 @@
         <div class="col-md-6">
           <div class="footer-content">
             <div class="alert alert-success hidden" id="MessageSent2">
-              ההודעה נשלחה, אצור אתכם קשר בהקדם.
+              <?php echo $mail_message; ?>
             </div>
             <div class="alert alert-danger hidden" id="MessageNotSent2">
-              הופס, משהו השתבש, אנא לרפרש את הדף ולנסות שוב!
+              <?php echo $mail_message; ?>
             </div>
             <!-- <form action="<?php echo base_url();?>email/send_mail" role="form" id="footer-form" class="margin-clear">
               <div class="form-group has-feedback mb-10">
