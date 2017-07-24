@@ -6,15 +6,31 @@ class Home extends CI_Controller {
   {
     parent::__construct();
     $this->load->model('portfolio_model','',TRUE);
+    $this->load->library('user_agent');
+    $this->lang->load("frontpage",$this->session->userdata('site_lang'));
   }
 
   public function index()
   {
     	$data['portfolio'] = $this->portfolio_model->getPortfolio();
-      $this->load->view('header');
-      $this->load->view('slider');
-      $this->load->view('frontpage_view', $data);
-      $this->load->view('footer');
+      $data['lang'] = $this->session->userdata('site_lang');
+      $data['is_mobile'] = $this->agent->is_mobile();
+      if($data['lang'] != "he") {
+        $this->load->view('header', $data);
+        if(!$data['is_mobile']){
+          $this->load->view('slider_he', $data);
+        }
+        $this->load->view('frontpage_view_he', $data);
+        $this->load->view('footer_he');
+      }else{
+        $this->load->view('header_he', $data);
+        if(!$data['is_mobile']){
+          $this->load->view('slider_he', $data);
+        }
+        $this->load->view('frontpage_view_he', $data);
+        $this->load->view('footer_he');
+      }
+
   }
 
 }

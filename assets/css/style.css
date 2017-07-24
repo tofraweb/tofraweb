@@ -5995,7 +5995,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 @media (min-width: 1200px) {
   /* first level menu item */
   .main-navigation .navbar-nav > li {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0px;
   }
 
   .main-navigation .navbar-nav > li:first-child {

@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="image-box style-3 mb-20 shadow bordered light-gray-bg">
 			<div class="col-md-8 col-md-offset-2" style="margin-top:30px">
-				<h2 class="text-center title">על <span style="color:#38c0e6"><strong>עצמי</strong></span></h2>
+				<h2 class="text-center title"><?php echo $this->lang->line("about_header_1"); ?> <span style="color:#38c0e6"><strong><?php echo $this->lang->line("about_header_2"); ?></strong></span></h2>
 				<div class="separator"></div>
 			</div>
 			<div class="row grid-space-0">
@@ -18,15 +18,13 @@
 				<div class="col-md-7">
 					<div class="body">
 						<div class="pv-10 visible-lg"></div>
-						<h3>שמי טומי פרנק, מתכנת php ומפתח אתרי אינטרנט</h3>
-						<p><?php echo $this->lang->line("service_header_2"); ?></p>
+						<h3><?php echo $this->lang->line("about_subheader"); ?></h3>
 						<!-- <p class="small mb-10"><i class="icon-calendar"></i> יולי, 2017 <i class="pl-10 icon-tag-1"></i> מפתח PHP</p> -->
 						<div class="separator-2"></div>
-						<p class="margin-clear">מזה 7 שנים אני עובד בתחום הפיתוח האינטרנטי. ניהלתי פרוייקטים שונים, כולל פיתוח מערכת ERP מורכבת של חברת תיירות.
-עם הזמן רכשתי נסיון רב בתחומים שונים ומגוונים, ביניהם פיתוח אתרים, מערכות CMS ועוד.</p>
-						<p class="margin-clear">מתן שרות ברמה גבוה הוא עקרון חשוב עבורי, שמנחה אותי לאורך השנים, ולמעשה הוא אחת הסיבות שבחרתי להיות עצמאי, שהרי בחברות גדולות השרות נדחק מהר מאוד הצידה עם הצלחתה של החברה.</p>
-						<p class="margin-clear">אני נהנה לפתח, לעצב ולבנות אתרי אינטרנט איכותיים, ועוד יותר נהנה מלקוחות מרוצים.</p>						<br>
-						<a href="#footer" class="btn btn-default btn-sm btn-hvr hvr-shutter-out-horizontal margin-clear">צרו קשר<i class="fa fa-arrow-left pl-10"></i></a>
+						<p class="margin-clear"><?php echo $this->lang->line("about_content_1"); ?></p>
+						<p class="margin-clear"><?php echo $this->lang->line("about_content_2"); ?></p>
+						<p class="margin-clear"><?php echo $this->lang->line("about_content_3"); ?></p>						<br>
+						<a href="#footer" class="btn btn-default btn-sm btn-hvr hvr-shutter-out-horizontal margin-clear"><?php echo $this->lang->line("about_button"); ?><i class="fa fa-arrow-left pl-10"></i></a>
 					</div>
 				</div>
 			</div>
@@ -41,7 +39,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h2 class="text-center">העבודות <span style="color:#38c0e6"><strong>האחרונות שלי</strong></span></h2>
+				<h2 class="text-center"><?php echo $this->lang->line("portfolio_header_1"); ?> <span style="color:#38c0e6"><strong><?php echo $this->lang->line("portfolio_header_2"); ?></strong></span></h2>
 				<div class="separator" style="margin-bottom:40px"></div>
 				<br>
 			</div>
@@ -51,19 +49,20 @@
 		<div class="owl-carousel carousel-autoplay">
 			<?php
 			$serial = 0;
+			$c_lang = "name_".$lang;
 			foreach ($portfolio as $item) { ?>
 			<div class="image-box shadow text-center" style="margin:20px">
 				<div class="overlay-container">
 					<img style="max-height:650px;" src="<?php echo base_url();?>assets/frontpage/<?php  echo $item->image_main; ?>" alt="">
 					<div class="overlay-top">
 						<div class="text">
-							<h3><a href="#num-<?php  echo $serial; ?>" data-toggle="modal"><?php  echo $item->name_he; ?></a></h3>
+							<h3><a href="#num-<?php  echo $serial; ?>" data-toggle="modal"><?php  echo $item->$c_lang; ?></a></h3>
 							<!-- <p class="small">וורדפרס</p> -->
 						</div>
 					</div>
 					<div class="overlay-bottom">
 						<div class="links">
-							<a href="#num-<?php  echo $serial; ?>" data-toggle="modal" class="btn btn-gray-transparent btn-animated">ראה עוד <i class="pl-10 fa fa-arrow-left"></i></a>
+							<a href="#num-<?php  echo $serial; ?>" data-toggle="modal" class="btn btn-gray-transparent btn-animated"><?php echo $this->lang->line("portfolio_button"); ?> <i class="pl-10 fa fa-arrow-left"></i></a>
 						</div>
 					</div>
 				</div>
@@ -81,7 +80,7 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-				<h4 class="modal-title" style="margin-right:40px" id="project-<?php  echo $cnt; ?>-label"><?php  echo $portfolio[$cnt]->name_he; ?></h4>
+				<h4 class="modal-title" style="margin-right:40px" id="project-<?php  echo $cnt; ?>-label"><?php  echo $portfolio[$cnt]->$c_lang; ?></h4>
 			</div>
 			<div class="modal-body">
 				<div class="row">
@@ -113,7 +112,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h2 class="text-center">למה <span><strong>לבחור בי</strong></span></h2>
+				<h2 class="text-center"><?php echo $this->lang->line("why_header_1"); ?> <span><strong><?php echo $this->lang->line("why_header_2"); ?></strong></span></h2>
 				<div class="separator" style="margin-bottom:40px"></div>
 			</div>
 		</div>
@@ -124,8 +123,8 @@
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 							<span class="icon default-bg small"><i class="fa fa-heart-o"></i></span>
 							<div class="body">
-								<h4 class="title" style="font-size:24px">טכנולוגיות חדשניות</h4>
-								<p style="font-size:18px">האתר שלכם חייב לעמוד בסטנדרטים של היום מכל הבחינות, איתי אתם תקבלו את הטכנולוגיות הכי חדשניות ועדכניות שאפשר למצוא בשוק היום.</p>
+								<h4 class="title" style="font-size:24px"><?php echo $this->lang->line("why_subheader_1"); ?></h4>
+								<p style="font-size:18px"><?php echo $this->lang->line("why_subcontent_1"); ?></p>
 							</div>
 						</div>
 					</div>
@@ -133,16 +132,17 @@
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
 							<span class="icon default-bg small"><i class="fa fa-connectdevelop"></i></span>
 							<div class="body">
-								<h4 class="title" style="font-size:24px">אחריות על המוצר</h4>
-								<p style="font-size:18px">אני לא מוכן להתפשר על איכות ומאמין במוצרים ובעבודה שלי. אבל חשוב לי לרכוש גם את אמון שלכם, לכן אם לא תהיו מרוצים, תקבלו החזר כספי מלא.</p>							</div>
+								<h4 class="title" style="font-size:24px"><?php echo $this->lang->line("why_subheader_2"); ?></h4>
+								<p style="font-size:18px"><?php echo $this->lang->line("why_subcontent_2"); ?></p>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-4 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="250">
 							<span class="icon default-bg small"><i class="icon-check"></i></span>
 							<div class="body">
-								<h4 class="title" style="font-size:24px">התאמה למכשירי מובייל</h4>
-								<p style="font-size:18px">היום חלק ניכר של האנשים גולשים דרך מכשירי המובייל, לכן חשוב שהאתר שלכם יתאים לפלטפורמות אלה. כל המוצרים שאני מפתח מותאמים למובייל.</p>
+								<h4 class="title" style="font-size:24px"><?php echo $this->lang->line("why_subheader_3"); ?></h4>
+								<p style="font-size:18px"><?php echo $this->lang->line("why_subcontent_3"); ?></p>
 							</div>
 						</div>
 					</div>

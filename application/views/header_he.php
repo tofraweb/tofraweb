@@ -2,7 +2,7 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if gt IE 9]> <html lang="en" class="ie"> <![endif]-->
 <!--[if !IE]><!-->
-<html dir="ltr" lang="en">
+<html dir="rtl" lang="en">
 	<!--<![endif]-->
 
 	<head>
@@ -46,14 +46,15 @@
 		<!-- The Project's core CSS file -->
 		<!-- Use css/rtl_style.css for RTL version -->
 
-		<link href="<?php echo base_url();?>assets/css/style.css" rel="stylesheet" >
+		<link href="<?php echo base_url();?>assets/css/rtl_style.css" rel="stylesheet" >
 
 		<!-- The Project's Typography CSS file, includes used fonts -->
 		<!-- Used font for body: Roboto -->
 		<!-- Used font for headings: Raleway -->
 		<!-- Use css/rtl_typography-default.css for RTL version -->
 
-		<link href="<?php echo base_url();?>assets/css/typography-default.css" rel="stylesheet" >
+
+		<link href="<?php echo base_url();?>assets/css/rtl_typography-default.css" rel="stylesheet" >
 
 		<!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
 		<link href="<?php echo base_url();?>assets/css/skins/light_blue.css" rel="stylesheet">
@@ -83,7 +84,7 @@
 	<!-- "gradient-background-header": applies gradient background to header -->
 	<!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
 
-		<body class="no-trans front-page transparent-header" style="direction:ltr !important" <>
+		<body class="no-trans front-page transparent-header" style="direction:rtl !important"<>
 
 		<!-- scrollToTop -->
 		<!-- ================ -->
@@ -106,22 +107,6 @@
 
 					<div class="container">
 						<div class="row">
-
-							<div class="col-md-3 ">
-								<!-- header-first start -->
-								<!-- ================ -->
-								<div class="header-first clearfix">
-
-									<!-- logo -->
-									<div id="logo" class="logo">
-										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-tiny.png" alt="TofraWeb"></a>
-									</div>
-
-								</div>
-								<!-- header-first end -->
-
-							</div>
-
 							<div class="col-md-9">
 
 								<!-- header-second start -->
@@ -152,17 +137,7 @@
 
 												<!-- Collect the nav links, forms, and other content for toggling -->
 												<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-													<ul class="nav navbar-nav navbar-right">
-														<li class="active"><a href="<?php echo base_url();?>"><?php echo $this->lang->line("menu_home"); ?></a></li>
-														<li><a href="#about"><?php echo $this->lang->line("menu_about"); ?></a></li>
-														<li><a href="#portfolio"><?php echo $this->lang->line("menu_portfolio"); ?></a></li>
-														<li><a href="#why"><?php echo $this->lang->line("menu_why"); ?></a></li>
-														<!-- <li><a href="#testimonial">חוות דעת</a></li> -->
-														<li><a href="#services"><?php echo $this->lang->line("menu_services"); ?></a></li>
-														<?php if(!$is_mobile) { ?>
-															<li><a href="#process"><?php echo $this->lang->line("menu_process"); ?></a></li>
-														<?php } ?>
-														<li><a href="#footer"><?php echo $this->lang->line("menu_contact"); ?></a></li>
+													<ul class="nav navbar-nav navbar-right" style="text-align:right">
 														<?php
 														switch ($lang) {
 															case 'en': ?>
@@ -178,6 +153,16 @@
 																<li style="margin-left:-20px"><a href="<?php echo base_url();?>lang/index/en"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
 																<?php break;
 														} ?>
+														<li><a href="#footer"><?php echo $this->lang->line("menu_contact"); ?></a></li>
+														<?php if(!$is_mobile) { ?>
+															<li><a href="#process"><?php echo $this->lang->line("menu_process"); ?></a></li>
+														<?php } ?>
+														<li><a href="#services"><?php echo $this->lang->line("menu_services"); ?></a></li>
+														<!-- <li><a href="#testimonial">חוות דעת</a></li> -->
+														<li><a href="#why"><?php echo $this->lang->line("menu_why"); ?></a></li>
+														<li><a href="#portfolio"><?php echo $this->lang->line("menu_portfolio"); ?></a></li>
+														<li><a href="#about"><?php echo $this->lang->line("menu_about"); ?></a></li>
+                            <li class="active"><a href="<?php echo base_url();?>"><?php echo $this->lang->line("menu_home"); ?></a></li>
 													</ul>
 												</div>
 
@@ -189,6 +174,20 @@
 									<!-- main-navigation end -->
 								</div>
 								<!-- header-second end -->
+
+							</div>
+							<div class="col-md-3 ">
+								<!-- header-first start -->
+								<!-- ================ -->
+								<div class="header-first clearfix">
+
+									<!-- logo -->
+									<div id="logo" class="logo">
+										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-tiny.png" alt="TofraWeb"></a>
+									</div>
+
+								</div>
+								<!-- header-first end -->
 
 							</div>
 						</div>
