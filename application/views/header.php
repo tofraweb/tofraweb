@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="<?php echo base_url();?>assets/favicon/favicon-16.png">
 
 		<!-- Web Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -53,6 +53,7 @@
 		<!-- Used font for headings: Raleway -->
 		<!-- Use css/rtl_typography-default.css for RTL version -->
 
+
 		<link href="<?php echo base_url();?>assets/css/typography-default.css" rel="stylesheet" >
 
 		<!-- Color Scheme (In order to change the color scheme, replace the blue.css with the color scheme that you prefer)-->
@@ -83,7 +84,7 @@
 	<!-- "gradient-background-header": applies gradient background to header -->
 	<!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
 
-		<body class="no-trans front-page transparent-header" style="direction:ltr !important" <>
+		<body class="no-trans front-page transparent-header"<>
 
 		<!-- scrollToTop -->
 		<!-- ================ -->
@@ -106,23 +107,21 @@
 
 					<div class="container">
 						<div class="row">
-
-							<div class="col-md-3 ">
+							<div class="col-md-2 ">
 								<!-- header-first start -->
 								<!-- ================ -->
 								<div class="header-first clearfix">
 
 									<!-- logo -->
 									<div id="logo" class="logo">
-										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-tiny.png" alt="TofraWeb"></a>
+										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-small.png" alt="TofraWeb"></a>
 									</div>
 
 								</div>
 								<!-- header-first end -->
-
 							</div>
 
-							<div class="col-md-9">
+							<div class="col-md-10">
 
 								<!-- header-second start -->
 								<!-- ================ -->
@@ -167,15 +166,15 @@
 														switch ($lang) {
 															case 'en': ?>
 																<li><a href="<?php echo base_url();?>lang/index/hu"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/hu_flag_tiny.png" alt="Magyar" title="Magyar"></a></li>
-																<li style="margin-left:-20px"><a href="<?php echo base_url();?>lang/index/he"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/il_flag_tiny.png" alt="עברית" title="English"></a></li>
+																<li><a href="<?php echo base_url();?>lang/index/he"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/il_flag_tiny.png" alt="עברית" title="English"></a></li>
 																<?php break;
 															case 'hu': ?>
 																<li><a href="<?php echo base_url();?>lang/index/en"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
-																<li style="margin-left:-20px"><a href="<?php echo base_url();?>lang/index/he"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/il_flag_tiny.png" alt="עברית" title="Magyar"></a></li>
+																<li><a href="<?php echo base_url();?>lang/index/he"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/il_flag_tiny.png" alt="עברית" title="Magyar"></a></li>
 																<?php break;
 															default: ?>
 																<li><a href="<?php echo base_url();?>lang/index/hu"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/hu_flag_tiny.png" alt="Magyar" title="Magyar"></a></li>
-																<li style="margin-left:-20px"><a href="<?php echo base_url();?>lang/index/en"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
+																<li><a href="<?php echo base_url();?>lang/index/en"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
 																<?php break;
 														} ?>
 													</ul>

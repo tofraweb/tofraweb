@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Favicon -->
-		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="<?php echo base_url();?>assets/favicon/favicon-16.png">
 
 		<!-- Web Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
@@ -107,6 +107,20 @@
 
 					<div class="container">
 						<div class="row">
+							<div class="col-md-3" <?php if(!$is_mobile) { ?> style="float:right" <?php } else { ?>style="float:none" <?php } ?>>
+								<!-- header-first start -->
+								<!-- ================ -->
+								<div class="header-first clearfix">
+
+									<!-- logo -->
+									<div id="logo" class="logo">
+										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-small.png" alt="TofraWeb"></a>
+									</div>
+
+								</div>
+								<!-- header-first end -->
+
+							</div>
 							<div class="col-md-9">
 
 								<!-- header-second start -->
@@ -137,7 +151,7 @@
 
 												<!-- Collect the nav links, forms, and other content for toggling -->
 												<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
-													<ul class="nav navbar-nav navbar-right" style="text-align:right">
+													<ul class="nav navbar-nav navbar-right">
 														<?php
 														switch ($lang) {
 															case 'en': ?>
@@ -176,20 +190,7 @@
 								<!-- header-second end -->
 
 							</div>
-							<div class="col-md-3 ">
-								<!-- header-first start -->
-								<!-- ================ -->
-								<div class="header-first clearfix">
 
-									<!-- logo -->
-									<div id="logo" class="logo">
-										<a href="<?php echo base_url();?>"><img id="logo_img" style="max-height:50px" src="<?php echo base_url();?>assets/logo/tofraweb-tiny.png" alt="TofraWeb"></a>
-									</div>
-
-								</div>
-								<!-- header-first end -->
-
-							</div>
 						</div>
 					</div>
 

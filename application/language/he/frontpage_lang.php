@@ -4,7 +4,7 @@ $lang["menu_home"] = "בית";
 $lang["menu_about"] = "על עצמי";
 $lang["menu_portfolio"] = "תיק עבודות";
 $lang["menu_why"] = "למה אני";
-$lang["menu_services"] = "תחומי שלרות";
+$lang["menu_services"] = "תחומי שרות";
 $lang["menu_process"] = "תהליך עבודה";
 $lang["menu_contact"] = "צרו קשר";
 /*  Menu end  */
@@ -30,7 +30,7 @@ $lang["slider_3_subtitle"] = "לא מרוצים? תקבלו החזר כספי מ
 /*  About start */
 $lang["about_header_1"] = "על";
 $lang["about_header_2"] = "עצמי";
-$lang["about_subheader"] = "שמי טומי פרנק, מתכנת php ומפתח אתרי אינטרנט";
+$lang["about_subheader"] = "שמי טומי פרנק, מתכנת PHP ומפתח אתרי אינטרנט";
 $lang["about_content_1"] = "מזה 7 שנים אני עובד בתחום הפיתוח האינטרנטי. ניהלתי פרוייקטים שונים, כולל פיתוח מערכת ERP מורכבת של חברת תיירות. עם הזמן רכשתי נסיון רב בתחומים שונים ומגוונים, ביניהם פיתוח אתרים, מערכות CMS ועוד.";
 $lang["about_content_2"] = "מתן שרות ברמה גבוה הוא עקרון חשוב עבורי, שמנחה אותי לאורך השנים, ולמעשה הוא אחת הסיבות שבחרתי להיות עצמאי, שהרי בחברות גדולות השרות נדחק מהר מאוד הצידה עם הצלחתה של החברה.";
 $lang["about_content_3"] = "אני נהנה לפתח, לעצב ולבנות אתרי אינטרנט איכותיים, ועוד יותר נהנה מלקוחות מרוצים.";
@@ -54,5 +54,52 @@ $lang["why_subcontent_2"] = "אני לא מוכן להתפשר על איכות �
 $lang["why_subcontent_3"] = "האתר שלכם חייב לעמוד בסטנדרטים של היום מכל הבחינות, איתי אתם תקבלו את הטכנולוגיות הכי חדשניות ועדכניות שאפשר למצוא בשוק היום.";
 /*  Why end  */
 
-$lang["service_header_1"] = "תחומי";
-$lang["service_header_2"] = "שרות";
+/*  Services start */
+$lang["services_header_1"] = "תחומי";
+$lang["services_header_2"] = "שרות";
+$lang["services_subheader_1"] = "בניית אתרי וורדפס";
+$lang["services_subheader_2"] = "פיתוח אתר מותאם אישית";
+$lang["services_subheader_3"] = "קידום אתרים";
+$lang["services_subheader_4"] = "הגירה של אתר";
+$lang["services_subheader_5"] = "חידוש עיצוב של אתר קיים";
+$lang["services_subheader_6"] = "הפיכת אתר סטטי לדינאמי";
+$lang["services_subcontent_1"] = "פיתוח ובניית אתרי וורדפרס עם אפשרות להוספת מספר לא מוגבל של תוספות. המוצר כולל ממשק ניהול תוכן ידידותי עבור הלקוח.";
+$lang["services_subcontent_2"] = "פיתוח אתרים מותאמים אישית ללקוח ללא שימוש במערכות CMS מוכנות, אך בשוש במסגרות וטכנולוגיות כמו Codeigniter ו - Bootstrap.";
+$lang["services_subcontent_3"] = "קידום אורגני של אתרים (SEO) עם שאפשרות לקידום ממומן במקרה הצורך. הגדרת מילות מפתח ואופטימיזציה למנועי חיפוש.";
+$lang["services_subcontent_4"] = "היום ישנם כילים טובים להעברת אתר ממערכת ספציפית למערכת אחרת כמו מעבר מ - Joomla ל - Wordpress, כולל הגירה של בסיס הנתונים.";
+$lang["services_subcontent_5"] = "ישנם מקרים בהם לא כדאי לבנות מחדש את כל האתר אלא מספיק לתת חידוש ורענון לעיצוב הקיים. התחדשות היא דבר טוב ונחוץ.";
+$lang["services_subcontent_6"] = 'ניתן להפוף אתרים מיושנים מבוססי html בלבד לאתרים דינאמיים ע"י הוספת בסיס נתונים ומערכת ניהול תוכן עבור הלקוח.';
+/*  Services start */
+
+/*  Process start */
+$lang["process_title_1"] = "תהליך";
+$lang["process_title_2"] = "עבודה";
+$lang["process_beginning"] = "יצירת קשר";
+$lang["process_end"] = "אתר מוכן";
+$lang["process_label_1"] = "מתן יעוץ ללא תשלום";
+$lang["process_label_2"] = "קביעת מטרות ואפיון האתר";
+$lang["process_label_3"] = "מחקר ובחירת טכנולוגיות";
+$lang["process_label_4"] = "בחירת עיצוב/תבנית";
+$lang["process_label_5"] = "עיצוב ופיתוח";
+$lang["process_label_6"] = "הצגת המוצר ללקוח";
+$lang["process_label_7"] = "התאמות אחרונות";
+$lang["process_label_8"] = "העלאת האתר לשרת";
+/*  Process end  */
+
+/*  Form start */
+$lang["form_fullname"] = "שם מלא";
+$lang["form_email"] = "כתובת אימייל";
+$lang["form_content"] = "הודעה";
+$lang["form_button"] = "שלח";
+/*  Form end  */
+
+/*  Other start */
+$lang["tools_title_1"] = "ארגז";
+$lang["tools_title_2"] = "הכלים שלי";
+$lang["tools_subtitle"] = "שפות תכנות וטכנולוגיות בהם אני משתמש";
+$lang["banner_1_title"] = "רוצים אתר חדשני ומרענן עבור העסק?";
+$lang["banner_1_button"] = "צרו איתי קשר";
+$lang["banner_2_title_1"] = "צרו";
+$lang["banner_2_title_2"] = "קשר";
+$lang["banner_2_title_3"] = "אשמח לשמוע על הפרויקט שלכם!";
+/*  Other end  */

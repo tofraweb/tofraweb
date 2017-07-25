@@ -92,12 +92,12 @@
 				</div>
 			</div>
 			<div class="modal-footer" style="text-align:center">
-				<!-- <div>
+				<div>
 					לקוח - <strong><?php  echo $portfolio[$cnt]->name_he; ?></strong> |
 					תאריך - <strong><?php  echo $portfolio[$cnt]->project_ended; ?></strong> |
 					תחום - <strong><?php  echo $portfolio[$cnt]->field; ?></strong> |
 					אתר - <strong><a href="<?php  echo $portfolio[$cnt]->project_url; ?>" target="_blank"><?php  echo $portfolio[$cnt]->link_title; ?></a></strong>
-				</div> -->
+				</div>
 				<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">סגור</button>
 			</div>
 		</div>
@@ -213,7 +213,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h2 class="text-center"><?php echo $this->lang->line("service_header_1"); ?> <span style="color:#38c0e6"><strong><?php echo $this->lang->line("service_header_2"); ?></strong></span></h2>
+				<h2 class="text-center"><?php echo $this->lang->line("services_header_1"); ?> <span style="color:#38c0e6"><strong><?php echo $this->lang->line("services_header_2"); ?></strong></span></h2>
 				<div class="separator" style="margin-bottom:40px"></div>
 			</div>
 		</div>
@@ -221,24 +221,25 @@
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-wordpress"></i></span>
-					<h3>בניית אתרי וורדפס</h3>
+					<h3><?php echo $this->lang->line("services_subheader_1"); ?></h3>
 					<div class="separator clearfix"></div>
-					<p>פיתוח ובניית אתרי וורדפרס עם אפשרות להוספת מספר לא מוגבל של תוספות. המוצר כולל ממשק ניהול תוכן ידידותי עבור הלקוח.</p>
+					<p><?php echo $this->lang->line("services_subcontent_1"); ?></p>
 				</div>
 			</div>
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-arrows"></i></span>
-					<h3>פיתוח אתר מותאם אישית</h3>
+					<h3><?php echo $this->lang->line("services_subheader_2"); ?></h3>
 					<div class="separator clearfix"></div>
-					<p>פיתוח אתרים מותאים אישית ללקוח ללא שימוש במערכות CMS מוכנות, אך בשוש במסגרות וטכנולוגיות כמו Codeigniter ו - Bootstrap.</p>				</div>
+					<p><?php echo $this->lang->line("services_subcontent_2"); ?></p>
+				</div>
 			</div>
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-line-chart"></i></span>
-					<h3>קידום אתרים</h3>
+					<h3><?php echo $this->lang->line("services_subheader_3"); ?></h3>
 					<div class="separator clearfix"></div>
-					<p>קידום אורגני של אתרים (SEO) עם שאפשרות לקידום ממומן במקרה הצורך. הגדרת מילות מפתח ואופטימיזציה למנועי חיפוש.</p>
+					<p><?php echo $this->lang->line("services_subcontent_3"); ?></p>
 				</div>
 			</div>
 		</div>
@@ -247,25 +248,25 @@
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-exchange"></i></span>
-					<h3>הגירה של אתר</h3>
+					<h3><?php echo $this->lang->line("services_subheader_4"); ?></h3>
 					<div class="separator clearfix"></div>
-					<p>היום ישנם כילים טובים להעברת אתר ממערכת ספציפית למערכת אחרת כמו מעבר מ - Joomla ל - Wordpress, כולל הגירה של בסיס הנתונים.</p>
+					<p><?php echo $this->lang->line("services_subcontent_4"); ?></p>
 				</div>
 			</div>
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-leaf"></i></span>
-					<h3>חידוש עיצוב של אתר קיים</h3>
+					<h3><?php echo $this->lang->line("services_subheader_5"); ?></h3>
 					<div class="separator clearfix"></div>
-					<p>ישנם מקרים בהם לא כדאי לבנות מחדש את כל האתר אלא מספיק לתת חידוש ורענון לעיצוב הקיים. התחדשות היא דבר טוב ונחוץ.</p>
+					<p><?php echo $this->lang->line("services_subcontent_5"); ?></p>
 				</div>
 			</div>
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-database"></i></span>
-					<h3>הפיכת אתר סטטי לדינאמי</h3>
+					<h3><?php echo $this->lang->line("services_subheader_6"); ?></h3>
 					<div class="separator clearfix"></div>
-					<p>ניתן להפוף אתרים מיושנים מבוססי html בלבד לאתרים דינאמיים ע"י הוספת בסיס נתונים ומערכת ניהול תוכן עבור הלקוח.</p>
+					<p><?php echo $this->lang->line("services_subcontent_6"); ?></p>
 				</div>
 			</div>
 		</div>
@@ -280,9 +281,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h2 class="text-center object-non-visible" data-animation-effect="zoomIn" data-effect-delay="100">רוצים אתר חדשני ומרענן עבור העסק?</h2>
+				<h2 class="text-center object-non-visible" data-animation-effect="zoomIn" data-effect-delay="100"><?php echo $this->lang->line("banner_1_title"); ?></h2>
 				<div class="separator object-non-visible" data-animation-effect="zoomIn" data-effect-delay="100"></div>
-				<p class="text-center"><a href="#footer" class="btn btn-lg btn-dark object-non-visible" data-animation-effect="zoomIn" data-effect-delay="500">צרו איתי קשר</a></p>
+				<p class="text-center"><a href="#footer" class="btn btn-lg btn-dark object-non-visible" data-animation-effect="zoomIn" data-effect-delay="500"><?php echo $this->lang->line("banner_1_button"); ?></a></p>
 			</div>
 		</div>
 	</div>
@@ -293,9 +294,9 @@
 <!-- My tools section -->
 <div class="row">
 	<div class="col-md-8 col-md-offset-2">
-		<h2 class="text-center">ארגז <span style="color:#38c0e6"><strong>הכלים שלי</strong></span></h2>
+		<h2 class="text-center"><?php echo $this->lang->line("tools_title_1"); ?> <span style="color:#38c0e6"><strong><?php echo $this->lang->line("tools_title_2"); ?></strong></span></h2>
 		<div class="separator"></div>
-		<p class="large text-center">שפות תכנות וטכנולוגיות בהם אני משתמש</p>
+		<p class="large text-center"><?php echo $this->lang->line("tools_subtitle"); ?></p>
 	</div>
 </div>
 <div class="container">
@@ -345,7 +346,7 @@
 	<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h2 class="text-center">תהליך <span style="color:#38c0e6"><strong>עבודה</strong></span></h2>
+					<h2 class="text-center"><?php echo $this->lang->line("process_title_1"); ?> <span style="color:#38c0e6"><strong><?php echo $this->lang->line("process_title_2"); ?></strong></span></h2>
 					<div class="separator" style="margin-bottom:40px"></div>
 				</div>
 			</div>
@@ -353,13 +354,13 @@
 			<!-- ================ -->
 			<div class="timeline clearfix">
 
-				<div class="timeline-date-label clearfix" style="margin-top:-70px">יצירת קשר</div>
+				<div class="timeline-date-label clearfix" style="margin-top:-70px"><?php echo $this->lang->line("process_beginning"); ?></div>
 
 				<!-- Process timeline item start -->
 				<div class="timeline-item">
 					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="width:250px" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
 						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-volume-control-phone"></i></span> מתן יעוץ ללא תשלום</h5>
+							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-volume-control-phone"></i></span> <?php echo $this->lang->line("process_label_1"); ?></h5>
 						</header>
 					</article>
 				</div>
@@ -371,7 +372,7 @@
 					<!-- blogpost start -->
 					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="width:250px;float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
 						<header style="padding: 0px 0px 0px 30px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-pencil"></i></span>קביעת מטרות ואפיון האתר</h5>
+							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-pencil"></i></span> <?php echo $this->lang->line("process_label_2"); ?></h5>
 						</header>
 					</article>
 					<!-- blogpost end -->
@@ -382,7 +383,7 @@
 				<div class="timeline-item">
 					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="width:250px" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
 						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-graduation-cap"></i></span> מחקר ובחירת טכנולוגיות</h5>
+							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-graduation-cap"></i></span> <?php echo $this->lang->line("process_label_3"); ?></h5>
 						</header>
 					</article>
 				</div>
@@ -394,7 +395,7 @@
 					<!-- blogpost start -->
 					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="width:250px;float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
 						<header style="padding: 0px 0px 0px 30px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-image"></i></span>בחירת עיצוב/תבנית</h5>
+							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-image"></i></span><?php echo $this->lang->line("process_label_4"); ?></h5>
 						</header>
 					</article>
 					<!-- blogpost end -->
@@ -405,7 +406,7 @@
 				<div class="timeline-item">
 					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="width:250px" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
 						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-leaf"></i></span> עיצוב ופיתוח</h5>
+							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-leaf"></i></span> <?php echo $this->lang->line("process_label_5"); ?></h5>
 						</header>
 					</article>
 				</div>
@@ -417,7 +418,7 @@
 					<!-- blogpost start -->
 					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="width:250px;float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
 						<header style="padding: 0px 0px 0px 30px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-tv"></i></span>הצגת המוצר ללקוח </h5>
+							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-tv"></i></span><?php echo $this->lang->line("process_label_6"); ?></h5>
 						</header>
 					</article>
 					<!-- blogpost end -->
@@ -429,7 +430,7 @@
 				<div class="timeline-item">
 					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="width:250px" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
 						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-arrows"></i></span> התאמות אחרונות</h5>
+							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-arrows"></i></span> <?php echo $this->lang->line("process_label_7"); ?></h5>
 						</header>
 					</article>
 				</div>
@@ -441,7 +442,7 @@
 					<!-- blogpost start -->
 					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="width:250px;float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
 						<header style="padding: 0px 0px 0px 30px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-cloud-upload"></i></span>העלאת האתר לשרת </h5>
+							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-cloud-upload"></i></span><?php echo $this->lang->line("process_label_8"); ?> </h5>
 						</header>
 					</article>
 					<!-- blogpost end -->
@@ -449,7 +450,7 @@
 				<!-- timeline grid item end -->
 
 
-				<div class="timeline-date-label clearfix">אתר מוכן</div>
+				<div class="timeline-date-label clearfix"><?php echo $this->lang->line("process_end"); ?></div>
 
 			</div>
 			<!-- timeline grid end -->

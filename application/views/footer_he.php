@@ -7,8 +7,8 @@
         <div class="call-to-action text-center">
           <div class="row">
             <!-- <div class="col-sm-8"> -->
-            <h2 class="text-center">צרו <span style="color:#38c0e6"><strong>קשר</strong></span></h2>
-            <h2>אשמח לשמוע על הפרויקט שלך</h2>
+            <h2 class="text-center"><?php echo $this->lang->line("banner_2_title_1"); ?> <span style="color:#38c0e6"><strong><?php echo $this->lang->line("banner_2_title_2"); ?></strong></span></h2>
+            <h2><?php echo $this->lang->line("banner_2_title_3"); ?></h2>
             <!-- </div> -->
             <div class="col-sm-4">
               <p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">053-5203818<i class="fa fa-phone pl-20"></i></a></p>
@@ -38,7 +38,7 @@
             <!-- <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p> -->
             <ul class="list-inline mb-20">
               <!-- <li><i class="text-default fa fa-map-marker pr-5"></i> יצחק הלוי 9, חולון</li> -->
-              <li style="font-size:18px"><i class="text-default fa fa-phone pl-10 pr-5"></i> 053-5203818</li>
+              <li style="font-size:18px"><i class="text-default fa fa-phone pl-10 pr-5"></i><span style="color:#333333"> 053-5203818 </span></li>
               <li style="font-size:18px"><a href="mailto:tofraweb@gmail.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i> tofraweb@gmail.com</a></li>
             </ul>
             <div class="separator-2"></div>
@@ -85,20 +85,20 @@
             <?php echo form_open_multipart('email/send_mail');?>
               <div class="form-group has-feedback mb-10">
                 <label class="sr-only" for="name">שם</label>
-                <input type="text" class="form-control" id="name" placeholder="שם מלא" name="name">
+                <input type="text" class="form-control" id="name" placeholder="<?php echo $this->lang->line("form_fullname"); ?>" name="name">
                 <i class="fa fa-user form-control-feedback"></i>
               </div>
               <div class="form-group has-feedback mb-10">
-                <label class="sr-only" for="email">כתובת אימייל</label>
-                <input type="email" class="form-control" id="email" placeholder="כתובת אימייל" name="email">
+                <label class="sr-only" for="email"><?php echo $this->lang->line("form_email"); ?></label>
+                <input type="email" class="form-control" id="email" placeholder="<?php echo $this->lang->line("form_email"); ?>" name="email">
                 <i class="fa fa-envelope form-control-feedback"></i>
               </div>
               <div class="form-group has-feedback mb-10">
-                <label class="sr-only" for="message">הודעה</label>
-                <textarea class="form-control" rows="4" id="message" placeholder="הודעה" name="message"></textarea>
+                <label class="sr-only" for="message"><?php echo $this->lang->line("form_content"); ?></label>
+                <textarea class="form-control" rows="4" id="message" placeholder="<?php echo $this->lang->line("form_content"); ?>" name="message"></textarea>
                 <i class="fa fa-pencil form-control-feedback"></i>
               </div>
-              <input type="submit" value="שלח"  class="margin-clear submit-button btn btn-default" />
+              <input type="submit" value="<?php echo $this->lang->line("form_button"); ?>"  class="margin-clear submit-button btn btn-default" />
 
             </form>
 

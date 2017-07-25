@@ -32,7 +32,7 @@
 					</div>
 
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption xlarge_white"
+					<div class="tp-caption xlarge_white" style="margin-top:80px"
 						data-x="center"
 						data-y="110"
 						data-start="500"
@@ -49,7 +49,7 @@
 					</div>
 
 					<!-- LAYER NR. 2 -->
-					<div class="tp-caption xlarge_white"
+					<div class="tp-caption xlarge_white" style="margin-top:80px"
 						data-x="center"
 						data-y="110"
 						data-start="2500"
@@ -66,7 +66,7 @@
 					</div>
 
 					<!-- LAYER NR. 3 -->
-					<div class="tp-caption xlarge_white"
+					<div class="tp-caption xlarge_white" style="margin-top:80px"
 						data-x="center"
 						data-y="110"
 						data-start="4500"
@@ -83,7 +83,7 @@
 					</div>
 
 					<!-- LAYER NR. 4 -->
-					<div class="tp-caption large_white"
+					<div class="tp-caption large_white" style="margin-top:80px"
 						data-x="center"
 						data-y="110"
 						data-start="7000"
@@ -96,7 +96,7 @@
 
 
 					<!-- LAYER NR. 5 -->
-					<div class="tp-caption"
+					<div class="tp-caption" style="margin-top:80px"
 						data-x="center"
 						data-y="250"
 						data-hoffset="-232"
@@ -108,7 +108,7 @@
 					</div>
 
 					<!-- LAYER NR. 6 -->
-					<div class="tp-caption"
+					<div class="tp-caption" style="margin-top:80px"
 						data-x="center"
 						data-y="250"
 						data-start="3100"
@@ -119,7 +119,7 @@
 					</div>
 
 					<!-- LAYER NR. 7 -->
-					<div class="tp-caption"
+					<div class="tp-caption" style="margin-top:80px"
 						data-x="center"
 						data-y="250"
 						data-hoffset="232"
@@ -131,7 +131,7 @@
 					</div>
 
 					<!-- LAYER NR. 8 -->
-					<div class="tp-caption tp-resizeme large_white"
+					<div class="tp-caption tp-resizeme large_white" style="margin-top:100px"
 						data-x="center"
 						data-y="210"
 						data-start="6400"
@@ -142,7 +142,7 @@
 					</div>
 
 					<!-- LAYER NR. 9 -->
-					<div class="tp-caption"
+					<div class="tp-caption" style="margin-top:80px"
 						data-x="center"
 						data-y="bottom"
 						data-voffset="100"
@@ -178,7 +178,7 @@
 					</div>
 
 					<!-- LAYER NR. 1 -->
-					<div class="tp-caption large_white"
+					<div class="tp-caption large_white" style="margin-top:80px"
 						data-x="right"
 						data-y="110"
 						data-start="1000"
@@ -191,7 +191,7 @@
 					</div>
 
 					<!-- LAYER NR. 2 -->
-					<div class="tp-caption medium_white"
+					<div class="tp-caption medium_white" style="margin-top:80px"
 						data-x="right"
 						data-y="240"
 						data-speed="500"
@@ -204,7 +204,7 @@
 					</div>
 
 					<!-- LAYER NR. 3 -->
-					<div class="tp-caption medium_white"
+					<div class="tp-caption medium_white" style="margin-top:80px"
 						data-x="right"
 						data-y="300"
 						data-speed="500"
@@ -217,7 +217,7 @@
 					</div>
 
 					<!-- LAYER NR. 4 -->
-					<div class="tp-caption medium_white"
+					<div class="tp-caption medium_white" style="margin-top:80px"
 						data-x="right"
 						data-y="360"
 						data-speed="500"
@@ -229,8 +229,9 @@
 						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><?php echo $this->lang->line("slider_2_list_3"); ?> <span class="icon default-bg circle small hidden-xs"><i class="icon-leaf"></i></span>
 					</div>
 
+
 					<!-- LAYER NR. 5 -->
-					<div class="tp-caption medium_white"
+					<div class="tp-caption medium_white" style="margin-top:80px"
 						data-x="right"
 						data-y="420"
 						data-speed="500"
@@ -243,7 +244,7 @@
 					</div>
 
 					<!-- LAYER NR. 6 -->
-					<div class="tp-caption small_white"
+					<div class="tp-caption small_white" style="margin-top:80px"
 						data-x="right"
 						data-y="490"
 						data-speed="500"
@@ -254,6 +255,21 @@
 						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
 						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"><a href="#footer" class="btn btn-default btn-lg btn-animated"><?php echo $this->lang->line("slider_2_button"); ?> <i class="fa fa-envelope"></i></a>
 					</div>
+
+					<!-- LAYER NR. 9 -->
+					<div class="tp-caption"
+						data-x="center"
+						data-y="bottom"
+						data-voffset="100"
+						data-start="1250"
+						data-transform_idle="o:1;"
+						data-transform_in="y:[100%];sX:1;sY:1;o:0;s:2000;e:Power4.easeInOut;"
+						data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;"
+						data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
+						data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;">
+							<a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a>
+					</div>
+
 					</li>
 					<!-- slide 2 end -->
 
@@ -267,7 +283,7 @@
 
 
 					<!-- Transparent Background -->
-					<div class="tp-caption dark-translucent-bg"
+					<div class="tp-caption dark-translucent-bg" style="margin-top:80px"
 						data-x="center"
 						data-y="center"
 						data-start="0"
@@ -280,7 +296,7 @@
 
 
 					<!-- LAYER NR. 4 -->
-					<div class="tp-caption large_white"
+					<div class="tp-caption large_white" style="margin-top:80px"
 						data-x="center"
 						data-y="110"
 						data-start="1000"
@@ -294,11 +310,11 @@
 
 
 					<!-- LAYER NR. 8 -->
-					<div class="tp-caption tp-resizeme large_white"
+					<div class="tp-caption tp-resizeme large_white" style="margin-top:90px"
 						data-x="center"
 						data-y="210"
 						data-start="2000"
-						data-end="3000"
+						data-end="9000"
 						data-transform_idle="o:1;"
 						data-transform_in="y:[-100%];sX:1;sY:1;o:0;s:1100;e:Power4.easeInOut;"
 						data-transform_out="y:0;s:1000;e:Power2.easeInOut;"><div class="separator light"></div>
