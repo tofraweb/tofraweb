@@ -78,6 +78,29 @@ class Admin extends CI_Controller {
 		}
 	}
 
+	public function posts()
+	{
+
+		try{
+			$crud = new grocery_CRUD();
+
+			$crud->set_theme('datatables');
+			$crud->set_table('posts');
+			$crud->set_subject('Post');
+			$crud->set_relation('author','users','fullname');
+			$crud->set_field_upload('picture','assets/img/blog');
+			$crud->callback_after_upload(array($this,'resize_img_after_upload'));
+
+			$output = $crud->render();
+
+			$this->_example_output($output, 'Post', 'management');
+
+		}catch(Exception $e){
+			show_error($e->getMessage().' --- '.$e->getTraceAsString());
+		}
+
+	}
+
 
  /*DB related scripts*/
 	public function update_species_pictures()

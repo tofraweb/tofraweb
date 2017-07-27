@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 //session_start(); //we need to call PHP's session object to access it through CI
 class Email extends CI_Controller {
-
+  public $language = " ";
   public function __construct()
   {
     parent::__construct();
@@ -18,8 +18,17 @@ class Email extends CI_Controller {
   }
 
   public function send_mail() {
+    //$this->session->set_userdata('site_lang', $language);
+    $this->language = $this->session->userdata('site_lang');
+    //$data['lang'] = $this->session->userdata('site_lang');
+    if($this->language != "he" && $this->language != NULL) {
+      $lang = "";
+    }else{
+      $lang = "_he";
+    }
     // $EMAIL = $this->input->post('email');
-
+    // var_dump($data['lang']);
+    // exit;
     if (!isset($_POST)){
       //redirect if no parameter e-mail
       redirect(base_url());
@@ -42,28 +51,33 @@ class Email extends CI_Controller {
       // try send mail ant if not able print debug
       if ( ! $this->email->send())
       {
-        $data['mail_message'] ="Email not sent \n".$this->email->print_debugger();
-        $this->load->view('header');
-        $this->load->view('frontpage_view');
-        $this->load->view('footer', $data);
+        $data['mail_not_sent'] = $this->email->print_debugger();
+        $data['lang'] = $this->language;
+        //var_dump($data['mail_error']); exit;
+        $this->load->view('header'.$lang, $data);
+        $this->load->view('email_message_view', $data);
+        $this->load->view('footer'.$lang);
 
-      }
+      } else {
          // successfull message
-        $data['mail_message'] ="Email was successfully sent to $email";
-
-        $this->load->view('header');
-        $this->load->view('frontpage_view');
-        $this->load->view('footer', $data);
+        $data['mail_success'] ="success";
+        $data['lang'] = $this->language;
+        $this->load->view('header'.$lang, $data);
+        $this->load->view('email_message_view', $data);
+        $this->load->view('footer'.$lang);
+      }
     } else {
 
-      $data['mail_message'] ="Email address ($email) is not correct. Please <a href=".base_url().">try again</a>";
+      $data['mail_not_correct'] = $email;
+      $data['lang'] = $this->language;
 
-      $this->load->view('header');
-      $this->load->view('frontpage_view');
-      $this->load->view('footer', $data);
+      $this->load->view('header'.$lang, $data);
+      $this->load->view('email_message_view', $data);
+      $this->load->view('footer'.$lang);
     }
 
   }
+
 
 }
 

@@ -57,10 +57,10 @@
         <div class="col-md-6">
           <div class="footer-content">
             <div class="alert alert-success hidden" id="MessageSent2">
-              <?php echo $mail_message; ?>
+
             </div>
             <div class="alert alert-danger hidden" id="MessageNotSent2">
-              <?php echo $mail_message; ?>
+
             </div>
             <!-- <form action="<?php echo base_url();?>email/send_mail" role="form" id="footer-form" class="margin-clear">
               <div class="form-group has-feedback mb-10">
@@ -82,7 +82,7 @@
             </form> -->
 
 
-            <?php echo $error;?>
+            <?php// echo $error;?>
             <?php echo form_open_multipart('email/send_mail');?>
               <div class="form-group has-feedback mb-10">
                 <label class="sr-only" for="name">שם</label>

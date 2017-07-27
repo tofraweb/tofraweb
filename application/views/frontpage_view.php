@@ -12,7 +12,7 @@
 			<div class="row grid-space-0">
 				<div class="col-md-4" style="margin-top:20px; margin-right:-30px;padding-bottom:40px">
 					<div class="overlay-container">
-						<img style="display: -webkit-inline-box" src="assets/profile/profile-square.png" alt="">
+						<img style="display: -webkit-inline-box" src="<?php echo base_url();?>assets/profile/profile-square.png" alt="">
 					</div>
 				</div>
 				<div class="col-md-8">

@@ -4,7 +4,7 @@ $lang["menu_home"] = "בית";
 $lang["menu_about"] = "על עצמי";
 $lang["menu_portfolio"] = "תיק עבודות";
 $lang["menu_why"] = "למה אני";
-$lang["menu_services"] = "תחומי שירות";
+$lang["menu_services"] = "שירות";
 $lang["menu_process"] = "תהליך עבודה";
 $lang["menu_contact"] = "צרו קשר";
 /*  Menu end  */
@@ -92,6 +92,18 @@ $lang["form_email"] = "כתובת אימייל";
 $lang["form_content"] = "הודעה";
 $lang["form_button"] = "שלח";
 /*  Form end  */
+
+/*  Email message start */
+$lang["email_message_success_title"] = "הודעה נשלחה";
+$lang["email_message_error_title"] = "שגיאה בשליחת הודעה";
+$lang["email_message_success_1"] = "ההודעה שלך נשלחה בהצלחה!";
+$lang["email_message_success_2"] = "אצור אתך קשר בהקדם האפשרי.";
+$lang["email_message_success_3"] = "כל טוב,   טומי פרנק";
+$lang["email_message_not_sent_1"] = "עקב תקלה ההודעה לא נשלחה.";
+$lang["email_message_not_sent_2"] = "אנא תנסו שוב.";
+$lang["email_message_not_correct_1"] = "כתובת אימייל לא תקינה";
+$lang["email_message_not_correct_2"] = "נא להכניס כתובת תקינה.";
+/*  Email message end  */
 
 /*  Other start */
 $lang["tools_title_1"] = "ארגז";

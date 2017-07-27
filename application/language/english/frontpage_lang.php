@@ -93,6 +93,18 @@ $lang["form_content"] = "Message";
 $lang["form_button"] = "Send";
 /*  Form end  */
 
+/*  Email message start */
+$lang["email_message_success_title"] = "Message sent";
+$lang["email_message_error_title"] = "An error occurred";
+$lang["email_message_success_1"] = "Your message was successfully sent!";
+$lang["email_message_success_2"] = "I will contact you soon.";
+$lang["email_message_success_3"] = "Best regards,   Tomi Frank";
+$lang["email_message_not_sent_1"] = "There was an error sending your message.";
+$lang["email_message_not_sent_2"] = "Please try it again.";
+$lang["email_message_not_correct_1"] = "The email address is not correct.";
+$lang["email_message_not_correct_2"] = "Please try to enter it correctly.";
+/*  Email message end  */
+
 /*  Other start */
 $lang["tools_title_1"] = "My";
 $lang["tools_title_2"] = "tools";

@@ -154,29 +154,29 @@
 													<ul class="nav navbar-nav navbar-right">
 														<?php
 														switch ($lang) {
-															case 'en': ?>
+															case 'english': ?>
 																<li><a href="<?php echo base_url();?>lang/index/hu"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/hu_flag_tiny.png" alt="Magyar" title="Magyar"></a></li>
 																<li style="margin-left:-20px"><a href="<?php echo base_url();?>lang/index/he"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/il_flag_tiny.png" alt="עברית" title="English"></a></li>
 																<?php break;
 															case 'hu': ?>
-																<li><a href="<?php echo base_url();?>lang/index/en"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
+																<li><a href="<?php echo base_url();?>lang/index/english"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
 																<li style="margin-left:-20px"><a href="<?php echo base_url();?>lang/index/he"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/il_flag_tiny.png" alt="עברית" title="Magyar"></a></li>
 																<?php break;
 															default: ?>
 																<li><a href="<?php echo base_url();?>lang/index/hu"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/hu_flag_tiny.png" alt="Magyar" title="Magyar"></a></li>
-																<li style="margin-left:-20px"><a href="<?php echo base_url();?>lang/index/en"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
+																<li style="margin-left:-20px"><a href="<?php echo base_url();?>lang/index/english"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
 																<?php break;
 														} ?>
-														<li><a href="#footer"><?php echo $this->lang->line("menu_contact"); ?></a></li>
+														<li><a href="<?php echo base_url();?>#footer"><?php echo $this->lang->line("menu_contact"); ?></a></li>
 														<?php if(!$is_mobile) { ?>
-															<li><a href="#process"><?php echo $this->lang->line("menu_process"); ?></a></li>
+															<li><a href="<?php echo base_url();?>#process"><?php echo $this->lang->line("menu_process"); ?></a></li>
 														<?php } ?>
-														<li><a href="#services"><?php echo $this->lang->line("menu_services"); ?></a></li>
+														<li><a href="<?php echo base_url();?>#services"><?php echo $this->lang->line("menu_services"); ?></a></li>
 														<!-- <li><a href="#testimonial">חוות דעת</a></li> -->
-														<li><a href="#why"><?php echo $this->lang->line("menu_why"); ?></a></li>
-														<li><a href="#portfolio"><?php echo $this->lang->line("menu_portfolio"); ?></a></li>
-														<li><a href="#about"><?php echo $this->lang->line("menu_about"); ?></a></li>
-                            <li class="active"><a href="<?php echo base_url();?>"><?php echo $this->lang->line("menu_home"); ?></a></li>
+														<li><a href="<?php echo base_url();?>#why"><?php echo $this->lang->line("menu_why"); ?></a></li>
+														<li><a href="<?php echo base_url();?>#portfolio"><?php echo $this->lang->line("menu_portfolio"); ?></a></li>
+														<li><a href="<?php echo base_url();?>#about"><?php echo $this->lang->line("menu_about"); ?></a></li>
+														<li class="active"><a href="<?php echo base_url();?>"><?php echo $this->lang->line("menu_home"); ?></a></li>
 													</ul>
 												</div>
 

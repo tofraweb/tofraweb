@@ -162,19 +162,19 @@
 															<li><a href="#process"><?php echo $this->lang->line("menu_process"); ?></a></li>
 														<?php } ?>
 														<li><a href="#footer"><?php echo $this->lang->line("menu_contact"); ?></a></li>
-														<?php
+														<?php //var_dump($lang);exit;
 														switch ($lang) {
-															case 'en': ?>
+															case 'english': ?>
 																<li><a href="<?php echo base_url();?>lang/index/hu"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/hu_flag_tiny.png" alt="Magyar" title="Magyar"></a></li>
 																<li><a href="<?php echo base_url();?>lang/index/he"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/il_flag_tiny.png" alt="עברית" title="English"></a></li>
 																<?php break;
 															case 'hu': ?>
-																<li><a href="<?php echo base_url();?>lang/index/en"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
+																<li><a href="<?php echo base_url();?>lang/index/english"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
 																<li><a href="<?php echo base_url();?>lang/index/he"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/il_flag_tiny.png" alt="עברית" title="Magyar"></a></li>
 																<?php break;
 															default: ?>
 																<li><a href="<?php echo base_url();?>lang/index/hu"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/hu_flag_tiny.png" alt="Magyar" title="Magyar"></a></li>
-																<li><a href="<?php echo base_url();?>lang/index/en"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
+																<li><a href="<?php echo base_url();?>lang/index/english"><img style="max-height:24px" id="logo_img" src="<?php echo base_url();?>assets/img/uk_flag_tiny.png" alt="English" title="English"></a></li>
 																<?php break;
 														} ?>
 													</ul>
