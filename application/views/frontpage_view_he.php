@@ -92,12 +92,12 @@
 				</div>
 			</div>
 			<div class="modal-footer" style="text-align:center">
-				<div>
+				<!-- <div>
 					לקוח - <strong><?php  echo $portfolio[$cnt]->name_he; ?></strong> |
 					תאריך - <strong><?php  echo $portfolio[$cnt]->project_ended; ?></strong> |
 					תחום - <strong><?php  echo $portfolio[$cnt]->field; ?></strong> |
 					אתר - <strong><a href="<?php  echo $portfolio[$cnt]->project_url; ?>" target="_blank"><?php  echo $portfolio[$cnt]->link_title; ?></a></strong>
-				</div>
+				</div> -->
 				<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">סגור</button>
 			</div>
 		</div>
@@ -121,7 +121,7 @@
 				<div class="row">
 					<div class="col-md-4 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-							<span class="icon default-bg small"><i class="fa fa-heart-o"></i></span>
+							<span class="icon default-bg small"><i class="icon-mobile"></i></span>
 							<div class="body">
 								<h4 class="title" style="font-size:24px"><?php echo $this->lang->line("why_subheader_1"); ?></h4>
 								<p style="font-size:18px"><?php echo $this->lang->line("why_subcontent_1"); ?></p>
@@ -130,7 +130,7 @@
 					</div>
 					<div class="col-md-4 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
-							<span class="icon default-bg small"><i class="fa fa-connectdevelop"></i></span>
+							<span class="icon default-bg small"><i class="icon-lifebuoy"></i></span>
 							<div class="body">
 								<h4 class="title" style="font-size:24px"><?php echo $this->lang->line("why_subheader_2"); ?></h4>
 								<p style="font-size:18px"><?php echo $this->lang->line("why_subcontent_2"); ?></p>
@@ -139,7 +139,7 @@
 					</div>
 					<div class="col-md-4 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="250">
-							<span class="icon default-bg small"><i class="icon-check"></i></span>
+							<span class="icon default-bg small"><i class="fa fa-connectdevelop"></i></span>
 							<div class="body">
 								<h4 class="title" style="font-size:24px"><?php echo $this->lang->line("why_subheader_3"); ?></h4>
 								<p style="font-size:18px"><?php echo $this->lang->line("why_subcontent_3"); ?></p>
@@ -317,22 +317,16 @@
 			<a href="#"><img src="<?php echo base_url();?>assets/tools/wordpress.png" alt=""></a>
 		</div>
 		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/jquery.gif" alt=""></a>
+			<a href="#"><img style="max-width:90px" src="<?php echo base_url();?>assets/tools/jquery.gif" alt=""></a>
 		</div>
 		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/bootstrap.png" alt=""></a>
+			<a href="#"><img style="max-width:90px" src="<?php echo base_url();?>assets/tools/bootstrap.png" alt=""></a>
 		</div>
 		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/Ajax.png" alt=""></a>
+			<a href="#"><img style="max-width:90px" src="<?php echo base_url();?>assets/tools/css3.jpg" alt=""></a>
 		</div>
 		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/css3.jpg" alt=""></a>
-		</div>
-		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/html5.png" alt=""></a>
-		</div>
-		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/DirectAdmin.png" alt=""></a>
+			<a href="#"><img style="max-width:90px" src="<?php echo base_url();?>assets/tools/html5.png" alt=""></a>
 		</div>
 	</div>
 </div>

@@ -10,13 +10,13 @@
 				<div class="separator"></div>
 			</div>
 			<div class="row grid-space-0">
-				<div class="col-md-5" style="margin-top:30px; margin-right:-15px;padding-bottom:30px">
+				<div class="col-md-4" style="margin-top:20px; margin-right:-30px;padding-bottom:40px">
 					<div class="overlay-container">
 						<img style="display: -webkit-inline-box" src="assets/profile/profile-square.png" alt="">
 					</div>
 				</div>
-				<div class="col-md-7">
-					<div class="body">
+				<div class="col-md-8">
+					<div class="body" style="padding:20px">
 						<div class="pv-10 visible-lg"></div>
 						<h3><?php echo $this->lang->line("about_subheader"); ?></h3>
 						<!-- <p class="small mb-10"><i class="icon-calendar"></i> יולי, 2017 <i class="pl-10 icon-tag-1"></i> מפתח PHP</p> -->
@@ -121,7 +121,7 @@
 				<div class="row">
 					<div class="col-md-4 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
-							<span class="icon default-bg small"><i class="fa fa-heart-o"></i></span>
+							<span class="icon default-bg small"><i class="fa fa-connectdevelop"></i></span>
 							<div class="body">
 								<h4 class="title" style="font-size:24px"><?php echo $this->lang->line("why_subheader_1"); ?></h4>
 								<p style="font-size:18px"><?php echo $this->lang->line("why_subcontent_1"); ?></p>
@@ -130,7 +130,7 @@
 					</div>
 					<div class="col-md-4 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="150">
-							<span class="icon default-bg small"><i class="fa fa-connectdevelop"></i></span>
+							<span class="icon default-bg small"><i class="icon-lifebuoy"></i></span>
 							<div class="body">
 								<h4 class="title" style="font-size:24px"><?php echo $this->lang->line("why_subheader_2"); ?></h4>
 								<p style="font-size:18px"><?php echo $this->lang->line("why_subcontent_2"); ?></p>
@@ -139,7 +139,7 @@
 					</div>
 					<div class="col-md-4 ">
 						<div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="250">
-							<span class="icon default-bg small"><i class="icon-check"></i></span>
+							<span class="icon default-bg small"><i class="icon-mobile"></i></span>
 							<div class="body">
 								<h4 class="title" style="font-size:24px"><?php echo $this->lang->line("why_subheader_3"); ?></h4>
 								<p style="font-size:18px"><?php echo $this->lang->line("why_subcontent_3"); ?></p>
@@ -221,7 +221,7 @@
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-wordpress"></i></span>
-					<h3><?php echo $this->lang->line("services_subheader_1"); ?></h3>
+					<h4><?php echo $this->lang->line("services_subheader_1"); ?></h4>
 					<div class="separator clearfix"></div>
 					<p><?php echo $this->lang->line("services_subcontent_1"); ?></p>
 				</div>
@@ -229,7 +229,7 @@
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-arrows"></i></span>
-					<h3><?php echo $this->lang->line("services_subheader_2"); ?></h3>
+					<h4><?php echo $this->lang->line("services_subheader_2"); ?></h4>
 					<div class="separator clearfix"></div>
 					<p><?php echo $this->lang->line("services_subcontent_2"); ?></p>
 				</div>
@@ -237,7 +237,7 @@
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-line-chart"></i></span>
-					<h3><?php echo $this->lang->line("services_subheader_3"); ?></h3>
+					<h4><?php echo $this->lang->line("services_subheader_3"); ?></h4>
 					<div class="separator clearfix"></div>
 					<p><?php echo $this->lang->line("services_subcontent_3"); ?></p>
 				</div>
@@ -248,7 +248,7 @@
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-exchange"></i></span>
-					<h3><?php echo $this->lang->line("services_subheader_4"); ?></h3>
+					<h4><?php echo $this->lang->line("services_subheader_4"); ?></h4>
 					<div class="separator clearfix"></div>
 					<p><?php echo $this->lang->line("services_subcontent_4"); ?></p>
 				</div>
@@ -256,7 +256,7 @@
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-leaf"></i></span>
-					<h3><?php echo $this->lang->line("services_subheader_5"); ?></h3>
+					<h4><?php echo $this->lang->line("services_subheader_5"); ?></h4>
 					<div class="separator clearfix"></div>
 					<p><?php echo $this->lang->line("services_subcontent_5"); ?></p>
 				</div>
@@ -264,7 +264,7 @@
 			<div class="col-md-4 " style="float:right">
 				<div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
 					<span class="icon default-bg circle"><i class="fa fa-database"></i></span>
-					<h3><?php echo $this->lang->line("services_subheader_6"); ?></h3>
+					<h4><?php echo $this->lang->line("services_subheader_6"); ?></h4>
 					<div class="separator clearfix"></div>
 					<p><?php echo $this->lang->line("services_subcontent_6"); ?></p>
 				</div>
@@ -317,22 +317,16 @@
 			<a href="#"><img src="<?php echo base_url();?>assets/tools/wordpress.png" alt=""></a>
 		</div>
 		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/jquery.gif" alt=""></a>
+			<a href="#"><img style="max-width:90px" src="<?php echo base_url();?>assets/tools/jquery.gif" alt=""></a>
 		</div>
 		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/bootstrap.png" alt=""></a>
+			<a href="#"><img style="max-width:90px" src="<?php echo base_url();?>assets/tools/bootstrap.png" alt=""></a>
 		</div>
 		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/Ajax.png" alt=""></a>
+			<a href="#"><img style="max-width:90px" src="<?php echo base_url();?>assets/tools/css3.jpg" alt=""></a>
 		</div>
 		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/css3.jpg" alt=""></a>
-		</div>
-		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/html5.png" alt=""></a>
-		</div>
-		<div class="client">
-			<a href="#"><img src="<?php echo base_url();?>assets/tools/DirectAdmin.png" alt=""></a>
+			<a href="#"><img style="max-width:90px" src="<?php echo base_url();?>assets/tools/html5.png" alt=""></a>
 		</div>
 	</div>
 </div>
@@ -358,9 +352,9 @@
 
 				<!-- Process timeline item start -->
 				<div class="timeline-item">
-					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="width:250px;float:right" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-volume-control-phone"></i></span> <?php echo $this->lang->line("process_label_1"); ?></h5>
+					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="float:right" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
+						<header style="padding: 0 15px 0 15px">
+							<h6><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-volume-control-phone"></i></span> <?php echo $this->lang->line("process_label_1"); ?></h6>
 						</header>
 					</article>
 				</div>
@@ -370,9 +364,9 @@
 				<!-- timeline grid item start -->
 				<div class="timeline-item pull-right">
 					<!-- blogpost start -->
-					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="width:250px;float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-pencil"></i></span> <?php echo $this->lang->line("process_label_2"); ?></h5>
+					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
+						<header style="padding: 0 15px 0 15px">
+							<h6><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-pencil"></i></span> <?php echo $this->lang->line("process_label_2"); ?></h6>
 						</header>
 					</article>
 					<!-- blogpost end -->
@@ -381,9 +375,9 @@
 
 				<!-- Process timeline item start -->
 				<div class="timeline-item">
-					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="width:250px;float:right" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-graduation-cap"></i></span> <?php echo $this->lang->line("process_label_3"); ?></h5>
+					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="float:right" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
+						<header style="padding: 0 15px 0 15px">
+							<h6><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-graduation-cap"></i></span> <?php echo $this->lang->line("process_label_3"); ?></h6>
 						</header>
 					</article>
 				</div>
@@ -393,9 +387,9 @@
 				<!-- timeline grid item start -->
 				<div class="timeline-item pull-right">
 					<!-- blogpost start -->
-					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="width:250px;float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-image"></i></span><?php echo $this->lang->line("process_label_4"); ?></h5>
+					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
+						<header style="padding: 0 15px 0 15px">
+							<h6><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-image"></i></span><?php echo $this->lang->line("process_label_4"); ?></h6>
 						</header>
 					</article>
 					<!-- blogpost end -->
@@ -404,9 +398,9 @@
 
 				<!-- Process timeline item start -->
 				<div class="timeline-item">
-					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="width:250px;float:right" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-leaf"></i></span> <?php echo $this->lang->line("process_label_5"); ?></h5>
+					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="float:right" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
+						<header style="padding: 0 15px 0 15px">
+							<h6><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-leaf"></i></span> <?php echo $this->lang->line("process_label_5"); ?></h6>
 						</header>
 					</article>
 				</div>
@@ -416,9 +410,9 @@
 				<!-- timeline grid item start -->
 				<div class="timeline-item pull-right">
 					<!-- blogpost start -->
-					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="width:250px;float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-tv"></i></span><?php echo $this->lang->line("process_label_6"); ?></h5>
+					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
+						<header style="padding: 0 15px 0 15px">
+							<h6><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-tv"></i></span><?php echo $this->lang->line("process_label_6"); ?></h6>
 						</header>
 					</article>
 					<!-- blogpost end -->
@@ -428,9 +422,9 @@
 
 				<!-- Process timeline item start -->
 				<div class="timeline-item">
-					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="width:250px;float:right" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-arrows"></i></span> <?php echo $this->lang->line("process_label_7"); ?></h5>
+					<article class="blogpost shadow light-gray-bg bordered object-non-visible" style="float:right" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
+						<header style="padding: 0 15px 0 15px">
+							<h6><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-arrows"></i></span> <?php echo $this->lang->line("process_label_7"); ?></h6>
 						</header>
 					</article>
 				</div>
@@ -440,9 +434,9 @@
 				<!-- timeline grid item start -->
 				<div class="timeline-item pull-right">
 					<!-- blogpost start -->
-					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="width:250px;float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
-						<header style="padding: 0px 0px 0px 0px">
-							<h5><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-cloud-upload"></i></span><?php echo $this->lang->line("process_label_8"); ?> </h5>
+					<article class="blogpost shadow light-gray-bg bordered object-non-visible"  style="float:left" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
+						<header style="padding: 0 15px 0 15px">
+							<h6><span class="icon without-bg small"><i style="color:#09afdf"class="fa fa-cloud-upload"></i></span><?php echo $this->lang->line("process_label_8"); ?> </h6>
 						</header>
 					</article>
 					<!-- blogpost end -->

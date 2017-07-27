@@ -9,10 +9,11 @@
             <!-- <div class="col-sm-8"> -->
             <h2 class="text-center"><?php echo $this->lang->line("banner_2_title_1"); ?> <span style="color:#38c0e6"><strong><?php echo $this->lang->line("banner_2_title_2"); ?></strong></span></h2>
             <h2><?php echo $this->lang->line("banner_2_title_3"); ?></h2>
+            <p style="margin-top:70px" class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">+972-53-5203818<i class="fa fa-phone pl-20"></i></a></p>
             <!-- </div> -->
-            <div class="col-sm-4">
+            <!-- <div class="col-sm-4">
               <p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">053-5203818<i class="fa fa-phone pl-20"></i></a></p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -38,7 +39,7 @@
             <!-- <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p> -->
             <ul class="list-inline mb-20">
               <!-- <li><i class="text-default fa fa-map-marker pr-5"></i> יצחק הלוי 9, חולון</li> -->
-              <li style="font-size:18px"><i class="text-default fa fa-phone pl-10 pr-5"></i><span style="color:#333333"> 053-5203818 </span></li>
+              <li style="font-size:18px"><i class="text-default fa fa-phone pl-10 pr-5"></i><span style="color:#333333"> +972-53-5203818 </span></li>
               <li style="font-size:18px"><a href="mailto:tofraweb@gmail.com" class="link-dark"><i class="text-default fa fa-envelope-o pl-10 pr-5"></i> tofraweb@gmail.com</a></li>
             </ul>
             <div class="separator-2"></div>

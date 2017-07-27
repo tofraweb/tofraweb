@@ -9,10 +9,8 @@
             <!-- <div class="col-sm-8"> -->
             <h2 class="text-center"><?php echo $this->lang->line("banner_2_title_1"); ?> <span style="color:#38c0e6"><strong><?php echo $this->lang->line("banner_2_title_2"); ?></strong></span></h2>
             <h2><?php echo $this->lang->line("banner_2_title_3"); ?></h2>
+            <p style="margin-top:70px" class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">053-5203818<i class="fa fa-phone pl-20"></i></a></p>
             <!-- </div> -->
-            <div class="col-sm-4">
-              <p class="mt-10"><a href="#" class="btn btn-animated btn-lg btn-gray-transparent">053-5203818<i class="fa fa-phone pl-20"></i></a></p>
-            </div>
           </div>
         </div>
       </div>
