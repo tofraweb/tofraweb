@@ -54,15 +54,12 @@
             <div class="tags pull-left"><i class="icon-tags"></i> <a href="#">וורדפרס</a>, <a href="#">מובייל</a>, <a href="#">פיתוח</a></div>
             <div style="text-align:center">
               <ul class="social-links default" style="text-align:center">
-                <li><a target="_blank" href="http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
-                <li><a target="_blank" href="http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
-                <li><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-                <li><a target="_blank" href="http://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
-                <li><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-                <li><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
+                <li data-layout="button" data-size="small" data-mobile-iframe="true" data-href="http://dev.tofraweb.com/blog/blog_item/<?php echo $post->id;?>"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://dev.tofraweb.com/blog/blog_item/<?php echo $post->id;?>"><i class="fa fa-facebook"></i></a></li>
               </ul>
             </div>
           </footer>
+  <!-- Your share button code -->
+
         </article>
 
         <!-- blogpost end -->

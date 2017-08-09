@@ -30,10 +30,10 @@ $lang["slider_3_subtitle"] = "Elégedetlen? Teljes visszatérítést kap!";
 /*  About start */
 $lang["about_header_1"] = "Néhány szó";
 $lang["about_header_2"] = "magamról";
-$lang["about_subheader"] = "A nevem Tomi Frank, PHP programozó és honlap fejlesztő";
-$lang["about_content_1"] = "Az elmúlt 7 évben a webfejlesztés területén dolgozom. Számos fejlesztési projektet kezeltem, beleértve egy turisztikai cég komplex ERP rendszerének kialakítását. Idővel széleskörű tapasztalatot szereztem különböző területeken, többek között a webfejlesztés, CMS rendszerek stb. területén.";
+$lang["about_subheader"] = "A nevem Tomi Frank, PHP programozó és honlapfejlesztő";
+$lang["about_content_1"] = "Az elmúlt 7 évben a webfejlesztés területén dolgoztam. Számos fejlesztési projektet kezeltem, beleértve egy turisztikai cég komplex ERP rendszerének kialakítását. Idővel széleskörű tapasztalatot szereztem különböző területeken, többek között a webfejlesztés, CMS rendszerek stb. területén.";
 $lang["about_content_2"] = "A magas szintű szolgáltatás biztosítása fontos elvet jelent számomra, amely elv az évek során mindig vezetett. Valójában ez az egyik oka annak, hogy önállóvá lettem, hiszen a nagyobb cégeknél a szolgáltatást hamarosan félreteszik a vállalat befutása után.";
-$lang["about_content_3"] = "Szeretem a minőségi weboldalak fejlesztését, tervezését és építését, de méginkább szeretem azt, ha az ügyfeleim elégedettek.";
+$lang["about_content_3"] = "Szeretem a minőségi weboldalak fejlesztését, valamint azt, ha az ügyfeleim elégedettek, mert látványosan nő a forgalmuk.";
 $lang["about_button"] = "Kapcsolat";
 /*  About end  */
 
@@ -49,13 +49,13 @@ $lang["why_header_2"] = "engem?";
 $lang["why_subheader_1"] = "Innovatív technológiák";
 $lang["why_subheader_2"] = "Termékgarancia";
 $lang["why_subheader_3"] = "Mobil kompatibilitás";
-$lang["why_subcontent_1"] = "Honlapjának minden tekintetben meg kell felelnie a mai szabványoknak, nálam a legmodernebb és legfrissebb technológiákat kapja, melyek ma elérhetőek piacon.";
-$lang["why_subcontent_2"] = "Nem kötök kompromisszumot a minõség rovására, hiszek termékeim és munkám minõségében. Ha nem lesz elégedett, teljes visszatérítést kap.";
-$lang["why_subcontent_3"] = "Ma már a legtöbb ember a mobileszközét hasznalja az internetezéshez, ezért fontos, hogy honlapja kompatibilis legyen ezekkel a platformokkal.";
+$lang["why_subcontent_1"] = "Honlapjának minden tekintetben meg kell felelnie a mai szabványoknak, nálam a piacon ma elérhető legmodernebb és legfrissebb technológiákat kapja.";
+$lang["why_subcontent_2"] = "Hiszek termékeim és munkám minõségében, ezért nem kötök kompromisszumot a minõség rovására.. Ha nem lesz elégedett, teljes visszatérítést kap.";
+$lang["why_subcontent_3"] = "Ma már a legtöbb ember a mobil eszközét használja az internetezéshez, ezért fontos, hogy honlapja kompatibilis legyen ezekkel a platformokkal.";
 /*  Why end  */
 
 /*  Services start */
-$lang["services_header_1"] = "A";
+$lang["services_header_1"] = "";
 $lang["services_header_2"] = "szolgáltatásaim";
 $lang["services_subheader_1"] = "WordPress fejlesztés";
 $lang["services_subheader_2"] = "Egyedi honlapfejlesztés";
@@ -64,11 +64,11 @@ $lang["services_subheader_4"] = "Honlap áttelepítése";
 $lang["services_subheader_5"] = "A meglévő dizájn megújítása";
 $lang["services_subheader_6"] = "Statikus oldal dinamikussá tétele";
 $lang["services_subcontent_1"] = "WordPress honlap fejlesztés korlátlan számú bővítési lehetőséggel. A termék tartalmaz egy felhasználóbarát tartalomkezelő felületet az ügyfél számára.";
-$lang["services_subcontent_2"] = "Egyéni weboldalak fejlesztése kész CMS platformok használata nélkül, de webfejlesztési keretrendszerekkel és technológiákkal, mint a Codeigniter és a Bootstrap.";
-$lang["services_subcontent_3"] = "Weboldal promóció (SEO) és szükség eseten szponzorált promóció. Keresőoptimalizálás és kulcsszavak beállítása a kereső robotok számára.";
-$lang["services_subcontent_4"] = "Meglévő honlap áttelepítése egy adott rendszerről egy másikra, például a Joomla-ról a Wordpress-re, beleértve az adatbázis áttelepítését.";
-$lang["services_subcontent_5"] = "Vannak esetek, amikor nem érdemes újraépíteni az egész oldalt, elég az, ha felújítjuk és felfrissitjük a meglévő dizájnt. A megújulás mindig jó, sőt szükséges dolog.";
-$lang["services_subcontent_6"] = "A statikus HTML weboldalak modern dinamikus oldalakká alakítása adatbázis és felhasználóbarát tartalomkezelő rendszer hozzáadásával lehetséges.";
+$lang["services_subcontent_2"] = "Egyéni weboldalak fejlesztése kész CMS platformok használata nélkül, de webfejlesztési keretrendszerekkel és technológiákkal, mint pl. a Codeigniter és a Bootstrap.";
+$lang["services_subcontent_3"] = "Weboldal promóció (SEO) és szükség esetén szponzorált promóció. Keresőoptimalizálás és kulcsszavak beállítása a kereső robotok számára.";
+$lang["services_subcontent_4"] = "Meglévő honlap áttelepítése egy adott rendszerről egy másikra, például a Joomla-ról a Wordpress-re, beleértve az adatbázis áttelepítését is.";
+$lang["services_subcontent_5"] = "Vannak esetek, amikor nem érdemes újraépíteni az egész oldalt, elég az, ha felújítjuk és felfrissítjük a meglévő dizájnt. A megújulás mindig jó, sőt szükséges dolog.";
+$lang["services_subcontent_6"] = "A statikus HTML weboldalak modern dinamikus oldalakká alakítása adatbázis és felhasználóbarát tartalomkezelő rendszer hozzáadásával.";
 /*  Services start */
 
 /*  Process start */
@@ -77,9 +77,9 @@ $lang["process_title_2"] = "folyamat";
 $lang["process_beginning"] = "Kapcsolatfelvétel";
 $lang["process_end"] = "Kész honlap";
 $lang["process_label_1"] = "Ingyenes konzultáció";
-$lang["process_label_2"] = "A weboldal jellemzése";
+$lang["process_label_2"] = "Vázlat készítés a kívánatos weboldalról";
 $lang["process_label_3"] = "Az alkalmas technológiák kiválasztása";
-$lang["process_label_4"] = "Formátum / sablon válaszás";
+$lang["process_label_4"] = "Formátum / sablon választás";
 $lang["process_label_5"] = "Tervezés és fejlesztés";
 $lang["process_label_6"] = "A weboldal bemutatása az ügyfélnek";
 $lang["process_label_7"] = "Utolsó igazítások";
@@ -106,12 +106,12 @@ $lang["email_message_not_correct_2"] = "Próbálja meg helyesen megadni.";
 /*  Email message end  */
 
 /*  Other start */
-$lang["tools_title_1"] = "Az";
-$lang["tools_title_2"] = "eszközeim";
-$lang["tools_subtitle"] = "Programozási nyelvek és technológiák, melyeket használok";
-$lang["banner_1_title"] = "Szüksége van egy innovatív és megújult weboldalra?";
+$lang["tools_title_1"] = "";
+$lang["tools_title_2"] = "Eszközeim";
+$lang["tools_subtitle"] = "Az általam használt programozási nyelvek és technológiák";
+$lang["banner_1_title"] = "Szüksége van egy megújult, innovatív weboldalra?";
 $lang["banner_1_button"] = "Kapcsolat";
 $lang["banner_2_title_1"] = "Lépjen";
-$lang["banner_2_title_2"] = "kapcsolatba";
-$lang["banner_2_title_3"] = "Szivesen hallanék az Ön projektjéről!";
+$lang["banner_2_title_2"] = "kapcsolatba velem";
+$lang["banner_2_title_3"] = "Szívesen hallanék az Ön projektjéről!";
 /*  Other end  */

@@ -7,9 +7,9 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Tofraweb - פיתוח ובניית אתרי אינטרנט</title>
-		<meta name="description" content="The Project a Bootstrap-based, Responsive HTML5 Template">
-		<meta name="author" content="htmlcoder.me">
+		<title>TofraWeb - פיתוח ובניית אתרי אינטרנט</title>
+		<meta name="description" content="פיתוח אתרי אינטרנט איכותיים. זורמים עם הטכנולוגיה.">
+		<meta name="author" content="TofraWeb">
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">

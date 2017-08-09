@@ -43,7 +43,7 @@ class Blog extends CI_Controller {
       $data['post'] = $post;
       $data['author'] = $author;
       $data['logged_in'] = $session_data;
-      $this->load->view('header_he');
+      $this->load->view('header_he', $data);
       $this->load->view('blog_item_view_he', $data);
       $this->load->view('footer_he');
   }

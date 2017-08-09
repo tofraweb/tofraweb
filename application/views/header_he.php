@@ -7,9 +7,10 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Tofraweb - פיתוח ובניית אתרי אינטרנט</title>
-		<meta name="description" content="The Project a Bootstrap-based, Responsive HTML5 Template">
-		<meta name="author" content="htmlcoder.me">
+		<!-- <title>Tofraweb - פיתוח ובניית אתרי אינטרנט</title> -->
+		<title>TofraWeb - <?php if($post) { echo $post->title_he;} else { echo "פיתוח אתרי אינטרנט";}?></title>
+  	<meta property="og:url" content="http://localhost/tofraweb/ci_tofraweb/blog/blog_item/<?php echo $post->id;?>" />
+  	<meta property="og:title" content="<?php if($post) { echo $post->title_he;} else { echo "פיתוח אתרי אינטרנט";}?>" />
 
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
