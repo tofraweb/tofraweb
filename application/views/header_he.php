@@ -177,6 +177,7 @@
 														<li><a href="<?php echo base_url();?>#why"><?php echo $this->lang->line("menu_why"); ?></a></li>
 														<li><a href="<?php echo base_url();?>#portfolio"><?php echo $this->lang->line("menu_portfolio"); ?></a></li>
 														<li><a href="<?php echo base_url();?>#about"><?php echo $this->lang->line("menu_about"); ?></a></li>
+														<li><a href="<?php echo base_url();?>blog">בלוג</a></li>
 														<li class="active"><a href="<?php echo base_url();?>"><?php echo $this->lang->line("menu_home"); ?></a></li>
 													</ul>
 												</div>

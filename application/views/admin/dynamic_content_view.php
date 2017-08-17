@@ -14,6 +14,9 @@
                 <a href="<?php echo site_url('admin/posts')?>"><i class="fa fa-fw fa-pencil"></i> Posts </a>
             </li>
             <li>
+                <a href="<?php echo site_url('admin/categories')?>"><i class="fa fa-fw fa-pencil"></i> Categories </a>
+            </li>
+            <li>
                 <a href="<?php echo site_url('admin/portfolio_management')?>"><i class="fa fa-fw fa-pencil-square-o"></i> Portfolio </a>
             </li>
         </ul>

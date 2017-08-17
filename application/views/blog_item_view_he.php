@@ -1,3 +1,29 @@
+<!-- breadcrumb start -->
+<!-- ================ -->
+<div class="breadcrumb-container">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li><i class="fa fa-home pr-10"></i><a href="<?php echo base_url();?>">בית</a></li>
+      <li><a href="<?php echo base_url();?>blog">בלוג</a></li>
+      <li class="active"><?php echo $post->title_he;?></li>
+    </ol>
+  </div>
+</div>
+<!-- breadcrumb end -->
+
+  <!--=== Breadcrumbs ===-->
+  <div class="breadcrumbs">
+      <div class="container">
+          <ul class="pull-right breadcrumb">
+              <li><a href="<?php echo base_url();?>">בית</a></li>
+              <li><a href="<?php echo base_url();?>blog">בלוג</a></li>
+              <li class="active"><?php echo $post->title_he; ?></li>
+
+          </ul>
+      </div><!--/container-->
+  </div><!--/breadcrumbs-->
+  <!--=== End Breadcrumbs ===-->
+
 
 <!-- main-container start -->
 <!-- ================ -->
@@ -22,8 +48,7 @@
             <div class="post-info">
               <span class="post-date">
                 <i class="icon-calendar"></i>
-                <span class="day">12</span>
-                <span class="month">May 2015</span>
+                <span class="month"><?php echo $post->post_date;?></span>
               </span>
               <span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
               <span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
@@ -51,7 +76,11 @@
           </div>
 
           <footer class="clearfix">
-            <div class="tags pull-left"><i class="icon-tags"></i> <a href="#">וורדפרס</a>, <a href="#">מובייל</a>, <a href="#">פיתוח</a></div>
+            <?php foreach ($categories as $category) { ?>
+            <div class="tags pull-left"><i class="icon-tags"></i>
+                <a href="#"><?php echo $category->name_he; ?></a>
+            </div>
+            <?php } ?>
             <div style="text-align:center">
               <ul class="social-links default" style="text-align:center">
                 <li data-layout="button" data-size="small" data-mobile-iframe="true" data-href="http://dev.tofraweb.com/blog/blog_item/<?php echo $post->id;?>"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://dev.tofraweb.com/blog/blog_item/<?php echo $post->id;?>"><i class="fa fa-facebook"></i></a></li>
@@ -155,27 +184,11 @@
             <h3 class="title">כטגוריות</h3>
             <div class="separator-2"></div>
             <div class="tags-cloud">
-              <div class="tag">
-                <a href="#">אוכל</a>
-              </div>
-              <div class="tag">
-                <a href="#">בריאות</a>
-              </div>
-              <div class="tag">
-                <a href="#">ספרים</a>
-              </div>
-              <div class="tag">
-                <a href="#">התמאה</a>
-              </div>
-              <div class="tag">
-                <a href="#">אופנה</a>
-              </div>
-              <div class="tag">
-                <a href="#">כלכלה</a>
-              </div>
-              <div class="tag">
-                <a href="#">ספורט</a>
-              </div>
+              <?php foreach ($all_categories as $category) { ?>
+                <div class="tag">
+                  <a href="<?php echo base_url();?>blog/posts_by_category/<?php echo $category->id;?>"><?php echo $category->name_he; ?></a>
+                </div>
+              <?php } ?>
             </div>
           </div>
           <!-- <div class="block clearfix">
@@ -193,60 +206,21 @@
           <div class="block clearfix">
             <h3 class="title">פוסטים אחרונים</h3>
             <div class="separator-2"></div>
+            <?php foreach ($all_posts as $post) { ?>
             <div class="media margin-clear">
-              <div class="media-left">
+              <div class="media-left"  style="padding-left: 20px;">
                 <div class="overlay-container">
-                  <img class="media-object" src="<?php echo base_url();?>assets/images/blog-thumb-1.jpg" alt="blog-thumb">
-                  <a href="#" class="overlay-link small"><i class="fa fa-link"></i></a>
+                  <img class="media-object" src="<?php echo base_url();?>assets/img/blog/<?php echo $post->picture;?>" alt="blog-thumb">
+                  <a href="<?php echo base_url();?>blog/blog_item/<?php echo $post->id; ?>" class="overlay-link small"><i class="fa fa-link"></i></a>
                 </div>
               </div>
               <div class="media-body">
-                <h6 class="media-heading"><a href="#">Lorem ipsum dolor sit amet...</a></h6>
-                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 23, 2015</p>
+                <h6 class="media-heading"><a href="<?php echo base_url();?>blog/blog_item/<?php echo $post->id; ?>"><?php echo $post->title_he;?></a></h6>
+                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i><?php echo $post->post_date;?></p>
               </div>
               <hr>
             </div>
-            <div class="media margin-clear">
-              <div class="media-left">
-                <div class="overlay-container">
-                  <img class="media-object" src="<?php echo base_url();?>assets/images/blog-thumb-2.jpg" alt="blog-thumb">
-                  <a href="#" class="overlay-link small"><i class="fa fa-link"></i></a>
-                </div>
-              </div>
-              <div class="media-body">
-                <h6 class="media-heading"><a href="#">Lorem ipsum dolor sit amet...</a></h6>
-                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 22, 2015</p>
-              </div>
-              <hr>
-            </div>
-            <div class="media margin-clear">
-              <div class="media-left">
-                <div class="overlay-container">
-                  <img class="media-object" src="<?php echo base_url();?>assets/images/blog-thumb-3.jpg" alt="blog-thumb">
-                  <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-                </div>
-              </div>
-              <div class="media-body">
-                <h6 class="media-heading"><a href="#">Lorem ipsum dolor sit amet...</a></h6>
-                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 21, 2015</p>
-              </div>
-              <hr>
-            </div>
-            <div class="media margin-clear">
-              <div class="media-left">
-                <div class="overlay-container">
-                  <img class="media-object" src="<?php echo base_url();?><?php echo base_url();?>assets/images/blog-thumb-4.jpg" alt="blog-thumb">
-                  <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-                </div>
-              </div>
-              <div class="media-body">
-                <h6 class="media-heading"><a href="#">Lorem ipsum dolor sit amet...</a></h6>
-                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 21, 2015</p>
-              </div>
-            </div>
-            <div class="text-right space-top">
-              <a href="#" class="link-dark"><i class="fa fa-plus-circle pl-5 pr-5"></i>More</a>
-            </div>
+           <?php } ?>
           </div>
           <!-- <div class="block clearfix">
             <h3 class="title">Text Sample</h3>

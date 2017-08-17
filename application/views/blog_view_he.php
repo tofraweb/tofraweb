@@ -10,7 +10,7 @@
 
         <!-- page-title start -->
         <!-- ================ -->
-        <h1 class="page-title">בלוג</h1>
+        <h1 class="page-title"><?php echo $title;?></h1>
         <div class="separator-2"></div>
         <!-- page-title end -->
 
@@ -39,8 +39,16 @@
             <p><?php echo $post->excerpt;?></p>
           </div>
           <footer class="clearfix">
-            <div class="tags pull-left"><i class="icon-tags"></i> <a href="#">מובייל</a>, <a href="#">וורדפרס</a>, <a href="#">קידום אתרים</a></div>
-            <div class="link pull-right"><i class="icon-link"></i><a href="<?php echo base_url();?>blog/blog_item/<?php echo $post->id; ?>">קרא עוד</a></div>
+            <?php foreach ($categories as $category) { ?>
+            <div class="tags pull-left"><i class="icon-tags"></i>
+                <a href="#"><?php echo $category->name_he; ?></a>
+            </div>
+            <?php } ?>
+            <!-- <div style="text-align:center">
+              <ul class="social-links default" style="text-align:center">
+                <li data-layout="button" data-size="small" data-mobile-iframe="true" data-href="http://dev.tofraweb.com/blog/blog_item/<?php echo $post->id;?>"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://dev.tofraweb.com/blog/blog_item/<?php echo $post->id;?>"><i class="fa fa-facebook"></i></a></li>
+              </ul>
+            </div> -->
           </footer>
         </article>
 
@@ -48,7 +56,7 @@
         <!-- blogpost end -->
 
         <!-- pagination start -->
-        <nav>
+        <!-- <nav>
           <ul class="pagination">
             <li><a href="#" aria-label="Previous"><i class="fa fa-angle-left"></i></a></li>
             <li class="active"><a href="#">1</a></li>
@@ -58,7 +66,7 @@
             <li><a href="#">5</a></li>
             <li><a href="#" aria-label="Next"><i class="fa fa-angle-right"></i></a></li>
           </ul>
-        </nav>
+        </nav> -->
         <!-- pagination end -->
 
       </div>
@@ -71,7 +79,7 @@
           <div class="block clearfix">
             <form role="search">
               <div class="form-group has-feedback">
-                <input type="text" class="form-control" placeholder="Search">
+                <input type="text" class="form-control" placeholder="חיפוש">
                 <i class="fa fa-search form-control-feedback"></i>
               </div>
             </form>
@@ -152,27 +160,11 @@
             <h3 class="title">כטגוריות</h3>
             <div class="separator-2"></div>
             <div class="tags-cloud">
-              <div class="tag">
-                <a href="#">אוכל</a>
-              </div>
-              <div class="tag">
-                <a href="#">בריאות</a>
-              </div>
-              <div class="tag">
-                <a href="#">ספרים</a>
-              </div>
-              <div class="tag">
-                <a href="#">התמאה</a>
-              </div>
-              <div class="tag">
-                <a href="#">אופנה</a>
-              </div>
-              <div class="tag">
-                <a href="#">כלכלה</a>
-              </div>
-              <div class="tag">
-                <a href="#">ספורט</a>
-              </div>
+              <?php foreach ($all_categories as $category) { ?>
+                <div class="tag">
+                  <a href="<?php echo base_url();?>blog/posts_by_category/<?php echo $category->id;?>"><?php echo $category->name_he; ?></a>
+                </div>
+              <?php } ?>
             </div>
           </div>
           <!-- <div class="block clearfix">
@@ -190,60 +182,21 @@
           <div class="block clearfix">
             <h3 class="title">פוסטים אחרונים</h3>
             <div class="separator-2"></div>
+            <?php foreach ($posts as $post) { ?>
             <div class="media margin-clear">
-              <div class="media-left">
+              <div class="media-left"  style="padding-left: 20px;">
                 <div class="overlay-container">
-                  <img class="media-object" src="<?php echo base_url();?>assets/images/blog-thumb-1.jpg" alt="blog-thumb">
+                  <img class="media-object" src="<?php echo base_url();?>assets/img/blog/<?php echo $post->picture;?>" alt="blog-thumb">
                   <a href="#" class="overlay-link small"><i class="fa fa-link"></i></a>
                 </div>
               </div>
               <div class="media-body">
-                <h6 class="media-heading"><a href="#">Lorem ipsum dolor sit amet...</a></h6>
-                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 23, 2015</p>
+                <h6 class="media-heading"><a href="#"><?php echo $post->title_he;?></a></h6>
+                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i><?php echo $post->post_date;?></p>
               </div>
               <hr>
             </div>
-            <div class="media margin-clear">
-              <div class="media-left">
-                <div class="overlay-container">
-                  <img class="media-object" src="<?php echo base_url();?>assets/images/blog-thumb-2.jpg" alt="blog-thumb">
-                  <a href="#" class="overlay-link small"><i class="fa fa-link"></i></a>
-                </div>
-              </div>
-              <div class="media-body">
-                <h6 class="media-heading"><a href="#">Lorem ipsum dolor sit amet...</a></h6>
-                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 22, 2015</p>
-              </div>
-              <hr>
-            </div>
-            <div class="media margin-clear">
-              <div class="media-left">
-                <div class="overlay-container">
-                  <img class="media-object" src="<?php echo base_url();?>assets/images/blog-thumb-3.jpg" alt="blog-thumb">
-                  <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-                </div>
-              </div>
-              <div class="media-body">
-                <h6 class="media-heading"><a href="#">Lorem ipsum dolor sit amet...</a></h6>
-                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 21, 2015</p>
-              </div>
-              <hr>
-            </div>
-            <div class="media margin-clear">
-              <div class="media-left">
-                <div class="overlay-container">
-                  <img class="media-object" src="<?php echo base_url();?><?php echo base_url();?>assets/images/blog-thumb-4.jpg" alt="blog-thumb">
-                  <a href="blog-post.html" class="overlay-link small"><i class="fa fa-link"></i></a>
-                </div>
-              </div>
-              <div class="media-body">
-                <h6 class="media-heading"><a href="#">Lorem ipsum dolor sit amet...</a></h6>
-                <p class="small margin-clear"><i class="fa fa-calendar pr-10"></i>Mar 21, 2015</p>
-              </div>
-            </div>
-            <div class="text-right space-top">
-              <a href="#" class="link-dark"><i class="fa fa-plus-circle pl-5 pr-5"></i>More</a>
-            </div>
+           <?php } ?>
           </div>
           <!-- <div class="block clearfix">
             <h3 class="title">Text Sample</h3>

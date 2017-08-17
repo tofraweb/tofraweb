@@ -50,6 +50,13 @@ class Admin extends CI_Controller {
 		$this->_example_output($output, 'User');
 	}
 
+	public function categories()
+	{
+		$output = $this->grocery_crud->render();
+
+		$this->_example_output($output, 'Categories');
+	}
+
 
 	public function portfolio_management()
 	{
@@ -88,6 +95,7 @@ class Admin extends CI_Controller {
 			$crud->set_table('posts');
 			$crud->set_subject('Post');
 			$crud->set_relation('author','users','fullname');
+			$crud->set_relation_n_n('category', 'post_categories', 'categories', 'post_id', 'category_id', 'name_he');
 			$crud->set_field_upload('picture','assets/img/blog');
 			$crud->callback_after_upload(array($this,'resize_img_after_upload'));
 
