@@ -1,3 +1,15 @@
+<!-- breadcrumb start -->
+<!-- ================ -->
+<div class="breadcrumb-container">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li><i class="fa fa-home pr-10"></i><a href="<?php echo base_url();?>">בית</a></li>
+      <li><a href="<?php echo base_url();?>blog">בלוג</a></li>
+    </ol>
+  </div>
+</div>
+<!-- breadcrumb end -->
+
 <!-- main-container start -->
 <!-- ================ -->
 <section class="main-container">
@@ -31,8 +43,8 @@
                 <!-- <span class="day">08</span> -->
                 <span class="month"><?php echo $post->post_date;?></span>
               </span>
-              <span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-              <span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span>
+<!--               <span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
+              <span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span> -->
             </div>
           </header>
           <div class="blogpost-content">
@@ -76,7 +88,7 @@
       <!-- ================ -->
       <aside class="col-md-4 col-lg-3 col-lg-offset-1">
         <div class="sidebar">
-          <div class="block clearfix">
+<!--           <div class="block clearfix">
             <form role="search">
               <div class="form-group has-feedback">
                 <input type="text" class="form-control" placeholder="חיפוש">
@@ -84,7 +96,7 @@
               </div>
             </form>
           </div>
-          <div class="block clearfix">
+          <div class="block clearfix"> -->
             <!-- <div class="separator-2"></div> -->
             <!-- <nav>
               <ul class="nav nav-pills nav-stacked">
@@ -162,7 +174,7 @@
             <div class="tags-cloud">
               <?php foreach ($all_categories as $category) { ?>
                 <div class="tag">
-                  <a href="<?php echo base_url();?>blog/posts_by_category/<?php echo $category->id;?>"><?php echo $category->name_he; ?></a>
+                  <a href="<?php echo base_url();?>blog/posts_by_category/<?php echo $category->id;?>/<?php echo $category->name_he;?>"><?php echo $category->name_he; ?></a>
                 </div>
               <?php } ?>
             </div>

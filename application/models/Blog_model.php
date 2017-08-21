@@ -45,10 +45,10 @@ Class Blog_model extends CI_Model
   public function categories_by_post_id($id){
 
    try{
-       $sql = "SELECT post_categories.category_id, categories.name_he
+       $sql = "SELECT post_categories.category_id, categories.name_he, categories.id
               FROM post_categories
               JOIN categories ON post_categories.category_id = categories.id
-              WHERE post_id = ? ";
+              WHERE post_categories.post_id = ? ";
        $result = $this->db->query($sql, $id);
      }catch(Exception $e){
          echo "Unable to retrieve results";
@@ -58,13 +58,27 @@ Class Blog_model extends CI_Model
      return $categories;
   }
 
+  public function get_category_name($id){
+
+   try{
+       $sql = "SELECT name_he FROM categories WHERE id = ? ";
+       $result = $this->db->query($sql, $id);
+     }catch(Exception $e){
+         echo "Unable to retrieve results";
+         exit;
+     }
+     $category_name = $result->result();
+
+     return $category_name[0];
+  }
+
   public function get_posts_by_category($id){
 
    try{
        $sql = "SELECT post_categories.post_id, posts.title_he
               FROM post_categories
               JOIN posts ON post_categories.post_id = posts.id
-              WHERE category_id = ? ";
+              WHERE post_categories.category_id = ? ";
        $result = $this->db->query($sql, $id);
      }catch(Exception $e){
          echo "Unable to retrieve results";

@@ -3346,7 +3346,7 @@ ul.pagination li.active a,
   font-size: 12px;
   padding-left: 0;
 }
-
+/*
 .breadcrumb > li + li:before {
   content: "";
   padding-right: 0px;
@@ -3358,7 +3358,7 @@ ul.pagination li.active a,
   font-size: 11px;
   padding-left: 5px;
 }
-
+*/
 .banner .breadcrumb-container {
   position: absolute;
   top: 0;

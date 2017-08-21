@@ -22,6 +22,7 @@ class Blog extends CI_Controller {
       $data['posts'] = $all_posts;
       $data['all_categories'] = $all_categories;
       $data['lang'] = $this->language;
+      $data['title'] = "בלוג";
       $data['is_mobile'] = $this->agent->is_mobile();
 
       if($this->language != "he" && $this->language != NULL) {
@@ -30,7 +31,7 @@ class Blog extends CI_Controller {
         $this->load->view('footer');
       }else{
         $this->load->view('header_he', $data);
-        $this->load->view('blog_view_he', $data);
+        $this->load->view('blog_timeline_view_he', $data);
         $this->load->view('footer_he');
       }
 
@@ -53,7 +54,7 @@ class Blog extends CI_Controller {
       $data['categories'] = $categories;
       $data['all_categories'] = $all_categories;
       $this->load->view('header_he', $data);
-      $this->load->view('blog_item_view_he', $data);
+      $this->load->view('blog_item_view_no_sidebar_he', $data);
       $this->load->view('footer_he');
   }
 
@@ -66,6 +67,7 @@ class Blog extends CI_Controller {
   public function posts_by_category($id)
   {
       $posts = $this->blog_model->get_posts_by_category($id);
+      $category_name = $this->blog_model->get_category_name($id);
       $post_array = array();
       foreach ($posts as $post) {
         $post_array[] = $post->post_id;
@@ -81,6 +83,8 @@ class Blog extends CI_Controller {
       $data['posts'] = $posts;
       $data['all_categories'] = $all_categories;
       $data['lang'] = $this->language;
+      $data['title'] = "בלוג";
+      $data['category_name'] = $category_name;
       $data['is_mobile'] = $this->agent->is_mobile();
 
       if($this->language != "he" && $this->language != NULL) {
@@ -89,7 +93,7 @@ class Blog extends CI_Controller {
         $this->load->view('footer');
       }else{
         $this->load->view('header_he', $data);
-        $this->load->view('blog_view_he', $data);
+        $this->load->view('blog_timeline_view_he', $data);
         $this->load->view('footer_he');
       }
 
