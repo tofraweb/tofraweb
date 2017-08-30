@@ -160,6 +160,7 @@
 <!-- SmoothScroll javascript -->
 <script type="text/javascript" src="<?php echo base_url();?>assets/plugins/jquery.browser.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>assets/plugins/SmoothScroll.js"></script>
+
 <!-- Initialization of Plugins -->
 <script type="text/javascript" src="<?php echo base_url();?>assets/js/template.js"></script>
 <!-- Custom Scripts -->

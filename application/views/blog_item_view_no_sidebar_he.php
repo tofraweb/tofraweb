@@ -25,21 +25,12 @@
         <!-- page-title start -->
         <!-- ================ -->
         <h1 class="page-title"><?php echo $post->title_he; ?></h1>
+        <hr>
         <!-- page-title end -->
 
         <!-- blogpost start -->
         <!-- ================ -->
         <article class="blogpost full">
-          <header>
-            <div class="post-info">
-              <span class="post-date">
-                <i class="icon-calendar"></i>
-                <span class="month"><?php echo $post->post_date;?></span>
-              </span>
-<!--               <span class="submitted"><i class="icon-user-1"></i> by <a href="#">John Doe</a></span>
-              <span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span> -->
-            </div>
-          </header>
           <div class="blogpost-content">
             <div id="carousel-blog-post" class="carousel slide mb-20" data-ride="carousel">
               <!-- Indicators -->
@@ -58,6 +49,22 @@
                 </div>
               </div>
             </div>
+              <footer class="clearfix">
+              <?php foreach ($categories as $category) { ?>
+              <div class="tags pull-right"><i class="icon-tags"></i>
+                  <a href="<?php echo base_url();?>blog/posts_by_category/<?php echo $category->id;?>"><?php echo $category->name_he; ?></a>
+              </div>
+              <?php } ?>
+              <div class="post-info">
+                <span class="post-date pull-left">
+                  <i class="icon-calendar"></i>
+                  <span class="month"><?php echo $post->post_date;?></span>
+                </span>
+                <span class="submitted"><i class="icon-user-1"></i><a href="<?php echo base_url();?>#about"><?php echo $author->username;?> </a></span>
+                <!--<span class="comments"><i class="icon-chat"></i> <a href="#">22 comments</a></span> -->
+              </div>
+              <hr>
+            </footer>
             <?php echo $post->content; ?>
           </div>
 
@@ -69,9 +76,9 @@
             <?php } ?>
             <div style="text-align:center">
               <ul class="social-links default" style="text-align:center">
-                <li data-layout="button" data-size="small" data-mobile-iframe="true" data-href="http://dev.tofraweb.com/blog/blog_item/<?php echo $post->id;?>"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://dev.tofraweb.com/blog/blog_item/<?php echo $post->id;?>"><i class="fa fa-facebook"></i></a></li>
+                <li data-layout="button" data-size="small" data-mobile-iframe="true" data-href="http://www.tofraweb.com/blog/post/<?php echo $post->slug_he;?>"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://www.tofraweb.com/blog/post/<?php echo $post->slug_he;?>"><i class="fa fa-facebook"></i>שתף</a></li>
               </ul>
-              <a href="javascript:history.back()">חזרה</a>
+              <a href="<?php echo base_url();?>blog">חזרה</a>
             </div>
           </footer>
       <!-- Your share button code -->

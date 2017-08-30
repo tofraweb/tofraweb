@@ -2,16 +2,20 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if gt IE 9]> <html lang="en" class="ie"> <![endif]-->
 <!--[if !IE]><!-->
-<html dir="rtl" lang="en">
+<html dir="rtl" lang="he-IL">
 	<!--<![endif]-->
 
 	<head>
+		<!-- SEO Meta -->
 		<meta charset="utf-8">
-		<!-- <title>Tofraweb - פיתוח ובניית אתרי אינטרנט</title> -->
-		<title>TofraWeb - <?php if($post) { echo $post->title_he;} else { echo "פיתוח אתרי אינטרנט";}?></title>
-  	<meta property="og:url" content="http://localhost/tofraweb/ci_tofraweb/blog/blog_item/<?php echo $post->id;?>" />
-  	<meta property="og:title" content="<?php if($post) { echo $post->title_he;} else { echo "פיתוח אתרי אינטרנט";}?>" />
-
+		<title>Tofraweb - פיתוח ובניית אתרי אינטרנט</title>
+		<meta property="og:locale" content="he_IL" />
+		<meta property="og:type" content="article" />
+		<meta property="og:title" content="<?php if($post) { echo $post->title_he;} else { echo "פיתוח אתרי אינטרנט";}?>"/>
+  		<meta property="og:url" content="<?php echo base_url();?>blog/post/<?php echo $post->slug_he;?>" />
+  		<meta property="og:description" content="<?php if($post) { echo $post->description;} else { echo "NA";}?>" />
+  		<meta property="article:tag" content="<?php if($post) { echo $post->tags;} else { echo "וורדפרס, בניית אתרים, פיתוח אינטרנטי";}?>" />
+		<meta property="og:image" content="<?php echo base_url();?>assets/img/blog/<?php echo $post->picture;?>" />
 		<!-- Mobile Meta -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 

@@ -8,6 +8,7 @@ class Blog extends CI_Controller {
     parent::__construct();
     $this->load->library('user_agent');
     $this->load->model('blog_model','',TRUE);
+    $this->load->model('user','',TRUE);
     $this->lang->load("frontpage",$this->session->userdata('site_lang'));
     $this->language = $this->session->userdata('site_lang');
   }
@@ -37,13 +38,13 @@ class Blog extends CI_Controller {
 
   }
 
-  public function blog_item($id)
+  public function post($slug)
   {
-      $post = $this->blog_model->get_post($id);
+      $post = $this->blog_model->get_post($slug);
       $all_posts = $this->blog_model->get_all_posts();
-      $categories = $this->categories_by_post($id);
+      $categories = $this->categories_by_post($post->id);
       $all_categories = $this->blog_model->all_post_categories();
-    //  $author = $this->user->get_user($post->author);
+      $author = $this->user->get_user($post->author);
       // var_dump($author);
       // exit;
       $session_data = $this->session->userdata('logged_in');

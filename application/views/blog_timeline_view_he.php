@@ -25,11 +25,25 @@
         <!-- ================ -->
         <h1 class="page-title"><?php echo $title;?>
         <?php if($category_name) { ?>
-        <small><i class="icon-tags"></i><?php echo $category_name->name_he;?></small>
+        <small> - <i class="icon-tags"></i><?php echo $category_name->name_he;?></small>
         <?php } ?>
         </h1>
         <div class="separator-2"></div>
         <!-- page-title end -->
+
+
+        <!-- isotope filters start -->
+        <div class="filters">
+          <ul class="nav nav-pills">
+            <li><a <?php if(1) { echo 'style="color:#09afdf; font-weight: bold;"';}?> href="<?php echo base_url();?>blog">הכל</a></li>
+            <?php foreach($all_categories as $category) { ?>
+            <li><a <?php if($category->name_he == $category_name->name_he) { echo 'style="color:#09afdf; font-weight: bold;"';}?> href="<?php echo base_url();?>blog/posts_by_category/<?php echo $category->id;?>"><?php echo $category->name_he;?></a></li>
+            <?php } ?>
+<!--             <li><a href="#" data-filter=".app-development">App development</a></li>
+            <li><a href="#" data-filter=".site-building">Site building</a></li> -->
+          </ul>
+        </div>
+        <!-- isotope filters end -->
 
 
         <!-- timeline grid start -->
@@ -46,10 +60,10 @@
             <article class="blogpost shadow light-gray-bg bordered object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
               <div class="overlay-container">
                 <img src="<?php echo base_url();?>assets/img/blog/<?php echo $post->picture;?>" alt="">
-                <a class="overlay-link" href="<?php echo base_url();?>blog/blog_item/<?php echo $post->id; ?>"><i class="fa fa-link"></i></a>
+                <a class="overlay-link" href="<?php echo base_url();?>blog/post/<?php echo $post->slug_he; ?>"><i class="fa fa-link"></i></a>
               </div>
               <header>
-                <h2><a href="<?php echo base_url();?>blog/blog_item/<?php echo $post->id; ?>"><?php echo $post->title_he;?></a></h2>
+                <h2><a href="<?php echo base_url();?>blog/post/<?php echo $post->slug_he; ?>"><?php echo $post->title_he;?></a></h2>
               </header>
               <div class="blogpost-content">
                 <p><?php echo $post->excerpt;?></p>
@@ -61,7 +75,7 @@
                     <span class="month"><?php echo $post->post_date;?></span>
                   </span>
                 </div>
-                <div class="link pull-right"><i class="icon-link"></i><a href="<?php echo base_url();?>blog/blog_item/<?php echo $post->id; ?>">קרא עוד</a></div>
+                <div class="link pull-right"><i class="icon-link"></i><a href="<?php echo base_url();?>blog/post/<?php echo $post->slug_he; ?>">קרא עוד</a></div>
               </footer>
             </article>
             <!-- blogpost end -->                 

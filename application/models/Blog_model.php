@@ -15,11 +15,11 @@ Class Blog_model extends CI_Model
      return $posts;
   }
 
-  public function get_post($id){
-
+  public function get_post($slug){
+   $slug = urldecode($slug);
    try{
-       $sql = "SELECT * FROM posts WHERE id = ? ";
-       $result = $this->db->query($sql,$id);
+       $sql = "SELECT * FROM posts WHERE slug_he = ? ";
+       $result = $this->db->query($sql,$slug);
      }catch(Exception $e){
          echo "Unable to retrieve results";
          exit;
