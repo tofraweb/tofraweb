@@ -8,7 +8,7 @@
 	<head>
 		<!-- SEO Meta -->
 		<meta charset="utf-8">
-		<title>Tofraweb - פיתוח ובניית אתרי אינטרנט</title>
+		<title>TofraWeb - פיתוח ובניית אתרי אינטרנט</title>
 		<meta property="og:locale" content="he_IL" />
 		<meta property="og:type" content="article" />
 		<meta property="og:title" content="<?php if($post) { echo $post->title_he;} else { echo "פיתוח אתרי אינטרנט";}?>"/>
@@ -90,6 +90,15 @@
 	<!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
 
 		<body class="no-trans front-page transparent-header" style="direction:rtl !important"<>
+
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<!-- scrollToTop -->
 		<!-- ================ -->

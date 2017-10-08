@@ -92,13 +92,13 @@
 				</div>
 			</div>
 			<div class="modal-footer" style="text-align:center">
-				<!-- <div>
-					לקוח - <strong><?php  echo $portfolio[$cnt]->name_he; ?></strong> |
-					תאריך - <strong><?php  echo $portfolio[$cnt]->project_ended; ?></strong> |
-					תחום - <strong><?php  echo $portfolio[$cnt]->field; ?></strong> |
-					אתר - <strong><a href="<?php  echo $portfolio[$cnt]->project_url; ?>" target="_blank"><?php  echo $portfolio[$cnt]->link_title; ?></a></strong>
-				</div> -->
-				<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">סגור</button>
+				<div>
+					Client - <strong><?php  echo $portfolio[$cnt]->name_he; ?></strong> |
+					Date - <strong><?php  echo $portfolio[$cnt]->project_ended; ?></strong> | <!--
+					תחום - <strong><?php  echo $portfolio[$cnt]->field; ?></strong> | -->
+					Website - <strong><a href="<?php  echo $portfolio[$cnt]->project_url; ?>" target="_blank"><?php  echo $portfolio[$cnt]->link_title; ?></a></strong>
+				</div>
+				<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>

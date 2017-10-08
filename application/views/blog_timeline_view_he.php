@@ -50,7 +50,7 @@
         <!-- ================ -->
         <div class="timeline clearfix">
           
-          <div class="timeline-date-label clearfix">אוגוסט 2017</div>
+          <div class="timeline-date-label clearfix"><?php echo date("Y-m");?></div>
           <?php 
           $cnt = 1;
           foreach ($posts as $post) { ?>

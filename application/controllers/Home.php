@@ -16,6 +16,8 @@ class Home extends CI_Controller {
   {
     	$data['portfolio'] = $this->portfolio_model->getPortfolio();
       $data['lang'] = $this->language;
+      // var_dump($data['lang']);
+      // exit;
       $data['is_mobile'] = $this->agent->is_mobile();
       if($this->language != "he" && $this->language != NULL) {
         $this->load->view('header', $data);

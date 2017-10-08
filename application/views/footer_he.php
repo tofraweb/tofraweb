@@ -30,7 +30,13 @@
   <div class="container">
     <div class="footer-inner">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-3">
+          <div class="footer-content">
+            <div class="fb-page" data-href="https://www.facebook.com/tofraweb/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/tofraweb/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/tofraweb/">‎TofraWeb - פיתוח אתרי אינטרנט‎</a></blockquote>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5">
           <div class="footer-content" style="text-align:center">
             <div class="logo-footer"><img style="max-height:80px;display:-webkit-inline-box;margin-bottom:20px" src="<?php echo base_url();?>assets/logo/tofraweb-small.png" alt="TofraWeb"></div>
             <!-- <p>לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח.</p> -->
@@ -51,7 +57,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-4">
           <div class="footer-content">
             <div class="alert alert-success hidden" id="MessageSent2">
               <?php echo $mail_message; ?>
